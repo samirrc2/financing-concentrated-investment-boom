@@ -1,0 +1,5 @@
+Financing a Concentrated Investment Boom: Evidence from AI
+
+Samir Chincholikar, Robin Chawla
+
+Evidence on the external financing of artificial-intelligence infrastructure describes the project margin, which need not characterise aggregate investment when incremental spending is concentrated among cash-rich firms. For the 500 largest U.S. public companies, internal cash coverage of cumulative incremental capital expenditure over 2022–2025 peaks at the five largest investors and declines as the sample widens, from 118% to -7% for the remaining 217. The top ten account for 52.5% of the increase at 104% coverage. A pre-specified 10-K measure of AI exposure yields the same conclusion. We report an accounting decomposition of realised flows, not a causal effect.

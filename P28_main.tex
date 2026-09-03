@@ -1,0 +1,505 @@
+% Economics Letters format. Compile: pdflatex main (needs elsarticle.cls).
+\documentclass[preprint,11pt]{elsarticle}
+\usepackage[left=1.15in,right=1.15in,top=1.1in,bottom=1.1in]{geometry}
+\usepackage{lmodern}\usepackage[T1]{fontenc}
+\usepackage{graphicx,booktabs,amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\sisetup{table-number-alignment=center}
+\usepackage[hyphens]{url}\usepackage{seqsplit}\usepackage{microtype}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,skip=6pt}\captionsetup[table]{position=top}
+\setlength{\parskip}{0pt}
+\renewcommand{\arraystretch}{1.08}
+\setlength{\textfloatsep}{14pt plus 2pt minus 3pt}
+\setlength{\intextsep}{14pt plus 2pt minus 3pt}
+\newcommand{\tg}[1]{\texttt{\seqsplit{#1}}}
+\sloppy
+\journal{Economics Letters}
+\begin{document}
+\begin{frontmatter}
+\title{Financing a Concentrated Investment Boom: Evidence from AI}
+\author[a]{Samir Chincholikar}
+\ead{samir.chincholikar@gmail.com}
+\ead[url]{https://orcid.org/0009-0007-2779-3492}
+\author[a]{Robin Chawla\corref{cor1}}
+\ead{robin.chawla.cse14@iitbhu.ac.in}
+\ead[url]{https://orcid.org/0009-0007-2807-3948}
+\affiliation[a]{organization={Independent researcher}, city={New York}, country={USA}}
+\cortext[cor1]{Corresponding author: Robin Chawla, robin.chawla.cse14@iitbhu.ac.in}
+\begin{abstract}
+Evidence on the external financing of artificial-intelligence infrastructure describes the project
+margin, which need not characterise aggregate investment when incremental spending is concentrated
+among cash-rich firms. For the 500 largest U.S. public companies, internal cash coverage of
+cumulative incremental capital expenditure over 2022--2025 peaks at the five largest investors and
+declines as the sample widens, from 118\% to $-7$\% for the remaining 217. The top ten account for
+52.5\% of the increase at 104\% coverage. A pre-specified 10-K measure of AI exposure yields the same
+conclusion. We report an accounting decomposition of realised flows, not a causal effect.
+\end{abstract}
+\begin{keyword}
+investment concentration \sep internal finance \sep artificial intelligence \sep corporate
+investment \sep aggregation
+\JEL G31 \sep G32 \sep E22 \sep O32
+\end{keyword}
+\end{frontmatter}
+
+\section{Introduction}
+The buildout of artificial-intelligence infrastructure has prompted concern about leverage. Recent
+work documents its financing through private credit, infrastructure funds, off-balance-sheet
+vehicles and hardware-collateralised lending, and asks what the exposures imply for financial
+stability (Van Nieuwerburgh, 2026; Thelisson, 2026; Ledesma Padilla, 2026).
+
+Prior work shows that corporate investment is highly concentrated and that cash flow is especially
+important for the largest investors (Grullon et al., 2018; Gutierrez and Philippon, 2017; Autor et
+al., 2020; Peters and Taylor, 2017), and that internal funds and investment covary at the firm
+level, though the interpretation of that covariation is debated (Fazzari et al., 1988; Kaplan and
+Zingales, 1997; Almeida et al., 2004; Myers and Majluf, 1984). We connect these two literatures by
+asking a different question: which firms account for the realised increase in investment during the
+buildout, and how does their incremental internal cash generation compare with that incremental
+investment? The aggregate answer differs sharply from the financing pattern of the typical firm,
+because the increase is concentrated among firms whose operating cash flow rose at least as rapidly.
+
+The setting here is extreme: among the
+500 largest U.S. public companies the Herfindahl index of capital expenditure rises from 173 in 2021
+to 309 in 2025, while excluding the five largest spenders it moves only from 95 to 104. Those
+five---Alphabet, Amazon, Oracle, Meta and Microsoft, selected mechanically as those with the largest
+absolute increase in real capital expenditure---account for 67.3\% of the endpoint increase in
+annual capital expenditure between 2021 and 2025, and 38.7\% of cumulative incremental capital
+expenditure over 2022--2025.
+
+We find that internal cash coverage is highest at the top of the distribution of incremental
+investment and declines steadily as the sample expands beyond the five largest investors. Cumulating
+incremental flows over 2022--2025, the ratio of incremental operating cash flow to incremental
+capital expenditure runs from 118\% for the top five to $-7$\% for the remaining 217 firms with
+rising investment (Table~\ref{tab:ladder}). Net debt rises alongside investment down the
+distribution: those 217 firms took on \$280 billion of cumulative net new debt, against $-\$3$
+billion for the top five.
+
+Our contribution is an aggregation result. Financing at the project margin need not characterise
+aggregate investment when incremental spending is concentrated among firms whose internal cash
+generation rises at least as fast as investment. The top ten firms account for 52.5\% of cumulative
+incremental capital expenditure and have coverage of 104\%. The distinction from Grullon et al. (2018) is one of object: that
+work concerns the determinants of investment and its long-run concentration, estimating how cash
+flow predicts investment, whereas ours is an ex-post coverage ratio for one boom, establishing
+financing capacity rather than identifying cash flow as a cause. The evidence therefore relocates rather
+than contradicts the leverage concern: it belongs with smaller participants and project-finance
+structures rather than with the aggregate. This is an accounting decomposition of realised flows. We
+cannot trace individual dollars, and we do not identify what any firm would otherwise have done.
+
+\section{Data and methods}
+Firm-level data come from the SEC's XBRL \emph{frames} interface for 2013--2025. Filers do not use a
+single tag for a given concept, and relying on one is unsafe: Amazon, the largest U.S. capital
+spender, reports under \tg{PaymentsToAcquireProductiveAssets} rather than
+\tg{PaymentsToAcquirePropertyPlantAndEquipment}, as do 448 other firms accounting for \$404
+billion of 2025 capital expenditure. We take the maximum across alternative tags for every series. Measuring the
+buildout by total capital expenditure rather than an AI-specific subaccount follows established
+practice (Board of Governors, 2026; Van Nieuwerburgh, 2026).
+
+The universe is the 500 U.S. registrants with the largest fiscal-2024 revenue, combined revenue
+\$19.75 trillion---the Fortune 500's ranking basis, excluding non-filers. Listed firms exclude a growing private segment (Doidge et al., 2017). Figures are deflated to
+2025 dollars using the BLS producer price index for private capital equipment (WPUFD4131).
+
+Two measurement points require statement. The SEC assigns each fiscal year to the calendar year
+containing most of its months, so for off-calendar filers a year label is not a calendar year:
+Microsoft's observations are June-ending years and Oracle's May-ending, so Oracle's 2025 observation
+covers June 2025 to May 2026. We retain the SEC convention, which shifts Oracle's window forward
+relative to the other four. Second, every constructed observation for the five firms reconciles to a
+10-K value for the same fiscal period: 48 of 49 match the originally filed figure and the 49th
+matches Meta's restated 2021 capital expenditure, which is the value the interface returns
+(\ref{app:recon}).
+
+The exercise cumulates incremental flows rather than comparing two annual
+observations. For each series $X$ and firm $i$,
+\begin{equation}
+\Delta X_i \;=\; \sum_{t=2022}^{2025}\bigl(X_{it}-\bar{X}_i\bigr),
+\label{eq:cum}
+\end{equation}
+\begin{equation}
+\mathrm{Coverage}_i \;=\; \frac{\Delta \mathrm{OCF}_i}{\Delta \mathrm{CAPEX}_i},
+\label{eq:cov}
+\end{equation}
+where $\bar{X}_i$ is either the 2021 value (baseline A) or the 2017--2021 average (baseline B). The
+ratio requires an observed baseline as well as a positive denominator: a firm absent in 2021 would
+otherwise be assigned a baseline of zero, making its entire subsequent spending appear incremental.
+Twenty-five firms fail that condition and are excluded, removing \$36 billion of spurious increment.
+The condition holds for 267 firms;
+firms whose investment fell are excluded rather than assigned a signed ratio. Because R\&D is an
+operating expense already deducted in arriving at operating cash flow, it cannot enter as a
+separately financed use and is reported as a memorandum item.
+
+The five focal firms are selected mechanically from financial statements, not from AI disclosures.
+Contemporaneous company filings independently identify AI-related compute capacity and data-centre
+infrastructure as drivers of the investment acceleration for three of the five; Appendix~A records
+the evidence firm by firm, including the two cases where the filings do not support that reading.
+Coverage above 100\% establishes that internally generated cash grew by more than investment did,
+not that particular dollars financed particular assets. Every reported number is produced from
+frozen, hashed source files by a single script, and the manuscript is gated against the resulting
+claims file.
+
+\section{Results}
+\subsection{Coverage declines down the investment distribution}
+Table~\ref{tab:ladder} reports the central result. Ranking the 267 firms with rising investment by
+their cumulative incremental capital expenditure, internal cash coverage peaks at the five largest
+investors and then falls at every successive cut, from 118\% for the top five to $-7$\% for the
+remaining 217, while cumulative net new debt rises from $-\$3$ billion to \$280 billion. The top
+ten firms account for 52.5\% of the aggregate increase at a coverage ratio of 104\%.
+
+Coverage is not monotone across the first three cuts: 67\% for the largest single investor and 70\%
+for the top three, before rising to 118\% at the top five. This reflects the firm-level dispersion in
+Section~\ref{sec:top}: Alphabet, Meta and Oracle lie between 63\% and 79\%, while Microsoft and
+Amazon, ranked fourth and fifth, are at 122\% and 344\%. The decline is a property of expanding the
+sample beyond the five largest investors, and that is the claim we make.
+
+The gradient is the mechanism. Aggregate financing structure is a capital-expenditure-weighted
+average of firm-level financing structures, so an aggregate dominated by a few internally financed
+firms will look internally financed even when most firms in the distribution are borrowing. Firms
+with coverage below 50\% account for 30.4\% of positive incremental capital expenditure, but not for
+where the aggregate increase occurred.
+
+The pattern is not a mechanical consequence of the five focal firms. Excluding them, 34.0\% of
+positive incremental capital expenditure still occurred at firms with coverage at or above 100\%,
+against 33.3\% including them. What the five contribute is weight at the top of the distribution,
+not a different relationship between rank and coverage.
+
+\subsection{The aggregate for the top of the distribution}\label{sec:top}
+For the five largest incremental investors, cumulative incremental operating cash flow over
+2022--2025 was \$438 billion against \$371 billion of cumulative incremental capital expenditure, a
+coverage ratio of 118\%, with cumulative net new debt of $-\$3$ billion and net new equity of \$2
+billion. On the 2017--2021 average baseline the corresponding figures are \$762 billion, \$588
+billion, coverage 130\%, and net new debt \$37 billion. Both baselines give the same answer.
+
+Coverage exceeds 80\% omitting any single firm, ranging from 81\% (omitting Amazon) to 136\%
+(omitting Alphabet), and exceeds 100\% in four of the five cases. Firm-level coverage is nonetheless
+dispersed---63\% at Oracle, 67\% at Alphabet, 79\% at Meta, 122\% at Microsoft and 344\% at
+Amazon---so sufficiency is a property of the group aggregate and not of every constituent. Appendix~B
+reports the firm-level decomposition and the leave-one-out calculation.
+
+\subsection{Attribution: AI-exposed firms identified independently}\label{sec:ai}
+The gradient above is a fact about corporate investment rather than about AI: the firms at the
+bottom of the distribution are utilities, airlines, pipelines and energy producers, whose borrowing
+is unrelated to compute. Attribution therefore requires identifying AI-exposed firms without
+reference to any financing outcome. We score each registrant's most recent 10-K against a dictionary
+of AI terminology fixed before any subsample result was computed, following established practice in
+building firm-level measures from filing text (Loughran and McDonald, 2011; Hoberg and Phillips,
+2016; Ante and Saggu, 2025).
+AI intensity is dictionary occurrences per 10{,}000 words; details are in \ref{app:dict}. The
+measure identifies the expected firms without conditioning on industry: the highest-scoring names
+are NVIDIA, Amazon, Meta, Advanced Micro Devices, Microsoft, Oracle and Alphabet.
+
+Within the top decile of AI intensity (27 firms, \$401 billion of cumulative incremental capital
+expenditure) coverage is 128\% and cumulative net new debt is $-\$24$ billion; at the top-quintile
+cutoff (53 firms) coverage is 138\% (Table~\ref{tab:ladder}, panel B). Coverage exceeds 100\% at
+every cut and net new debt is zero or negative throughout, against $-7$\% and \$280 billion across
+the full distribution, so observed net debt accumulation is concentrated outside the AI-exposed
+group. The five largest investors account for 92.5\% of the top decile's incremental capital
+expenditure, so this corroborates the main result on an independently defined universe rather than
+testing it independently; excluding them, coverage among the remaining 22 firms is 248\%.
+
+\subsection{R\&D and payout}
+The investment increase did not coincide with reduced research: cumulative incremental R\&D at the
+five firms was \$142 billion on baseline A and \$229 billion on baseline B, and among firms
+reporting research at both endpoints capital-expenditure growth is positively associated with R\&D
+growth. Payout results are sensitive to the choice of baseline and we draw no inference from them.
+Both sets of estimates are reported in \ref{app:rndpayout}.
+
+\subsection{The margin narrowed}
+The result is bounded in time. Capital expenditure absorbed 31\% of the five firms' operating cash
+flow in 2017, 46\% in 2021 and 70\% in 2025, so internal financing slack was substantially lower at
+the end of the sample than at its start. That is consistent with the shift toward external financing
+the recent literature documents, and locates it after our window rather than within it.
+
+\begin{table}[htbp]
+\centering
+\caption{Internal cash coverage of incremental investment, cumulative flows 2022--2025}
+\label{tab:ladder}
+\small
+\begin{tabular}{l S[table-format=3.0] S[table-format=2.1] S[table-format=-3.0] S[table-format=-3.0]}
+\toprule
+& {Firms} & {Share of} & {Coverage} & {Net new} \\
+& & {increase (\%)} & {(\%)} & {debt (\$bn)} \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Panel A. By rank in incremental capital expenditure}}\\
+\quad Top 1              & 1   & 10.1 & 67   & 0    \\
+\quad Top 3              & 3   & 26.2 & 70   & 60   \\
+\quad Top 5              & 5   & 38.7 & 118  & -3   \\
+\quad Top 10             & 10  & 52.5 & 104  & 29   \\
+\quad Top 20             & 20  & 63.9 & 84   & -69  \\
+\quad Top 50             & 50  & 81.5 & 55   & 148  \\
+\quad Remaining firms    & 217 & 18.5 & -7   & 280  \\
+\addlinespace[4pt]
+\multicolumn{5}{@{}l}{\textit{Panel B. By AI intensity, measured from 10-K text}}\\
+\quad Top decile         & 27  & 41.8 & 128  & -24  \\
+\quad\quad excluding top five & 22 & 3.1 & 248 & -20 \\
+\quad Top quintile       & 53  & 43.4 & 138  & 0    \\
+\quad\quad excluding top five & 48 & 4.8 & 301 & 3   \\
+\bottomrule
+\end{tabular}
+\par\vspace{5pt}
+\begin{minipage}{0.96\linewidth}\footnotesize
+\textit{Notes.} Sample: the 267 firms among the 500 largest U.S. registrants by fiscal-2024 revenue
+that report capital expenditure in both 2021 and 2025 and whose cumulative incremental capital
+expenditure over 2022--2025 is positive; their aggregate incremental capital expenditure is \$959
+billion. Increments follow equation~\eqref{eq:cum} and coverage equation~\eqref{eq:cov}. Shares are
+of that \$959 billion. Amounts in billions of 2025 dollars, deflated by BLS series WPUFD4131. AI
+intensity is dictionary occurrences per 10{,}000 words of the firm's most recent 10-K, with
+dictionary and cutoffs fixed before any financing result was computed (\ref{app:dict}). On the
+2017--2021 average baseline the top five show coverage of 130\% and net new debt of \$37 billion.
+\end{minipage}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/Figure_1.pdf}
+\caption{Left: capital expenditure as a share of operating cash flow, the five largest incremental
+investors, 2017--2025. Right: Herfindahl index of capital expenditure among the 500 largest U.S.
+public companies by revenue, with and without those five firms.}
+\label{fig:main}
+\end{figure}
+
+\section{Conclusion}
+The financing of an investment boom cannot be inferred from the financing of its marginal projects.
+The artificial-intelligence buildout illustrates why. Internal cash coverage of incremental
+investment peaks at the five largest incremental investors and declines at every successive cut
+thereafter, from 118\% at the top five to $-7$\% among the remaining 217, while net new debt rises
+correspondingly. Because half the aggregate increase occurred at ten firms whose incremental cash
+generation exceeded their incremental investment, the aggregate is internally covered even though
+net debt rose alongside investment for most firms in the distribution.
+
+This reconciles two literatures rather than adjudicating between them. Documented growth in private
+credit, structured vehicles and hardware-backed lending concerns a part of the distribution
+accounting for a minority of incremental corporate investment, and our result does not contest it;
+it locates the leverage concern with smaller participants and project-finance structures rather than
+with the aggregate. The qualification is temporal: capital expenditure absorbed 70\% of the five
+firms' operating cash flow in 2025 against 31\% in 2017, so the result need not persist.
+
+Two limitations bound the reading. The exercise is an accounting decomposition of realised flows: it
+establishes that incremental internal cash generation exceeded incremental investment, not that
+particular dollars financed particular assets, and it does not identify counterfactual firm
+behaviour. And the universe is large public filers, so it is silent on private firms and on the
+special-purpose vehicles that much of the external-financing evidence concerns.
+
+\section*{CRediT authorship contribution statement}
+\textbf{Samir Chincholikar:} Conceptualization, Methodology, Software, Formal analysis,
+Writing -- original draft. \textbf{Robin Chawla:} Conceptualization, Validation, Writing --
+review \& editing, Supervision.
+
+\section*{Declaration of competing interest}
+The authors declare that they have no known competing financial interests or personal
+relationships that could have appeared to influence the work reported in this paper.
+
+\section*{Funding}
+This research did not receive any specific grant from funding agencies in the public,
+commercial, or not-for-profit sectors.
+
+\section*{Data availability}
+All code and derived data required to reproduce every table, figure and reported number are
+openly available in the replication archive. The underlying raw data are public: the U.S. SEC
+XBRL \emph{frames} interface and Bureau of Labor Statistics series WPUFD4131.
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work the authors used Claude (Anthropic) for code scaffolding, code
+review, minor grammatical edits and readability improvements. The tool was not used to generate,
+analyse or alter any datum, estimate, table or figure: all results are produced by the deposited
+scripts from the frozen source files. After using this tool the authors reviewed and edited the
+content as needed and take full responsibility for the content of the publication.
+
+\begin{thebibliography}{99}
+\bibitem{acw} Almeida, H., Campello, M., Weisbach, M. S., 2004. The cash flow sensitivity of cash. Journal of Finance 59 (4), 1777--1804.
+\bibitem{as} Ante, L., Saggu, A., 2025. Quantifying a firm's AI engagement: constructing objective, data-driven AI engagement scores from 10-K filings. Working paper. \url{https://doi.org/10.2139/ssrn.5083199}.
+\bibitem{adkpv} Autor, D., Dorn, D., Katz, L. F., Patterson, C., Van Reenen, J., 2020. The fall of the labor share and the rise of superstar firms. Quarterly Journal of Economics 135 (2), 645--709.
+\bibitem{bog} Board of Governors of the Federal Reserve System, 2026. The AI buildout and the economy: publicly available data to assess AI's impact. FEDS Notes, 17 July.
+\bibitem{dks} Doidge, C., Karolyi, G. A., Stulz, R. M., 2017. The U.S. listing gap. Journal of Financial Economics 123 (3), 464--487.
+\bibitem{fhp} Fazzari, S. M., Hubbard, R. G., Petersen, B. C., 1988. Financing constraints and corporate investment. Brookings Papers on Economic Activity 1988 (1), 141--206.
+\bibitem{ghw} Grullon, G., Hund, J., Weston, J. P., 2018. Concentrating on q and cash flow. Journal of Financial Intermediation 33, 1--15.
+\bibitem{gp} Guti\'errez, G., Philippon, T., 2017. Investmentless growth: an empirical investigation. Brookings Papers on Economic Activity 2017 (2), 89--190.
+\bibitem{hp} Hoberg, G., Phillips, G., 2016. Text-based network industries and endogenous product differentiation. Journal of Political Economy 124 (5), 1423--1465.
+\bibitem{kz} Kaplan, S. N., Zingales, L., 1997. Do investment-cash flow sensitivities provide useful measures of financing constraints? Quarterly Journal of Economics 112 (1), 169--215.
+\bibitem{lp} Ledesma Padilla, J., 2026. The architecture of AI circular financing: capital formation, leverage, and systemic risk in the 2026 infrastructure buildout. Working paper. \url{https://doi.org/10.2139/ssrn.7191798}.
+\bibitem{lmcd} Loughran, T., McDonald, B., 2011. When is a liability not a liability? Textual analysis, dictionaries, and 10-Ks. Journal of Finance 66 (1), 35--65.
+\bibitem{mm} Myers, S. C., Majluf, N. S., 1984. Corporate financing and investment decisions when firms have information that investors do not have. Journal of Financial Economics 13 (2), 187--221.
+\bibitem{pt} Peters, R. H., Taylor, L. A., 2017. Intangible capital and the investment-q relation. Journal of Financial Economics 123 (2), 251--272.
+\bibitem{th} Thelisson, E., 2026. Chips as collateral: vendor-supported chip-backed debt and the financing of the AI buildout. Working paper. \url{https://doi.org/10.2139/ssrn.7298801}.
+\bibitem{vn} Van Nieuwerburgh, S., 2026. Financing the AI buildout. Working paper. \url{https://doi.org/10.2139/ssrn.6444363}.
+\end{thebibliography}
+
+\clearpage
+\appendix
+\setcounter{section}{0}
+\renewcommand{\thesection}{Appendix~\Alph{section}}
+\renewcommand{\thetable}{\Alph{section}\arabic{table}}\setcounter{table}{0}
+
+\section{AI attribution: primary-source validation}\label{app:ai}
+The five firms are selected mechanically from financial statements, not from AI disclosures. This
+table records what their own filings say; quotations are verbatim.
+
+\begin{center}\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}l l X c@{}}
+\toprule
+Firm & Filing & Disclosure & Capex--AI link \\
+\midrule
+Alphabet & 10-K FY2025 &
+``We continue to invest in capital expenditures as we scale our technical infrastructure, in
+particular for AI''; ``we expect to significantly increase, relative to 2025, our investment in our
+technical infrastructure, including servers and network equipment, and data centers.'' & Explicit \\
+\addlinespace[3pt]
+Meta & 10-K FY2025 &
+``\$69 billion of purchases of property and equipment as we continued to invest in servers, data
+centers, and network infrastructure''; ``We anticipate making capital expenditures of approximately
+\$115 billion to \$135 billion in 2026 to support our AI efforts and core business.'' & Explicit \\
+\addlinespace[3pt]
+Microsoft & 10-K FY2026 &
+``We will continue to invest in capital expenditures to support growth in our cloud offerings and
+our investments in AI training and other infrastructure.'' & Explicit \\
+\addlinespace[3pt]
+Oracle & 10-K FY2026 &
+Capital expenditure appears in risk factors as ``multi-year commitments for excess data center space
+and related capital expenditures'' and retrofit needs from ``technological changes in data center
+design and equipment.'' & Partial \\
+\addlinespace[3pt]
+Amazon & 10-K FY2025 &
+No sentence in the filing links capital-expenditure growth to AI or compute capacity; AI is
+discussed in competition and technology contexts only. & None \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\noindent\footnotesize\textit{Sources.} Filings are retrievable from SEC EDGAR at
+\url{https://www.sec.gov/Archives/edgar/data/}\,\textit{CIK}\,/\,\textit{accession}\,/, with:
+Alphabet, CIK 1652044, accession 0001652044-26-000018; Meta, 1326801, 0001628280-26-003942;
+Microsoft, 789019, 0001193125-26-323660; Oracle, 1341439, 0001193125-26-277521; Amazon, 1018724,
+0001018724-26-000004.\normalsize
+
+\medskip\noindent\textbf{Assessment.} Three of five firms explicitly attribute
+capital-expenditure growth to AI or AI-supporting infrastructure in their 10-K. Oracle's
+capital-expenditure discussion is data-centre-specific but not AI-explicit. Amazon's 10-K contains
+no such statement, so its inclusion rests solely on the mechanical rule. The main text therefore
+claims only that contemporaneous disclosures independently identify AI-related compute and
+data-centre infrastructure as important drivers for most of the group, not that all incremental
+capital expenditure at these firms is AI expenditure.
+
+\section{Reconciliation to as-filed 10-K values}\label{app:recon}
+Each constructed observation for the five focal firms is matched to a 10-K-reported value for the
+\emph{same fiscal period}. Matching on period rather than on year label is necessary because the SEC
+assigns a fiscal year to the calendar year containing most of its months.
+\begin{center}\footnotesize
+\begin{tabular}{@{}p{8.4cm}rl@{}}
+\toprule
+& Count & \\
+\midrule
+Observations reconciled (5 firms, 7 series, 2 years, where reported) & 49 & \\
+Exact match to originally filed value & 48 & 98\% \\
+Matches restated value & 1 & Meta capital expenditure 2021 \\
+Unexplained discrepancies & 0 & \\
+\bottomrule
+\end{tabular}\end{center}
+\noindent The single non-identical case is not an extraction error. Meta reported 2021 capital
+expenditure of \$18.567bn in its FY2021 10-K (filed 2022-02-03) and \$18.690bn for the same period in
+its FY2022 and FY2023 10-Ks (accession 0001326801-23-000013 and 0001326801-24-000012). The SEC
+interface returns the most recently reported figure, and our series uses it. No constructed value
+differs from the corresponding filed value once restatement is taken into account.
+
+\medskip\noindent\textbf{Fiscal-period alignment.} Microsoft's observations are fiscal years ending
+in June and Oracle's fiscal years ending in May. Oracle's 2021 observation therefore covers
+2021-06-01 to 2022-05-31 and its 2025 observation covers 2025-06-01 to 2026-05-31; the latter
+extends five months beyond the calendar-year endpoint used for Alphabet, Amazon and Meta. We retain
+the SEC convention. Because Oracle's investment rose steeply in that fiscal year, this shifts its
+contribution later rather than earlier, and the leave-one-out calculation in \ref{app:firm} shows group
+coverage of 131\% with Oracle omitted, against 118\% including it.
+
+\section{Firm-level decomposition and leave-one-out}\label{app:firm}
+Cumulative incremental flows, 2022--2025, baseline A (2021), billions of 2025 dollars.
+\begin{center}\footnotesize
+\begin{tabular}{lrrrrrrr}
+\toprule
+Firm & $\Delta$Capex & $\Delta$OCF & Net debt & Net equity & $\Delta$R\&D & $\Delta$Repurch. & Coverage \\
+\midrule
+Alphabet  & $97$ & $65$  & $0$   & $0$ & $53$ & $0$    & 67\% \\
+Meta      & $82$ & $65$  & $60$  & $0$ & $64$ & $-103$ & 79\% \\
+Oracle    & $73$ & $46$  & $0$   & $2$ & $5$  & $-74$  & 63\% \\
+Microsoft & $68$ & $83$  & $0$   & $0$ & $20$ & $-35$  & 122\% \\
+Amazon    & $52$ & $179$ & $-64$ & $0$ & $0$  & $7$    & 344\% \\
+\midrule
+\multicolumn{8}{l}{\textit{Leave-one-out: group coverage with the named firm omitted}}\\
+Omit Alphabet & $274$ & $373$ & & & & & 136\% \\
+Omit Meta     & $289$ & $372$ & & & & & 129\% \\
+Omit Oracle   & $298$ & $391$ & & & & & 131\% \\
+Omit Microsoft& $303$ & $355$ & & & & & 117\% \\
+Omit Amazon   & $319$ & $259$ & & & & & 81\% \\
+\bottomrule
+\end{tabular}\end{center}
+\noindent Amazon reports no separate R\&D line, so its $\Delta$R\&D is zero by construction rather
+than by measurement.
+
+\section{AI-exposure measure: pre-specification and construction}\label{app:dict}
+\textbf{Source.} The most recent 10-K for each sample firm, retrieved from SEC EDGAR via the
+submissions API. HTML is stripped to text and lower-cased; 261 of the 267 sample firms yielded a
+scoreable filing (six had no retrievable 10-K primary document).
+
+\textbf{Pre-specification.} The dictionary and cutoffs below were fixed in the collection script
+before any subsample financing result was computed, and the script header records this. No term was
+added, removed or reweighted after inspecting a result.
+
+\textbf{Dictionary.} Model and method vocabulary: \emph{artificial intelligence, machine learning,
+generative ai, deep learning, neural network, large language model, foundation model, ai model, ai
+capabilities, ai infrastructure, accelerated computing}. A separate infrastructure list (\emph{data
+center/centre, graphics processing unit, gpu, compute capacity, accelerator, training cluster,
+inference capacity}) is recorded but not used in the primary cut.
+
+\textbf{Score.} $\text{AI intensity}_i = 10{,}000 \times (\text{dictionary occurrences}) /
+(\text{total words})$. Distribution across the sample: median 0.64, 80th percentile 1.35, 90th
+percentile 2.21.
+
+\textbf{Cutoffs.} AI-exposed $=$ top decile (threshold 2.21, $n=27$); robustness at top quintile
+(threshold 1.35, $n=53$).
+
+\textbf{Face validity.} The ten highest-scoring firms are NVIDIA, Amazon, Meta, Advanced Micro
+Devices, Microsoft, Medline, Oracle, Alphabet, Target and Workday. Seven of the ten are compute or
+platform firms. The measure also admits firms that discuss AI heavily without building
+infrastructure---Medline, Target, Workday---which is a known cost of a term-frequency filter and is
+not corrected ex post. Because these firms are small incremental investors, they carry little weight:
+the five largest incremental investors account for 92.5\% of the top decile's incremental capital
+expenditure.
+
+\section{Alternative group definitions}\label{app:groups}
+\begin{center}\footnotesize
+\begin{tabular}{lrrrrr}
+\toprule
+Group & $\Delta$Capex & $\Delta$OCF & Net debt & Coverage & Share of increase \\
+\midrule
+Top 3  & $251$ & $176$ & $60$  & 70\%  & 26.2\% \\
+Top 5  & $371$ & $438$ & $-3$  & 118\% & 38.7\% \\
+Top 10 & $503$ & $522$ & $29$  & 104\% & 52.5\% \\
+Top 20 & $613$ & $517$ & $-69$ & 84\%  & 63.9\% \\
+\bottomrule
+\end{tabular}\end{center}
+\noindent Groups are ranked by cumulative incremental capital expenditure within the 267-firm
+analysis sample, on the same basis as Table~\ref{tab:ladder}. Amounts in billions of 2025 dollars;
+shares are of the \$959 billion aggregate cumulative increment.
+
+\section{R\&D and payout estimates}\label{app:rndpayout}
+Among the 153 firms reporting positive R\&D, capital expenditure and revenue at both endpoints---165
+of the 500 report R\&D in both years, so this is not a statement about the full universe---the slope
+of real R\&D growth on real capital-expenditure growth over 2021--2025 is $0.484$ ($t=11.4$), and
+$0.111$ net of real revenue growth ($t=2.7$). Excluding the five firms it is $0.520$ ($t=11.8$), and
+the same slope is $0.517$ over 2017--2021 and $0.501$ over 2013--2017, so the association predates
+the boom.
+
+Two payout narratives are baseline-sensitive. Share repurchases at the five firms fall \$206 billion
+cumulatively on baseline A but rise \$78 billion on baseline B, because 2021 was a peak repurchase
+year. A contrast in which the other 495
+firms appear to borrow while their cash flow falls reverses sign entirely across baselines ($-81\%$
+against $411\%$). We draw no conclusions from either.
+
+\section{Data construction}\label{app:tags}
+Capital expenditure unions \tg{PaymentsToAcquirePropertyPlantAndEquipment} and
+\tg{PaymentsToAcquireProductiveAssets}; operating cash flow unions
+\tg{NetCashProvidedByUsedInOperatingActivities} with its continuing-operations variant;
+repurchases and dividends likewise union their alternates. Single-tag construction omits Amazon and
+448 other filers representing \$404 billion of 2025 capital expenditure. Deflator: BLS PPI
+WPUFD4131. All source files are frozen and SHA-256 hashed; every number in the manuscript is
+verified against a machine-generated claims file by an automated build gate.
+
+
+\end{document}

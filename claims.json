@@ -1,0 +1,1436 @@
+{
+ "universe": {
+  "n": 500,
+  "rev_fy2024_tn": 19.75,
+  "ai5": [
+   "Alphabet",
+   "Amazon",
+   "Oracle",
+   "Meta",
+   "Microsoft"
+  ],
+  "n_rest": 495,
+  "deflator": "BLS PPI WPUFD4131",
+  "years": [
+   2013,
+   2025
+  ]
+ },
+ "rule": {
+  "aggregate_increase_bn": 385,
+  "top5_share_pct": 67.3,
+  "rank": [
+   {
+    "n": "Alphabet Inc.",
+    "inc_bn": 62.1
+   },
+   {
+    "n": "AMAZON.COM, INC.",
+    "inc_bn": 59.1
+   },
+   {
+    "n": "Oracle Corporation",
+    "inc_bn": 50.3
+   },
+   {
+    "n": "Meta Platforms, Inc.",
+    "inc_bn": 47.4
+   },
+   {
+    "n": "MICROSOFT CORPORATION",
+    "inc_bn": 40.0
+   },
+   {
+    "n": "Exxon Mobil Corporation",
+    "inc_bn": 14.0
+   },
+   {
+    "n": "Walmart Inc.",
+    "inc_bn": 11.0
+   }
+  ],
+  "gap_5_to_6": 2.9
+ },
+ "shares": {
+  "ai5": {
+   "2013": {
+    "capex": 23.4,
+    "buyback": 20.9,
+    "rnd": 33.2,
+    "dividend": 13.3
+   },
+   "2014": {
+    "capex": 29.2,
+    "buyback": 18.3,
+    "rnd": 34.9,
+    "dividend": 13.2
+   },
+   "2015": {
+    "capex": 26.2,
+    "buyback": 28.9,
+    "rnd": 37.9,
+    "dividend": 13.5
+   },
+   "2016": {
+    "capex": 28.1,
+    "buyback": 19.9,
+    "rnd": 32.5,
+    "dividend": 11.7
+   },
+   "2017": {
+    "capex": 31.0,
+    "buyback": 22.3,
+    "rnd": 32.3,
+    "dividend": 11.1
+   },
+   "2018": {
+    "capex": 39.5,
+    "buyback": 41.4,
+    "rnd": 31.5,
+    "dividend": 9.4
+   },
+   "2019": {
+    "capex": 36.5,
+    "buyback": 31.5,
+    "rnd": 32.1,
+    "dividend": 8.7
+   },
+   "2020": {
+    "capex": 38.6,
+    "buyback": 33.0,
+    "rnd": 29.1,
+    "dividend": 7.4
+   },
+   "2021": {
+    "capex": 45.9,
+    "buyback": 49.1,
+    "rnd": 29.8,
+    "dividend": 7.1
+   },
+   "2022": {
+    "capex": 53.9,
+    "buyback": 43.1,
+    "rnd": 36.6,
+    "dividend": 7.4
+   },
+   "2023": {
+    "capex": 40.4,
+    "buyback": 28.8,
+    "rnd": 33.0,
+    "dividend": 6.6
+   },
+   "2024": {
+    "capex": 50.5,
+    "buyback": 23.4,
+    "rnd": 28.1,
+    "dividend": 8.3
+   },
+   "2025": {
+    "capex": 70.2,
+    "buyback": 15.4,
+    "rnd": 27.4,
+    "dividend": 7.7
+   }
+  },
+  "rest": {
+   "2013": {
+    "capex": 33.7,
+    "buyback": 22.4,
+    "rnd": 10.3,
+    "dividend": 15.7
+   },
+   "2014": {
+    "capex": 39.4,
+    "buyback": 28.8,
+    "rnd": 11.1,
+    "dividend": 17.8
+   },
+   "2015": {
+    "capex": 35.9,
+    "buyback": 29.7,
+    "rnd": 11.4,
+    "dividend": 20.2
+   },
+   "2016": {
+    "capex": 35.8,
+    "buyback": 27.3,
+    "rnd": 12.9,
+    "dividend": 21.6
+   },
+   "2017": {
+    "capex": 35.8,
+    "buyback": 28.1,
+    "rnd": 13.8,
+    "dividend": 22.9
+   },
+   "2018": {
+    "capex": 32.8,
+    "buyback": 35.2,
+    "rnd": 12.4,
+    "dividend": 20.8
+   },
+   "2019": {
+    "capex": 32.9,
+    "buyback": 30.7,
+    "rnd": 13.1,
+    "dividend": 22.1
+   },
+   "2020": {
+    "capex": 27.3,
+    "buyback": 21.3,
+    "rnd": 13.8,
+    "dividend": 21.8
+   },
+   "2021": {
+    "capex": 24.7,
+    "buyback": 28.6,
+    "rnd": 12.7,
+    "dividend": 19.7
+   },
+   "2022": {
+    "capex": 28.6,
+    "buyback": 31.7,
+    "rnd": 13.1,
+    "dividend": 20.1
+   },
+   "2023": {
+    "capex": 29.9,
+    "buyback": 26.2,
+    "rnd": 14.4,
+    "dividend": 19.9
+   },
+   "2024": {
+    "capex": 30.6,
+    "buyback": 30.8,
+    "rnd": 15.4,
+    "dividend": 21.6
+   },
+   "2025": {
+    "capex": 30.0,
+    "buyback": 30.5,
+    "rnd": 14.8,
+    "dividend": 20.7
+   }
+  }
+ },
+ "levels_bn": {
+  "ai5": {
+   "2013": {
+    "capex": 24,
+    "buyback": 21,
+    "rnd": 34,
+    "dividend": 14,
+    "ocf": 102,
+    "rev": 143
+   },
+   "2014": {
+    "capex": 34,
+    "buyback": 21,
+    "rnd": 41,
+    "dividend": 15,
+    "ocf": 116,
+    "rev": 161
+   },
+   "2015": {
+    "capex": 33,
+    "buyback": 36,
+    "rnd": 47,
+    "dividend": 17,
+    "ocf": 125,
+    "rev": 176
+   },
+   "2016": {
+    "capex": 44,
+    "buyback": 31,
+    "rnd": 51,
+    "dividend": 18,
+    "ocf": 156,
+    "rev": 510
+   },
+   "2017": {
+    "capex": 55,
+    "buyback": 39,
+    "rnd": 57,
+    "dividend": 20,
+    "ocf": 176,
+    "rev": 608
+   },
+   "2018": {
+    "capex": 84,
+    "buyback": 88,
+    "rnd": 67,
+    "dividend": 20,
+    "ocf": 213,
+    "rev": 736
+   },
+   "2019": {
+    "capex": 89,
+    "buyback": 77,
+    "rnd": 78,
+    "dividend": 21,
+    "ocf": 244,
+    "rev": 849
+   },
+   "2020": {
+    "capex": 118,
+    "buyback": 101,
+    "rnd": 89,
+    "dividend": 23,
+    "ocf": 305,
+    "rev": 1037
+   },
+   "2021": {
+    "capex": 154,
+    "buyback": 165,
+    "rnd": 100,
+    "dividend": 24,
+    "ocf": 336,
+    "rev": 1257
+   },
+   "2022": {
+    "capex": 175,
+    "buyback": 140,
+    "rnd": 119,
+    "dividend": 24,
+    "ocf": 324,
+    "rev": 1278
+   },
+   "2023": {
+    "capex": 155,
+    "buyback": 110,
+    "rnd": 126,
+    "dividend": 25,
+    "ocf": 383,
+    "rev": 1349
+   },
+   "2024": {
+    "capex": 245,
+    "buyback": 113,
+    "rnd": 136,
+    "dividend": 40,
+    "ocf": 485,
+    "rev": 1495
+   },
+   "2025": {
+    "capex": 413,
+    "buyback": 90,
+    "rnd": 161,
+    "dividend": 45,
+    "ocf": 588,
+    "rev": 1670
+   }
+  },
+  "rest": {
+   "2013": {
+    "capex": 733,
+    "buyback": 487,
+    "rnd": 225,
+    "dividend": 342,
+    "ocf": 2177,
+    "rev": 8932
+   },
+   "2014": {
+    "capex": 798,
+    "buyback": 581,
+    "rnd": 225,
+    "dividend": 360,
+    "ocf": 2022,
+    "rev": 9022
+   },
+   "2015": {
+    "capex": 739,
+    "buyback": 611,
+    "rnd": 235,
+    "dividend": 416,
+    "ocf": 2058,
+    "rev": 8201
+   },
+   "2016": {
+    "capex": 710,
+    "buyback": 540,
+    "rnd": 256,
+    "dividend": 428,
+    "ocf": 1981,
+    "rev": 13302
+   },
+   "2017": {
+    "capex": 700,
+    "buyback": 550,
+    "rnd": 270,
+    "dividend": 448,
+    "ocf": 1957,
+    "rev": 14610
+   },
+   "2018": {
+    "capex": 766,
+    "buyback": 822,
+    "rnd": 289,
+    "dividend": 484,
+    "ocf": 2333,
+    "rev": 15762
+   },
+   "2019": {
+    "capex": 749,
+    "buyback": 699,
+    "rnd": 299,
+    "dividend": 505,
+    "ocf": 2279,
+    "rev": 15951
+   },
+   "2020": {
+    "capex": 626,
+    "buyback": 489,
+    "rnd": 316,
+    "dividend": 500,
+    "ocf": 2295,
+    "rev": 15287
+   },
+   "2021": {
+    "capex": 656,
+    "buyback": 759,
+    "rnd": 337,
+    "dividend": 523,
+    "ocf": 2653,
+    "rev": 17779
+   },
+   "2022": {
+    "capex": 748,
+    "buyback": 830,
+    "rnd": 342,
+    "dividend": 526,
+    "ocf": 2617,
+    "rev": 18745
+   },
+   "2023": {
+    "capex": 766,
+    "buyback": 673,
+    "rnd": 370,
+    "dividend": 511,
+    "ocf": 2567,
+    "rev": 18449
+   },
+   "2024": {
+    "capex": 757,
+    "buyback": 764,
+    "rnd": 382,
+    "dividend": 535,
+    "ocf": 2478,
+    "rev": 18809
+   },
+   "2025": {
+    "capex": 782,
+    "buyback": 794,
+    "rnd": 385,
+    "dividend": 538,
+    "ocf": 2602,
+    "rev": 19027
+   }
+  }
+ },
+ "placebo": {
+  "ai5": {
+   "2013_2017": {
+    "capex": 7.6,
+    "buyback": 1.4,
+    "rnd": -0.9
+   },
+   "2017_2021": {
+    "capex": 14.9,
+    "buyback": 26.8,
+    "rnd": -2.5
+   },
+   "2021_2025": {
+    "capex": 24.3,
+    "buyback": -33.7,
+    "rnd": -2.4
+   }
+  },
+  "rest": {
+   "2013_2017": {
+    "capex": 2.1,
+    "buyback": 5.7,
+    "rnd": 3.5
+   },
+   "2017_2021": {
+    "capex": -11.1,
+    "buyback": 0.5,
+    "rnd": -1.1
+   },
+   "2021_2025": {
+    "capex": 5.3,
+    "buyback": 1.9,
+    "rnd": 2.1
+   }
+  }
+ },
+ "rev_denom": {
+  "ai5": {
+   "2021": {
+    "capex": 12.3,
+    "buyback": 13.1,
+    "rnd": 8.0,
+    "dividend": 1.9
+   },
+   "2025": {
+    "capex": 24.7,
+    "buyback": 5.4,
+    "rnd": 9.7,
+    "dividend": 2.7
+   }
+  },
+  "rest": {
+   "2021": {
+    "capex": 3.7,
+    "buyback": 4.3,
+    "rnd": 1.9,
+    "dividend": 2.9
+   },
+   "2025": {
+    "capex": 4.1,
+    "buyback": 4.2,
+    "rnd": 2.0,
+    "dividend": 2.8
+   }
+  }
+ },
+ "leave_one_out": {
+  "Meta": {
+   "capex": 23.3,
+   "buyback": -28.3,
+   "rnd": -4.5
+  },
+  "Amazon": {
+   "capex": 33.6,
+   "buyback": -38.6,
+   "rnd": 0.2
+  },
+  "Microsoft": {
+   "capex": 24.0,
+   "buyback": -38.2,
+   "rnd": -2.4
+  },
+  "Alphabet": {
+   "capex": 20.9,
+   "buyback": -35.7,
+   "rnd": -4.0
+  },
+  "Oracle": {
+   "capex": 18.4,
+   "buyback": -28.7,
+   "rnd": -1.1
+  }
+ },
+ "loo_range": {
+  "capex": [
+   18.4,
+   33.6
+  ],
+  "buyback": [
+   -38.6,
+   -28.3
+  ],
+  "rnd": [
+   -4.5,
+   0.2
+  ]
+ },
+ "ai4_check": {
+  "capex": 33.6,
+  "buyback": -38.6,
+  "rnd": 0.2
+ },
+ "balanced": {
+  "n": 1823,
+  "ai5": {
+   "capex": 24.3,
+   "buyback": -33.7,
+   "rnd": -2.4
+  },
+  "rest": {
+   "capex": 7.3,
+   "buyback": -1.0,
+   "rnd": 1.5
+  }
+ },
+ "concentration": {
+  "2013": {
+   "hhi": 177,
+   "hhi_ex": 185,
+   "top5": 23.2,
+   "top5_ex": 23.9,
+   "total_bn": 539
+  },
+  "2014": {
+   "hhi": 160,
+   "hhi_ex": 168,
+   "top5": 21.1,
+   "top5_ex": 22.0,
+   "total_bn": 603
+  },
+  "2015": {
+   "hhi": 134,
+   "hhi_ex": 141,
+   "top5": 19.1,
+   "top5_ex": 20.0,
+   "total_bn": 571
+  },
+  "2016": {
+   "hhi": 109,
+   "hhi_ex": 114,
+   "top5": 15.2,
+   "top5_ex": 16.1,
+   "total_bn": 566
+  },
+  "2017": {
+   "hhi": 106,
+   "hhi_ex": 109,
+   "top5": 13.8,
+   "top5_ex": 14.8,
+   "total_bn": 577
+  },
+  "2018": {
+   "hhi": 111,
+   "hhi_ex": 105,
+   "top5": 14.7,
+   "top5_ex": 14.6,
+   "total_bn": 665
+  },
+  "2019": {
+   "hhi": 111,
+   "hhi_ex": 103,
+   "top5": 15.0,
+   "top5_ex": 15.1,
+   "total_bn": 669
+  },
+  "2020": {
+   "hhi": 142,
+   "hhi_ex": 100,
+   "top5": 18.4,
+   "top5_ex": 13.9,
+   "total_bn": 601
+  },
+  "2021": {
+   "hhi": 173,
+   "hhi_ex": 95,
+   "top5": 21.1,
+   "top5_ex": 13.2,
+   "total_bn": 681
+  },
+  "2022": {
+   "hhi": 158,
+   "hhi_ex": 97,
+   "top5": 20.9,
+   "top5_ex": 14.0,
+   "total_bn": 839
+  },
+  "2023": {
+   "hhi": 138,
+   "hhi_ex": 98,
+   "top5": 18.9,
+   "top5_ex": 14.5,
+   "total_bn": 875
+  },
+  "2024": {
+   "hhi": 200,
+   "hhi_ex": 102,
+   "top5": 24.8,
+   "top5_ex": 15.1,
+   "total_bn": 975
+  },
+  "2025": {
+   "hhi": 309,
+   "hhi_ex": 104,
+   "top5": 34.6,
+   "top5_ex": 14.6,
+   "total_bn": 1195
+  }
+ },
+ "cfo_check": {
+  "d_ocf_bn": 252,
+  "d_capex_bn": 259,
+  "d_buyback_bn": -74,
+  "ocf_covers_pct": 97
+ },
+ "meanbase": {
+  "ai5": {
+   "capex": 38.3,
+   "buyback": 35.4,
+   "rnd": 31.0,
+   "capex_25": 70.2,
+   "buyback_25": 15.4,
+   "rnd_25": 27.4,
+   "d_capex": 31.9,
+   "d_buyback": -20.0,
+   "d_rnd": -3.6
+  },
+  "rest": {
+   "capex": 30.7,
+   "buyback": 28.8,
+   "rnd": 13.2,
+   "capex_25": 30.0,
+   "buyback_25": 30.5,
+   "rnd_25": 14.8,
+   "d_capex": -0.7,
+   "d_buyback": 1.7,
+   "d_rnd": 1.6
+  }
+ },
+ "xsec": {
+  "rnd": {
+   "slope": 0.484,
+   "se": 0.042,
+   "t": 11.4,
+   "n": 153,
+   "corr": 0.681
+  },
+  "bb": {
+   "slope": -0.043,
+   "se": 0.182,
+   "t": -0.2,
+   "n": 237,
+   "corr": -0.015
+  },
+  "rnd_net": {
+   "slope": 0.111,
+   "se": 0.041,
+   "t": 2.7,
+   "n": 153,
+   "corr": 0.214
+  },
+  "bb_net": {
+   "slope": -0.136,
+   "se": 0.191,
+   "t": -0.7,
+   "n": 237,
+   "corr": -0.046
+  },
+  "n_capex_up": 82,
+  "n_rnd_data": 153,
+  "pct_cut_rnd": 32,
+  "median_rnd_growth": 11.5
+ },
+ "five_growth": {
+  "Meta": {
+   "cap": 213.1,
+   "rnd": 95.4,
+   "bb": -50.5
+  },
+  "Amazon": {
+   "cap": 81.3,
+   "rnd": null,
+   "bb": null
+  },
+  "Microsoft": {
+   "cap": 162.9,
+   "rnd": 31.7,
+   "bb": -43.5
+  },
+  "Alphabet": {
+   "cap": 211.7,
+   "rnd": 62.5,
+   "bb": -23.7
+  },
+  "Oracle": {
+   "cap": 936.2,
+   "rnd": 19.5,
+   "bb": -99.5
+  }
+ },
+ "longrun": {
+  "series": "A679RC1Q027SBEA (private fixed investment in information processing equipment and software)",
+  "span": [
+   1947,
+   2025
+  ],
+  "share_2000": 30.1,
+  "share_2025": 32.5,
+  "share_1950": 6.1,
+  "share_max": 32.5,
+  "share_max_year": 2025,
+  "gdp_2000": 4.4,
+  "gdp_2025": 4.49,
+  "range_2010_2021": [
+   27.0,
+   31.6
+  ],
+  "by_year": {
+   "1947": 6.8,
+   "1948": 6.3,
+   "1949": 6.0,
+   "1950": 6.1,
+   "1951": 6.3,
+   "1952": 7.0,
+   "1953": 6.9,
+   "1954": 6.3,
+   "1955": 6.5,
+   "1956": 6.7,
+   "1957": 7.5,
+   "1958": 7.4,
+   "1959": 7.5,
+   "1960": 8.6,
+   "1961": 9.3,
+   "1962": 9.3,
+   "1963": 10.1,
+   "1964": 10.2,
+   "1965": 10.0,
+   "1966": 11.0,
+   "1967": 11.4,
+   "1968": 11.1,
+   "1969": 12.2,
+   "1970": 13.3,
+   "1971": 13.3,
+   "1972": 13.3,
+   "1973": 13.4,
+   "1974": 14.1,
+   "1975": 14.5,
+   "1976": 14.9,
+   "1977": 15.1,
+   "1978": 15.5,
+   "1979": 15.6,
+   "1980": 16.9,
+   "1981": 17.2,
+   "1982": 18.2,
+   "1983": 20.8,
+   "1984": 21.5,
+   "1985": 21.4,
+   "1986": 22.5,
+   "1987": 22.9,
+   "1988": 23.3,
+   "1989": 23.9,
+   "1990": 23.7,
+   "1991": 24.6,
+   "1992": 26.0,
+   "1993": 26.3,
+   "1994": 26.2,
+   "1995": 26.4,
+   "1996": 26.8,
+   "1997": 27.5,
+   "1998": 27.9,
+   "1999": 29.1,
+   "2000": 30.1,
+   "2001": 29.0,
+   "2002": 28.8,
+   "2003": 28.9,
+   "2004": 28.8,
+   "2005": 27.5,
+   "2006": 26.6,
+   "2007": 26.5,
+   "2008": 26.6,
+   "2009": 29.7,
+   "2010": 30.8,
+   "2011": 29.5,
+   "2012": 28.5,
+   "2013": 28.4,
+   "2014": 27.0,
+   "2015": 27.1,
+   "2016": 28.2,
+   "2017": 28.9,
+   "2018": 29.0,
+   "2019": 28.5,
+   "2020": 30.6,
+   "2021": 31.6,
+   "2022": 31.0,
+   "2023": 28.8,
+   "2024": 29.7,
+   "2025": 32.5
+  }
+ },
+ "windows": {
+  "w2125": {
+   "rnd": {
+    "slope": 0.484,
+    "se": 0.042,
+    "t": 11.4,
+    "n": 153
+   },
+   "rnd_net": {
+    "slope": 0.111,
+    "se": 0.041,
+    "t": 2.7,
+    "n": 153
+   },
+   "bb": {
+    "slope": -0.043,
+    "se": 0.182,
+    "t": -0.2,
+    "n": 237
+   },
+   "bb_net": {
+    "slope": -0.136,
+    "se": 0.191,
+    "t": -0.7,
+    "n": 237
+   }
+  },
+  "w1721": {
+   "rnd": {
+    "slope": 0.517,
+    "se": 0.058,
+    "t": 8.9,
+    "n": 145
+   },
+   "rnd_net": {
+    "slope": 0.264,
+    "se": 0.063,
+    "t": 4.2,
+    "n": 145
+   },
+   "bb": {
+    "slope": 0.621,
+    "se": 0.208,
+    "t": 3.0,
+    "n": 225
+   },
+   "bb_net": {
+    "slope": 0.315,
+    "se": 0.224,
+    "t": 1.4,
+    "n": 225
+   }
+  },
+  "w1317": {
+   "rnd": {
+    "slope": 0.501,
+    "se": 0.08,
+    "t": 6.2,
+    "n": 56
+   },
+   "rnd_net": {
+    "slope": 0.531,
+    "se": 0.084,
+    "t": 6.3,
+    "n": 56
+   },
+   "bb": {
+    "slope": 1.167,
+    "se": 0.318,
+    "t": 3.7,
+    "n": 112
+   },
+   "bb_net": {
+    "slope": 1.027,
+    "se": 0.345,
+    "t": 3.0,
+    "n": 112
+   }
+  },
+  "w2125_ex5": {
+   "rnd": {
+    "slope": 0.52,
+    "se": 0.044,
+    "t": 11.8,
+    "n": 149
+   },
+   "rnd_net": {
+    "slope": 0.12,
+    "se": 0.045,
+    "t": 2.7,
+    "n": 149
+   },
+   "bb": {
+    "slope": 0.176,
+    "se": 0.19,
+    "t": 0.9,
+    "n": 233
+   },
+   "bb_net": {
+    "slope": 0.087,
+    "se": 0.197,
+    "t": 0.4,
+    "n": 233
+   }
+  }
+ },
+ "quintiles": [
+  {
+   "q": 1,
+   "n": 80,
+   "capex": -44.0,
+   "rnd": -5.4,
+   "bb": 13.4,
+   "n_rnd": 32
+  },
+  {
+   "q": 2,
+   "n": 80,
+   "capex": -10.7,
+   "rnd": 2.4,
+   "bb": -5.5,
+   "n_rnd": 41
+  },
+  {
+   "q": 3,
+   "n": 80,
+   "capex": 16.2,
+   "rnd": 4.2,
+   "bb": 19.5,
+   "n_rnd": 27
+  },
+  {
+   "q": 4,
+   "n": 80,
+   "capex": 39.7,
+   "rnd": 8.1,
+   "bb": 19.5,
+   "n_rnd": 30
+  },
+  {
+   "q": 5,
+   "n": 82,
+   "capex": 133.2,
+   "rnd": 33.8,
+   "bb": -9.6,
+   "n_rnd": 23
+  }
+ ],
+ "account": {
+  "five": {
+   "ocf": 252,
+   "netdebt": 20,
+   "neteq": 1,
+   "capex": 259,
+   "mna": 10,
+   "bb": -74,
+   "div": 21,
+   "dcash": 66,
+   "other": -8,
+   "sources_total": 273,
+   "uses_total": 274,
+   "pct_ocf": 92.3,
+   "pct_debt": 7.3,
+   "pct_eq": 0.4,
+   "d_rnd": 61,
+   "ocf_covers_capex_pct": 97
+  },
+  "rest": {
+   "ocf": -51,
+   "netdebt": 186,
+   "neteq": -39,
+   "capex": 126,
+   "mna": -106,
+   "bb": 35,
+   "div": 15,
+   "dcash": -80,
+   "other": 106,
+   "sources_total": 96,
+   "uses_total": 96,
+   "pct_ocf": -53.1,
+   "pct_debt": 193.8,
+   "pct_eq": -40.6,
+   "d_rnd": 48,
+   "ocf_covers_capex_pct": -40
+  }
+ },
+ "cumulative": {
+  "five_A": {
+   "capex": 371,
+   "ocf": 438,
+   "netdebt": -3,
+   "eq_in": 2,
+   "rnd": 142,
+   "buyback": -206,
+   "dividend": 40,
+   "dcash": 214,
+   "coverage": 118
+  },
+  "rest_A": {
+   "capex": 429,
+   "ocf": -348,
+   "netdebt": 565,
+   "eq_in": -133,
+   "rnd": 130,
+   "buyback": 24,
+   "dividend": 16,
+   "dcash": -814,
+   "coverage": -81
+  },
+  "five_B": {
+   "capex": 588,
+   "ocf": 762,
+   "netdebt": 37,
+   "eq_in": -2,
+   "rnd": 229,
+   "buyback": 78,
+   "dividend": 49,
+   "dcash": 76,
+   "coverage": 130
+  },
+  "rest_B": {
+   "capex": 256,
+   "ocf": 1051,
+   "netdebt": -409,
+   "eq_in": -138,
+   "rnd": 271,
+   "buyback": 405,
+   "dividend": 141,
+   "dcash": -1677,
+   "coverage": 411
+  }
+ },
+ "firm_level": {
+  "Meta": {
+   "capex": 82,
+   "ocf": 65,
+   "netdebt": 60,
+   "eq_in": 0,
+   "rnd": 64,
+   "buyback": -103,
+   "dividend": 11,
+   "dcash": 29,
+   "coverage": 79
+  },
+  "Amazon": {
+   "capex": 52,
+   "ocf": 179,
+   "netdebt": -64,
+   "eq_in": 0,
+   "rnd": 0,
+   "buyback": 7,
+   "dividend": 0,
+   "dcash": 85,
+   "coverage": 344
+  },
+  "Microsoft": {
+   "capex": 68,
+   "ocf": 83,
+   "netdebt": 0,
+   "eq_in": 0,
+   "rnd": 20,
+   "buyback": -35,
+   "dividend": 9,
+   "dcash": 14,
+   "coverage": 122
+  },
+  "Alphabet": {
+   "capex": 97,
+   "ocf": 65,
+   "netdebt": 0,
+   "eq_in": 0,
+   "rnd": 53,
+   "buyback": 0,
+   "dividend": 18,
+   "dcash": 36,
+   "coverage": 67
+  },
+  "Oracle": {
+   "capex": 73,
+   "ocf": 46,
+   "netdebt": 0,
+   "eq_in": 2,
+   "rnd": 5,
+   "buyback": -74,
+   "dividend": 3,
+   "dcash": 50,
+   "coverage": 63
+  }
+ },
+ "leave_one_out_cum": {
+  "Meta": {
+   "capex": 289,
+   "ocf": 372,
+   "netdebt": -64,
+   "eq_in": 2,
+   "rnd": 77,
+   "buyback": -102,
+   "dividend": 29,
+   "dcash": 185,
+   "coverage": 129
+  },
+  "Amazon": {
+   "capex": 319,
+   "ocf": 259,
+   "netdebt": 60,
+   "eq_in": 2,
+   "rnd": 142,
+   "buyback": -212,
+   "dividend": 40,
+   "dcash": 129,
+   "coverage": 81
+  },
+  "Microsoft": {
+   "capex": 303,
+   "ocf": 355,
+   "netdebt": -3,
+   "eq_in": 2,
+   "rnd": 122,
+   "buyback": -171,
+   "dividend": 31,
+   "dcash": 200,
+   "coverage": 117
+  },
+  "Alphabet": {
+   "capex": 274,
+   "ocf": 373,
+   "netdebt": -3,
+   "eq_in": 2,
+   "rnd": 89,
+   "buyback": -206,
+   "dividend": 22,
+   "dcash": 177,
+   "coverage": 136
+  },
+  "Oracle": {
+   "capex": 298,
+   "ocf": 391,
+   "netdebt": -3,
+   "eq_in": 0,
+   "rnd": 137,
+   "buyback": -132,
+   "dividend": 37,
+   "dcash": 163,
+   "coverage": 131
+  }
+ },
+ "group_size": {
+  "top3": {
+   "capex": 251,
+   "ocf": 176,
+   "netdebt": 60,
+   "eq_in": 2,
+   "rnd": 122,
+   "buyback": -177,
+   "dividend": 31,
+   "dcash": 115,
+   "coverage": 70,
+   "share_of_increase": 26.2
+  },
+  "top5": {
+   "capex": 371,
+   "ocf": 438,
+   "netdebt": -3,
+   "eq_in": 2,
+   "rnd": 142,
+   "buyback": -206,
+   "dividend": 40,
+   "dcash": 214,
+   "coverage": 118,
+   "share_of_increase": 38.7
+  },
+  "top10": {
+   "capex": 503,
+   "ocf": 522,
+   "netdebt": 29,
+   "eq_in": 5,
+   "rnd": 142,
+   "buyback": -101,
+   "dividend": 34,
+   "dcash": 238,
+   "coverage": 104,
+   "share_of_increase": 52.5
+  },
+  "top20": {
+   "capex": 613,
+   "ocf": 517,
+   "netdebt": -69,
+   "eq_in": 8,
+   "rnd": 142,
+   "buyback": -253,
+   "dividend": 33,
+   "dcash": -60,
+   "coverage": 84,
+   "share_of_increase": 63.9
+  }
+ },
+ "path": {
+  "2017": {
+   "capex": 55,
+   "ocf": 176,
+   "netdebt": 21,
+   "capex_over_ocf": 31
+  },
+  "2018": {
+   "capex": 84,
+   "ocf": 213,
+   "netdebt": 0,
+   "capex_over_ocf": 40
+  },
+  "2019": {
+   "capex": 89,
+   "ocf": 244,
+   "netdebt": 0,
+   "capex_over_ocf": 36
+  },
+  "2020": {
+   "capex": 118,
+   "ocf": 305,
+   "netdebt": 11,
+   "capex_over_ocf": 39
+  },
+  "2021": {
+   "capex": 154,
+   "ocf": 336,
+   "netdebt": 21,
+   "capex_over_ocf": 46
+  },
+  "2022": {
+   "capex": 175,
+   "ocf": 324,
+   "netdebt": 33,
+   "capex_over_ocf": 54
+  },
+  "2023": {
+   "capex": 155,
+   "ocf": 383,
+   "netdebt": 5,
+   "capex_over_ocf": 40
+  },
+  "2024": {
+   "capex": 245,
+   "ocf": 485,
+   "netdebt": 1,
+   "capex_over_ocf": 51
+  },
+  "2025": {
+   "capex": 413,
+   "ocf": 588,
+   "netdebt": 41,
+   "capex_over_ocf": 70
+  }
+ },
+ "rnd_sample": {
+  "n_report_both": 165,
+  "n_regression": 153,
+  "n_capex_2025": 421,
+  "n_no_rnd": 335
+ },
+ "failed_checks": {
+  "other495_contrast": {
+   "coverage_baseA": -81,
+   "coverage_baseB": 411,
+   "verdict": "FAIL - sign flips with baseline; dropped from the paper"
+  },
+  "repurchase_decline": {
+   "cum_baseA": -206,
+   "cum_baseB": 78,
+   "verdict": "MIXED - negative on 2021 base, positive on 2017-21 mean base; demoted"
+  }
+ },
+ "distribution": {
+  "n_positive": 267,
+  "total_positive_capex_bn": 959,
+  "buckets": {
+   "ge100": 33.3,
+   "b75_100": 13.9,
+   "b50_75": 22.4,
+   "lt50": 30.4
+  },
+  "cum_ge100": 33.3,
+  "cum_ge75": 47.2,
+  "cum_ge50": 69.6,
+  "ex5_ge100": 34.0
+ },
+ "ladder": [
+  {
+   "group": "top1",
+   "share": 10.1,
+   "coverage": 67,
+   "netdebt": 0
+  },
+  {
+   "group": "top3",
+   "share": 26.2,
+   "coverage": 70,
+   "netdebt": 60
+  },
+  {
+   "group": "top5",
+   "share": 38.7,
+   "coverage": 118,
+   "netdebt": -3
+  },
+  {
+   "group": "top10",
+   "share": 52.5,
+   "coverage": 104,
+   "netdebt": 29
+  },
+  {
+   "group": "top20",
+   "share": 63.9,
+   "coverage": 84,
+   "netdebt": -69
+  },
+  {
+   "group": "top50",
+   "share": 81.5,
+   "coverage": 55,
+   "netdebt": 148
+  },
+  {
+   "group": "remaining217",
+   "share": 18.5,
+   "coverage": -7,
+   "netdebt": 280
+  }
+ ],
+ "ai_filter": {
+  "n_scored": 285,
+  "n_in_analysis": 261,
+  "median": 0.63,
+  "p80": 1.35,
+  "p90": 2.21,
+  "top10_names": [
+   "NVIDIA CORP",
+   "AMAZON COM INC",
+   "Meta Platforms, Inc.",
+   "ADVANCED MICRO DEVICES I",
+   "MICROSOFT CORP",
+   "ORACLE CORP",
+   "Alphabet Inc.",
+   "TARGET CORP",
+   "FISERV INC",
+   "Tesla, Inc."
+  ],
+  "decile": {
+   "threshold": 2.21,
+   "n": 27,
+   "capex": 401,
+   "five_share": 92.5,
+   "coverage_all": 128,
+   "netdebt_all": -24,
+   "coverage_ex5": 248,
+   "netdebt_ex5": -20,
+   "coverage_top10": 129
+  },
+  "quintile": {
+   "threshold": 1.35,
+   "n": 53,
+   "capex": 416,
+   "five_share": 89.0,
+   "coverage_all": 138,
+   "netdebt_all": 0,
+   "coverage_ex5": 301,
+   "netdebt_ex5": 3,
+   "coverage_top10": 131
+  }
+ },
+ "sample": {
+  "universe": 500,
+  "capex_2025": 421,
+  "capex_both": 404,
+  "rnd_both": 165,
+  "analysis": 267,
+  "ai_scored": 261,
+  "capex_2025_total_bn": 1195,
+  "analysis_capex_bn": 1034,
+  "analysis_capex_share": 87,
+  "coverage_pct": {
+   "capex": 81,
+   "ocf": 84,
+   "rev": 93,
+   "rnd": 33,
+   "buyback": 55,
+   "debt_in": 25
+  }
+ },
+ "hashes": {
+  "ai_intensity.json": "e9d712c7a3162b86",
+  "alt_frames.json": "0c095a6ff310f931",
+  "capex_frames.json": "a361587f16fb6c26",
+  "composition_frames.json": "32316600bb21739b",
+  "deflator_WPUFD4131.json": "5e1f9e808ef0b07e",
+  "financing_frames.json": "b0c610e6bc34b363",
+  "longrun.json": "daaa27223671a0e5",
+  "revenue_frames.json": "ca8c0e7c3111e042"
+ }
+}
