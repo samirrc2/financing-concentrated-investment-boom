@@ -289,6 +289,26 @@ _step["coverage_pct"]={k:round(sum(1 for c in F if S[2021][k].get(c,0)>0 and S[2
                        for k in ("capex","ocf","rev","rnd","buyback","debt_in")}
 C["sample"]=_step
 
+
+# --- placebo: the coverage ladder in earlier four-year windows (Appendix) ---
+def _pl(base,yrs):
+    R=[]
+    for c in F:
+        if not (S[base]['capex'].get(c,0)>0 and S[yrs[-1]]['capex'].get(c,0)>0): continue
+        b=_v('capex',{c},base); dx=sum(_v('capex',{c},t)-b for t in yrs)/1e9
+        if dx<=0: continue
+        bo=_v('ocf',{c},base); do=sum(_v('ocf',{c},t)-bo for t in yrs)/1e9
+        R.append((dx,do))
+    R.sort(reverse=True); T=sum(r[0] for r in R)
+    out={"n":len(R),"total_bn":round(T),"top5_share":round(sum(r[0] for r in R[:5])/T*100,1)}
+    for n in (5,10,20,50):
+        g=R[:n]; out[f"cov{n}"]=round(sum(r[1] for r in g)/sum(r[0] for r in g)*100)
+    g=R[50:]; out["cov_rest"]=round(sum(r[1] for r in g)/sum(r[0] for r in g)*100)
+    return out
+C["placebo_ladder"]={"w2225":_pl(2021,[2022,2023,2024,2025]),
+                     "w1821":_pl(2017,[2018,2019,2020,2021]),
+                     "w1417":_pl(2013,[2014,2015,2016,2017])}
+
 C["hashes"]={f:__import__("hashlib").sha256(open("data/frozen/"+f,"rb").read()).hexdigest()[:16]
    for f in sorted(__import__("os").listdir("data/frozen")) if f.endswith(".json")}
 json.dump(C,open("claims.json","w"),indent=1)

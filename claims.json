@@ -1324,6 +1324,38 @@
    "debt_in": 25
   }
  },
+ "placebo_ladder": {
+  "w2225": {
+   "n": 267,
+   "total_bn": 959,
+   "top5_share": 38.7,
+   "cov5": 118,
+   "cov10": 104,
+   "cov20": 84,
+   "cov50": 55,
+   "cov_rest": -7
+  },
+  "w1821": {
+   "n": 241,
+   "total_bn": 578,
+   "top5_share": 42.3,
+   "cov5": 175,
+   "cov10": 159,
+   "cov20": 126,
+   "cov50": 133,
+   "cov_rest": 566
+  },
+  "w1417": {
+   "n": 241,
+   "total_bn": 434,
+   "top5_share": 21.6,
+   "cov5": 182,
+   "cov10": 188,
+   "cov20": 147,
+   "cov50": 145,
+   "cov_rest": 262
+  }
+ },
  "hashes": {
   "ai_intensity.json": "e9d712c7a3162b86",
   "alt_frames.json": "0c095a6ff310f931",

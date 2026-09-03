@@ -125,6 +125,13 @@ K+=[("sample universe",SM["universe"],500),("sample capex25",SM["capex_2025"],42
  ("ladR cov",LD2["remaining217"]["coverage"],-7),("ladR debt",LD2["remaining217"]["netdebt"],280),
  ("dist total",C["distribution"]["total_positive_capex_bn"],959),
  ("dist lt50b",C["distribution"]["buckets"]["lt50"],30.4)]
+PL=C["placebo_ladder"]
+for wk,vals in (("w2225",(118,104,84,55,-7,38.7)),("w1821",(175,159,126,133,566,42.3)),
+                ("w1417",(182,188,147,145,262,21.6))):
+    p=PL[wk]
+    K+=[(f"pl {wk} cov5",p["cov5"],vals[0]),(f"pl {wk} cov10",p["cov10"],vals[1]),
+        (f"pl {wk} cov20",p["cov20"],vals[2]),(f"pl {wk} cov50",p["cov50"],vals[3]),
+        (f"pl {wk} rest",p["cov_rest"],vals[4]),(f"pl {wk} share",p["top5_share"],vals[5])]
 D=[("d capex",round(a["2025"]["capex"]-a["2021"]["capex"],1),24.3),
    ("d bb",round(a["2025"]["buyback"]-a["2021"]["buyback"],1),-33.7),
    ("d rnd",round(a["2025"]["rnd"]-a["2021"]["rnd"],1),-2.4),
