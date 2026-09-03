@@ -74,36 +74,29 @@ distribution: those 217 firms took on \$280 billion of cumulative net new debt, 
 billion for the top five.
 
 Our contribution is an aggregation result. Financing at the project margin need not characterise
-aggregate investment when incremental spending is concentrated among firms whose internal cash
-generation rises at least as fast as investment. The top ten firms account for 52.5\% of cumulative
-incremental capital expenditure and have coverage of 104\%. The distinction from Grullon et al. (2018) is one of object: that work
-estimates how cash flow predicts investment, whereas ours is an ex-post coverage ratio for one boom,
-establishing financing capacity rather than causation. The evidence therefore relocates rather
-than contradicts the leverage concern: it belongs with smaller participants and project-finance
-structures rather than with the aggregate. This is an accounting decomposition of realised flows. We
-cannot trace individual dollars, and we do not identify what any firm would otherwise have done.
+aggregate investment when spending is concentrated among firms whose internal cash generation rises
+with investment. The top ten firms account for 52.5\% of positive cumulative incremental capital
+expenditure at 104\% coverage. Unlike Grullon et al. (2018), which estimates how cash flow predicts
+investment, we report an ex-post coverage ratio for one boom. The evidence therefore relocates rather
+than contradicts the leverage concern: toward smaller participants and project-finance structures. We
+interpret the exercise as an accounting decomposition, not a causal financing test.
 
 \section{Data and methods}
-Firm-level data come from the SEC's XBRL \emph{frames} interface for 2013--2025. Filers do not use a
-single tag for a given concept, and relying on one is unsafe: Amazon, the largest U.S. capital
-spender, reports under \tg{PaymentsToAcquireProductiveAssets} rather than
-\tg{PaymentsToAcquirePropertyPlantAndEquipment}, as do 448 other firms accounting for \$404
-billion of 2025 capital expenditure. We take the maximum across alternative tags for every series. Measuring the
-buildout by total capital expenditure rather than an AI-specific subaccount follows established
-practice (Board of Governors, 2026; Van Nieuwerburgh, 2026).
+Firm-level data come from the SEC's XBRL \emph{frames} interface for 2013--2025. Because filers use
+alternative tags for the same concept, we take the maximum across valid tags for each series; a
+single-tag construction would omit Amazon and 448 other filers, accounting for \$404 billion of
+2025 capital expenditure (\ref{app:tags}). We measure the buildout using total capital expenditure,
+following Board of Governors (2026) and Van Nieuwerburgh (2026).
 
 The universe is the 500 U.S. registrants with the largest fiscal-2024 revenue, combined revenue
 \$19.75 trillion---the Fortune 500's ranking basis, excluding non-filers. Listed firms exclude a growing private segment (Doidge et al., 2017). Figures are deflated to
 2025 dollars using the BLS producer price index for private capital equipment (WPUFD4131).
 
-Two measurement points require statement. The SEC assigns each fiscal year to the calendar year
-containing most of its months, so for off-calendar filers a year label is not a calendar year:
-Microsoft's observations are June-ending years and Oracle's May-ending, so Oracle's 2025 observation
-covers June 2025 to May 2026. We retain the SEC convention, which shifts Oracle's window forward
-relative to the other four. Second, every constructed observation for the five firms reconciles to a
-10-K value for the same fiscal period: 48 of 49 match the originally filed figure and the 49th
-matches Meta's restated 2021 capital expenditure, which is the value the interface returns
-(\ref{app:recon}).
+Two measurement points matter. SEC fiscal-year labels are not calendar years for off-calendar
+filers: Microsoft is June-ending and Oracle May-ending, so Oracle's 2025 observation extends through
+May 2026. We retain the SEC convention. All constructed observations for the five firms reconcile to
+same-period 10-K values; 48 of 49 match the original filing and one matches Meta's restated 2021
+capital expenditure (\ref{app:recon}).
 
 The exercise cumulates incremental flows rather than comparing two annual
 observations. For each series $X$ and firm $i$,
@@ -197,11 +190,8 @@ expenditure, so this corroborates the main result on an independently defined un
 testing it independently; excluding them, coverage among the remaining 22 firms is 248\%.
 
 \subsection{R\&D and payout}
-The investment increase did not coincide with reduced research: cumulative incremental R\&D at the
-five firms was \$142 billion on baseline A and \$229 billion on baseline B, and among firms
-reporting research at both endpoints capital-expenditure growth is positively associated with R\&D
-growth. Payout results are sensitive to the choice of baseline and we draw no inference from them.
-Both sets of estimates are reported in \ref{app:rndpayout}.
+R\&D did not fall as investment rose, while payout results are baseline-sensitive;
+\ref{app:rndpayout} reports both exercises.
 
 \subsection{The margin narrowed}
 The result is bounded in time. Capital expenditure absorbed 31\% of the five firms' operating cash
@@ -258,26 +248,21 @@ public companies by revenue, with and without those five firms.}
 \end{figure}
 
 \section{Conclusion}
-The financing of an investment boom cannot be inferred from the financing of its marginal projects.
-The artificial-intelligence buildout illustrates why. Internal cash coverage of incremental
-investment peaks at the five largest incremental investors and declines at every successive cut
-thereafter, from 118\% at the top five to $-7$\% among the remaining 217, while net new debt rises
-correspondingly. Because half the aggregate increase occurred at ten firms whose incremental cash
-generation exceeded their incremental investment, the aggregate is internally covered even though
-net debt rose alongside investment for most firms in the distribution.
+The financing of marginal projects need not characterise an investment boom in the aggregate. During
+the AI buildout, internal cash coverage falls from 118\% for the five largest incremental investors
+to $-7$\% for the remaining 217, while net debt rises down the distribution. The top ten account for
+52.5\% of positive cumulative incremental capital expenditure at 104\% coverage.
 
-This reconciles two literatures rather than adjudicating between them. Documented growth in private
-credit, structured vehicles and hardware-backed lending concerns a part of the distribution
-accounting for a minority of incremental corporate investment, and our result does not contest it;
-it locates the leverage concern with smaller participants and project-finance structures rather than
-with the aggregate. The qualification is temporal: capital expenditure absorbed 70\% of the five
-firms' operating cash flow in 2025 against 31\% in 2017, so the result need not persist.
+This reconciles, rather than contradicts, evidence on external financing: leverage is concentrated
+among smaller participants and project-finance structures, while the firms carrying most of the
+public-company investment increase had greater internal financing capacity. The result is
+time-specific; capital expenditure absorbed 70\% of the five firms' operating cash flow in 2025,
+versus 31\% in 2017.
 
-Two limitations bound the reading. The exercise is an accounting decomposition of realised flows: it
-establishes that incremental internal cash generation exceeded incremental investment, not that
-particular dollars financed particular assets, and it does not identify counterfactual firm
-behaviour. And the universe is large public filers, so it is silent on private firms and on the
-special-purpose vehicles that much of the external-financing evidence concerns.
+Two limitations bound the reading. This is an accounting decomposition of realised flows, not
+evidence that particular dollars financed particular assets or a counterfactual of firm behaviour.
+The sample covers large public filers and is silent on private firms and special-purpose
+vehicles.
 
 \section*{CRediT authorship contribution statement}
 \textbf{Samir Chincholikar:} Conceptualization, Methodology, Software, Formal analysis,
