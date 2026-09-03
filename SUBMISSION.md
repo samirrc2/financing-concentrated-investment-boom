@@ -1,6 +1,6 @@
 # Submission checklist — Economics Letters
 
-**Manuscript:** *Financing a Concentrated Investment Boom: Evidence from AI*
+**Manuscript:** *Investment Concentration and Internal Finance in the AI Boom*
 Samir Chincholikar · Robin Chawla · prepared 2026-09-02
 
 ## Hard requirements

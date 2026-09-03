@@ -1,4 +1,4 @@
-# Financing a Concentrated Investment Boom: Evidence from AI
+# Investment Concentration and Internal Finance in the AI Boom
 
 Replication archive for the Economics Letters submission.
 Samir Chincholikar · Robin Chawla
