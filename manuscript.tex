@@ -131,7 +131,7 @@ frozen, hashed source files by a single script, and the manuscript is gated agai
 claims file.
 
 \section{Results}
-\subsection{Coverage declines down the investment distribution}
+\subsection{A historically unusual rank--coverage gradient}
 Table~\ref{tab:ladder} reports the central result. Ranking the 267 firms with rising investment by
 their cumulative incremental capital expenditure traces a rank--coverage gradient: internal cash
 coverage peaks at the five largest investors and then falls at every successive cut, from 118\% for the top five to $-7$\% for the
@@ -169,30 +169,25 @@ Coverage exceeds 80\% omitting any single firm, ranging from 81\% (omitting Amaz
 (omitting Alphabet), and exceeds 100\% in four of the five cases. Firm-level coverage is nonetheless
 dispersed---63\% at Oracle, 67\% at Alphabet, 79\% at Meta, 122\% at Microsoft and 344\% at
 Amazon---so sufficiency is a property of the group aggregate and not of every constituent;
-\ref{app:firm} reports the firm-level decomposition and the leave-one-out calculation. R\&D at these
-firms did not fall as investment rose, while payout results are baseline-sensitive
-(\ref{app:rndpayout}).
+\ref{app:firm} reports the firm-level decomposition and the leave-one-out calculation.
 
 \subsection{Attribution: AI-exposed firms identified independently}\label{sec:ai}
-The gradient above is a fact about corporate investment rather than about AI: the firms at the
-bottom of the distribution are utilities, airlines, pipelines and energy producers, whose borrowing
-is unrelated to compute. Attribution therefore requires identifying AI-exposed firms without
-reference to any financing outcome. We score each registrant's most recent 10-K against a dictionary
-of AI terminology fixed before any subsample result was computed, following established practice in
+The gradient is a fact about corporate investment rather than about AI: the firms at the bottom of
+the distribution are utilities, airlines, pipelines and energy producers, whose borrowing is
+unrelated to compute. Attribution therefore requires identifying AI-exposed firms independently of
+any financing outcome. We score each registrant's most recent 10-K against a dictionary of AI
+terminology fixed before any subsample result was computed, following established practice in
 building firm-level measures from filing text (Loughran and McDonald, 2011; Hoberg and Phillips,
-2016; Ante and Saggu, 2025).
-AI intensity is dictionary occurrences per 10{,}000 words; details are in \ref{app:dict}. The
-measure identifies the expected firms without conditioning on industry: the highest-scoring names
-are NVIDIA, Amazon, Meta, Advanced Micro Devices, Microsoft, Oracle and Alphabet.
+2016; Ante and Saggu, 2025); details are in \ref{app:dict}. The measure identifies the expected
+firms without conditioning on industry, the highest scores being NVIDIA, Amazon, Meta, Advanced
+Micro Devices, Microsoft, Oracle and Alphabet.
 
-Within the top decile of AI intensity (27 firms, \$401 billion of cumulative incremental capital
-expenditure) coverage is 128\% and cumulative net new debt is $-\$24$ billion; at the top-quintile
-cutoff (53 firms) coverage is 138\% (Table~\ref{tab:ladder}, panel B). Coverage exceeds 100\% at
-every cut and net new debt is zero or negative throughout, against $-7$\% and \$280 billion across
-the full distribution, so observed net debt accumulation is concentrated outside the AI-exposed
-group. The five largest investors account for 92.5\% of the top decile's incremental capital
-expenditure, so this corroborates the main result on an independently defined universe rather than
-testing it independently; excluding them, coverage among the remaining 22 firms is 248\%.
+Within the top decile of AI intensity (27 firms) coverage is 128\% and cumulative net new debt is
+$-\$24$ billion; at the top-quintile cutoff (53 firms) coverage is 138\% (Table~\ref{tab:ladder},
+panel B). Coverage exceeds 100\% at every cut and net new debt is zero or negative throughout,
+against $-7$\% and \$280 billion across the full distribution. The five largest investors account
+for 92.5\% of the top decile's incremental capital expenditure, so this corroborates the main result
+on an independently defined universe rather than testing it independently.
 
 \subsection{The margin narrowed}
 The result is bounded in time. Capital expenditure absorbed 31\% of the five firms' operating cash
@@ -278,7 +273,9 @@ public companies by revenue, with and without those five firms.}
 The financing of marginal projects need not characterise an investment boom in the aggregate. During
 the AI buildout, internal cash coverage falls from 118\% for the five largest incremental investors
 to $-7$\% for the remaining 217, while net debt rises down the distribution. The top ten account for
-52.5\% of positive incremental capital expenditure at 104\% coverage.
+52.5\% of positive incremental capital expenditure at 104\% coverage. This rank--coverage gradient is
+specific to the current boom: it is absent in the preceding two four-year windows, including
+2018--2021, when investment was more concentrated at the top.
 
 This reconciles, rather than contradicts, evidence on external financing: within public firms,
 borrowing is concentrated away from the largest investors, while project-finance structures lie
@@ -487,20 +484,6 @@ Top 20 & $613$ & $517$ & $-69$ & 84\%  & 63.9\% \\
 \noindent Groups are ranked by cumulative incremental capital expenditure within the 267-firm
 analysis sample, on the same basis as Table~\ref{tab:ladder}. Amounts in billions of 2025 dollars;
 shares are of the \$959 billion aggregate cumulative increment.
-
-\section{R\&D and payout estimates}\label{app:rndpayout}
-Among the 153 firms reporting positive R\&D, capital expenditure and revenue at both endpoints---165
-of the 500 report R\&D in both years, so this is not a statement about the full universe---the slope
-of real R\&D growth on real capital-expenditure growth over 2021--2025 is $0.484$ ($t=11.4$), and
-$0.111$ net of real revenue growth ($t=2.7$). Excluding the five firms it is $0.520$ ($t=11.8$), and
-the same slope is $0.517$ over 2017--2021 and $0.501$ over 2013--2017, so the association predates
-the boom.
-
-Two payout narratives are baseline-sensitive. Share repurchases at the five firms fall \$206 billion
-cumulatively on baseline A but rise \$78 billion on baseline B, because 2021 was a peak repurchase
-year. A contrast in which the other 495
-firms appear to borrow while their cash flow falls reverses sign entirely across baselines ($-81\%$
-against $411\%$). We draw no conclusions from either.
 
 \section{Data construction}\label{app:tags}
 Capital expenditure unions \tg{PaymentsToAcquirePropertyPlantAndEquipment} and
