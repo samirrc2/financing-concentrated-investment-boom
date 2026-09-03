@@ -104,23 +104,6 @@ C["five_growth"]={NAME[c]:{k:(round(_m.exp(r[k])*100-100,1) if r[k] is not None 
     for k in ("cap","rnd","bb")} for c in AI5 for r in _rows if r['cik']==c}
 
 
-# --- long-run aggregate context (BEA via FRED, verified series titles) ---
-_lr=json.load(open("data/frozen/longrun.json"))
-_n=lambda k:{int(a):b for a,b in _lr[k].items()}
-_P,_I,_G=_n("pnfi"),_n("infoproc"),_n("gdp")
-_sh={y:_I[y]/_P[y]*100 for y in _P if y in _I and y<=2025}
-_gd={y:_I[y]/_G[y]*100 for y in _I if y in _G and y<=2025}
-_mx=max(_sh,key=_sh.get)
-C["longrun"]={"series":"A679RC1Q027SBEA (private fixed investment in information processing equipment and software)",
- "span":[min(_sh),max(_sh)],
- "share_2000":round(_sh[2000],1),"share_2025":round(_sh[2025],1),"share_1950":round(_sh[1950],1),
- "share_max":round(_sh[_mx],1),"share_max_year":_mx,
- "gdp_2000":round(_gd[2000],2),"gdp_2025":round(_gd[2025],2),
- "range_2010_2021":[round(min(_sh[y] for y in range(2010,2022)),1),
-                    round(max(_sh[y] for y in range(2010,2022)),1)],
- "by_year":{str(y):round(_sh[y],1) for y in sorted(_sh)}}
-
-
 # --- cross-section across windows, excluding the five, and quintiles (500-firm focus) ---
 def _mk(a,b,drop=set()):
     o=[]

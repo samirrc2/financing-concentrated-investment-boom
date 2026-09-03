@@ -55,12 +55,6 @@ K+=[("xs rnd slope",X["rnd"]["slope"],0.484),("xs rnd t",X["rnd"]["t"],11.4),("x
  ("Alpha cap",FG["Alphabet"]["cap"],211.7),("Alpha rnd",FG["Alphabet"]["rnd"],62.5),("Alpha bb",FG["Alphabet"]["bb"],-23.7),
  ("MSFT cap",FG["Microsoft"]["cap"],162.9),("MSFT rnd",FG["Microsoft"]["rnd"],31.7),("MSFT bb",FG["Microsoft"]["bb"],-43.5),
  ("AMZN cap",FG["Amazon"]["cap"],81.3)]
-LR=C["longrun"]
-K+=[("lr 1950",LR["share_1950"],6.1),("lr 2000",LR["share_2000"],30.1),("lr 2025",LR["share_2025"],32.5),
- ("lr gdp 2000",LR["gdp_2000"],4.4),("lr gdp 2025",LR["gdp_2025"],4.49),
- ("lr range lo",LR["range_2010_2021"][0],27.0),("lr range hi",LR["range_2010_2021"][1],31.6),
- ("lr span lo",LR["span"][0],1947),("lr span hi",LR["span"][1],2025),
- ("lr excess",round(LR["share_2025"]-LR["share_2000"],1),2.4)]
 W=C["windows"]; Q=C["quintiles"]
 for wk,lab in (("w2125","2125"),("w1721","1721"),("w1317","1317"),("w2125_ex5","ex5")):
     for fk in ("rnd","rnd_net","bb","bb_net"):

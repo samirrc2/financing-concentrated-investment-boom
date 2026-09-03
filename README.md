@@ -34,5 +34,17 @@ Every input is public and free:
 - 10-K text for the AI-exposure measure and the filing reconciliation — SEC EDGAR
 - Deflator — Bureau of Labor Statistics series WPUFD4131
 
+Per-file provenance:
+
+| file | source | key required |
+|---|---|---|
+| capex_frames.json      | SEC XBRL frames, PaymentsToAcquirePropertyPlantAndEquipment | no |
+| composition_frames.json| SEC XBRL frames: R&D, buybacks, dividends, operating cash flow | no |
+| financing_frames.json  | SEC XBRL frames: LT debt issued/repaid, cash paid for acquisitions | no |
+| revenue_frames.json    | SEC XBRL frames: 3 revenue tags + continuing-ops cash flow | no |
+| deflator_WPUFD4131.json| BLS PPI final demand, private capital equipment (flat-file archive) | no |
+| employees.json         | Financial Modeling Prep historical-employee-count | yes (not committed) |
+
 No proprietary database is used. `code/build_gate.py` fails the build if any number in the
-manuscript disagrees with `claims.json`.
+manuscript disagrees with `claims.json`. Environment: Python 3.11, matplotlib; LaTeX with
+`elsarticle`, `siunitx`, `tabularx`, `microtype`, `booktabs`, `seqsplit`, `caption`, `lmodern`.
