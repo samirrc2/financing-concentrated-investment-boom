@@ -28,13 +28,13 @@
 \affiliation[a]{organization={Independent researcher}, city={New York}, country={USA}}
 \cortext[cor1]{Corresponding author: Robin Chawla, robin.chawla.cse14@iitbhu.ac.in}
 \begin{abstract}
-Evidence on the external financing of AI infrastructure describes the project margin, which need not
-characterise aggregate investment when spending concentrates among cash-rich firms. Across the 500
-largest U.S. public companies, internal cash coverage of incremental capital expenditure over
-2022--2025 falls from 118\% at the five largest investors to $-7$\% for the remaining 217; the top
-ten account for 52.5\% of the positive increment at 104\% coverage. The gradient is absent in the
-preceding two four-year windows and is therefore not a mechanical consequence of investment
-concentration. We report an accounting decomposition of realised flows, not a causal effect.
+Aggregate financing can differ from that facing the typical investment project when investment is
+concentrated. Among the 500 largest U.S. public companies, incremental operating cash flow covers
+118\% of the 2022--2025 investment increase at the five largest investors and 104\% at the top ten,
+which account for 52.5\% of it, but $-7$\% across the remaining 217 firms. This rank--coverage
+gradient is absent in 2014--2017 and 2018--2021, one of which was more concentrated at the top.
+Evidence on externally financed marginal projects therefore need not characterise the
+investment-weighted aggregate. This is an accounting decomposition, not a causal financing test.
 \end{abstract}
 \begin{keyword}
 investment concentration \sep internal finance \sep artificial intelligence \sep corporate
@@ -44,63 +44,53 @@ investment \sep aggregation
 \end{frontmatter}
 
 \section{Introduction}
-The buildout of artificial-intelligence infrastructure has prompted concern about leverage. Recent
-work documents its financing through private credit, infrastructure funds, off-balance-sheet
-vehicles and hardware-collateralised lending, and asks what the exposures imply for financial
-stability (Van Nieuwerburgh, 2026; Thelisson, 2026; Ledesma Padilla, 2026).
-
-Prior work shows that corporate investment is concentrated and that cash flow matters most for the
-largest investors (Grullon et al., 2018; Gutierrez and Philippon, 2017), and that internal funds and
-investment covary at the firm level, though that covariation's interpretation is debated (Fazzari et
-al., 1988; Kaplan and Zingales, 1997; Myers and Majluf, 1984). We connect these two literatures by
-asking a different question: which firms account for the realised increase in investment during the
-buildout, and how does their incremental internal cash generation compare with that incremental
-investment?
-
-The setting here is extreme: among the
-500 largest U.S. public companies the Herfindahl index of capital expenditure rises from 173 in 2021
-to 309 in 2025, while excluding the five largest spenders it moves only from 95 to 104. Those
+Among the 500 largest U.S. public companies, incremental operating cash flow over 2022--2025 covers
+118\% of the incremental capital expenditure of the five largest investors and 104\% of that of the
+top ten, which account for 52.5\% of the positive increment, but $-7$\% across the remaining 217
+firms with rising investment (Table~\ref{tab:ladder}). Net debt rises correspondingly: those 217
+firms took on \$280 billion of cumulative net new debt, against $-\$3$ billion for the top five. The
 five---Alphabet, Amazon, Oracle, Meta and Microsoft, selected mechanically as those with the largest
-absolute increase in real capital expenditure---account for 67.3\% of the endpoint increase in
-annual capital expenditure between 2021 and 2025, and 38.7\% of cumulative incremental capital
-expenditure over 2022--2025.
+absolute increase in real capital expenditure---carry 38.7\% of that increment on their own.
 
-We find that internal cash coverage is highest at the top of the distribution of incremental
-investment and declines steadily as the sample expands beyond the five largest investors. Cumulating
-incremental flows over 2022--2025, the ratio of incremental operating cash flow to incremental
-capital expenditure runs from 118\% for the top five to $-7$\% for the remaining 217 firms with
-rising investment (Table~\ref{tab:ladder}). Net debt rises alongside investment down the
-distribution: those 217 firms took on \$280 billion of cumulative net new debt, against $-\$3$
-billion for the top five.
+Such a gradient matters because financing evidence gathered at the project margin need not
+characterise the investment-weighted aggregate. Recent work documents the artificial-intelligence
+buildout being financed through private credit, infrastructure funds, off-balance-sheet vehicles and
+hardware-collateralised lending, and asks what the exposures imply for financial stability (Van
+Nieuwerburgh, 2026; Thelisson, 2026; Ledesma Padilla, 2026). That evidence describes particular
+projects and particular firms. Because an aggregate is a capital-expenditure-weighted sum, it is
+dominated by wherever the incremental spending occurred, and here the incremental spending is
+extraordinarily concentrated: the Herfindahl index of capital expenditure within the 500 rises from
+173 in 2021 to 309 in 2025, while excluding the five largest spenders it moves only from 95 to 104.
 
-Our contribution is to document an unusual alignment between investment concentration and internal
-cash generation. During 2022--2025 internal cash coverage is highest among the firms accounting for
-most of the investment increase and declines sharply as the sample expands beyond them. This
-rank--coverage gradient is not a mechanical consequence of concentrated investment: it is absent in
-the preceding two four-year windows, including 2018--2021, when the top-five share of incremental
-investment was higher. Financing evidence at the project or typical-firm margin therefore need not
-characterise the financing of the aggregate boom when investment weights are concentrated
-specifically among high-cash-generation firms. The top ten firms account for 52.5\% of positive
-incremental capital expenditure at 104\% coverage. Unlike Grullon et al. (2018), which estimates how
-cash flow predicts investment, we report an ex-post coverage ratio for one boom, and we interpret the
-exercise as an accounting decomposition of realised flows, not a causal financing test.
+Concentration alone does not produce the gradient. Repeating the same calculation over 2018--2021
+and 2014--2017 gives coverage that is flat or rising across the distribution, with the tail the most
+internally covered group in both, and the 2018--2021 window carries a \emph{higher} top-five share of
+the increase than 2022--2025. What distinguishes the current episode is not that investment became
+concentrated but that it concentrated among firms whose internal cash generation was unusually
+strong relative to their own investment.
+
+That corporate investment is concentrated, and that internal funds and investment covary at the firm
+level, are both established (Grullon et al., 2018; Gutierrez and Philippon, 2017; Fazzari et al.,
+1988; Kaplan and Zingales, 1997; Myers and Majluf, 1984). Our contribution is to document the
+alignment between the two during this boom and to show it is historically unusual. Unlike Grullon
+et al. (2018), which estimates how cash flow predicts investment, we report an ex-post coverage
+ratio for one episode, and we interpret the exercise as an accounting decomposition of realised
+flows, not a causal financing test.
 
 \section{Data and methods}
-Firm-level data come from the SEC's XBRL \emph{frames} interface for 2013--2025. Because filers use
-alternative tags for the same concept, we take the maximum across valid tags for each series; a
-single-tag construction would omit Amazon and 448 other filers, accounting for \$404 billion of
-2025 capital expenditure (\ref{app:tags}). We measure the buildout using total capital expenditure,
-following Board of Governors (2026) and Van Nieuwerburgh (2026).
+Firm-level data are constructed from the SEC's XBRL \emph{frames} interface for 2013--2025 and
+reconciled to the underlying filings; \ref{app:tags} documents the construction, which unions
+alternative tags because a single-tag series would omit Amazon and 448 other filers, and
+\ref{app:recon} the validation. We measure the buildout using total capital expenditure, following
+Board of Governors (2026) and Van Nieuwerburgh (2026).
 
 The universe is the 500 U.S. registrants with the largest fiscal-2024 revenue, combined revenue
 \$19.75 trillion---the Fortune 500's ranking basis, excluding non-filers. Listed firms exclude a growing private segment (Doidge et al., 2017). Figures are deflated to
 2025 dollars using the BLS producer price index for private capital equipment (WPUFD4131).
 
-Two measurement points matter. SEC fiscal-year labels are not calendar years for off-calendar
-filers: Microsoft is June-ending and Oracle May-ending, so Oracle's 2025 observation extends through
-May 2026. We retain the SEC convention. All constructed observations for the five firms reconcile to
-same-period 10-K values; 48 of 49 match the original filing and one matches Meta's restated 2021
-capital expenditure (\ref{app:recon}).
+One measurement point bears on interpretation rather than construction: SEC fiscal-year labels are
+not calendar years for off-calendar filers, so Oracle's 2025 observation extends through May 2026.
+We retain the SEC convention.
 
 The exercise cumulates incremental flows rather than comparing two annual
 observations. For each series $X$ and firm $i$,
@@ -172,10 +162,10 @@ Amazon---so sufficiency is a property of the group aggregate and not of every co
 \ref{app:firm} reports the firm-level decomposition and the leave-one-out calculation.
 
 \subsection{Attribution: AI-exposed firms identified independently}\label{sec:ai}
-The gradient is a fact about corporate investment rather than about AI: the firms at the bottom of
-the distribution are utilities, airlines, pipelines and energy producers, whose borrowing is
-unrelated to compute. Attribution therefore requires identifying AI-exposed firms independently of
-any financing outcome. We score each registrant's most recent 10-K against a dictionary of AI
+The rank--coverage gradient is constructed independently of AI labels; we therefore assess the AI
+interpretation separately, using firms' contemporaneous filings and a measure built without
+reference to any financing outcome. The firms at the bottom of the distribution are utilities,
+airlines, pipelines and energy producers, whose borrowing is unrelated to compute. We score each registrant's most recent 10-K against a dictionary of AI
 terminology fixed before any subsample result was computed, following established practice in
 building firm-level measures from filing text (Loughran and McDonald, 2011; Hoberg and Phillips,
 2016; Ante and Saggu, 2025); details are in \ref{app:dict}. The measure identifies the expected
