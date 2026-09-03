@@ -46,8 +46,8 @@ investment \sep aggregation
 \section{Introduction}
 The buildout of artificial-intelligence infrastructure has prompted concern about leverage. Recent
 work documents its financing through private credit, infrastructure funds, off-balance-sheet
-vehicles and hardware-collateralised lending, and asks what the exposures imply for stability
-(Van Nieuwerburgh, 2026; Thelisson, 2026; Ledesma Padilla, 2026).
+vehicles and hardware-collateralised lending, and asks what the exposures imply for financial
+stability (Van Nieuwerburgh, 2026; Thelisson, 2026; Ledesma Padilla, 2026).
 
 Prior work shows that corporate investment is highly concentrated and that cash flow is especially
 important for the largest investors (Grullon et al., 2018; Gutierrez and Philippon, 2017; Autor et
@@ -59,7 +59,7 @@ buildout, and how does their incremental internal cash generation compare with t
 investment? The aggregate answer differs sharply from the financing pattern of the typical firm,
 because the increase is concentrated among firms whose operating cash flow rose at least as rapidly.
 
-The setting is extreme: among the
+The setting here is extreme: among the
 500 largest U.S. public companies the Herfindahl index of capital expenditure rises from 173 in 2021
 to 309 in 2025, while excluding the five largest spenders it moves only from 95 to 104. Those
 five---Alphabet, Amazon, Oracle, Meta and Microsoft, selected mechanically as those with the largest
@@ -102,7 +102,8 @@ The universe is the 500 U.S. registrants with the largest fiscal-2024 revenue, c
 Two measurement points require statement. The SEC assigns each fiscal year to the calendar year
 containing most of its months, so for off-calendar filers a year label is not a calendar year:
 Microsoft's observations are June-ending years and Oracle's May-ending, so Oracle's 2025 observation
-covers June 2025 to May 2026. We retain the SEC convention, which shifts Oracle's window forward. Second, every constructed observation for the five firms reconciles to a
+covers June 2025 to May 2026. We retain the SEC convention, which shifts Oracle's window forward
+relative to the other four. Second, every constructed observation for the five firms reconciles to a
 10-K value for the same fiscal period: 48 of 49 match the originally filed figure and the 49th
 matches Meta's restated 2021 capital expenditure, which is the value the interface returns
 (\ref{app:recon}).
@@ -139,8 +140,8 @@ claims file.
 \subsection{Coverage declines down the investment distribution}
 Table~\ref{tab:ladder} reports the central result. Ranking the 267 firms with rising investment by
 their cumulative incremental capital expenditure, internal cash coverage peaks at the five largest
-investors and then falls at every successive cut, from 118\% to $-7$\% for the remaining 217, while
-cumulative net new debt rises from $-\$3$ billion to \$280 billion. The top
+investors and then falls at every successive cut, from 118\% for the top five to $-7$\% for the
+remaining 217, while cumulative net new debt rises from $-\$3$ billion to \$280 billion. The top
 ten firms account for 52.5\% of the aggregate increase at a coverage ratio of 104\%.
 
 Coverage is not monotone across the first three cuts: 67\% for the largest single investor and 70\%
@@ -150,10 +151,10 @@ Amazon, ranked fourth and fifth, are at 122\% and 344\%. The decline is a proper
 sample beyond the five largest investors, and that is the claim we make.
 
 The gradient is the mechanism. Aggregate financing structure is a capital-expenditure-weighted
-average of firm-level structures, so an aggregate dominated by a few internally financed firms looks
-internally financed even when most firms in the distribution borrow. Firms with coverage below 50\%
-account for 30.4\% of positive incremental capital expenditure, but not for where the aggregate
-increase occurred.
+average of firm-level financing structures, so an aggregate dominated by a few internally financed
+firms will look internally financed even when most firms in the distribution are borrowing. Firms
+with coverage below 50\% account for 30.4\% of positive incremental capital expenditure, but not for
+where the aggregate increase occurred.
 
 The pattern is not a mechanical consequence of the five focal firms. Excluding them, 34.0\% of
 positive incremental capital expenditure still occurred at firms with coverage at or above 100\%,
@@ -176,23 +177,23 @@ reports the firm-level decomposition and the leave-one-out calculation.
 \subsection{Attribution: AI-exposed firms identified independently}\label{sec:ai}
 The gradient above is a fact about corporate investment rather than about AI: the firms at the
 bottom of the distribution are utilities, airlines, pipelines and energy producers, whose borrowing
-is unrelated to compute. Attribution therefore requires identifying AI-exposed firms
-independently of any financing outcome. We score each registrant's most recent 10-K against a dictionary
+is unrelated to compute. Attribution therefore requires identifying AI-exposed firms without
+reference to any financing outcome. We score each registrant's most recent 10-K against a dictionary
 of AI terminology fixed before any subsample result was computed, following established practice in
 building firm-level measures from filing text (Loughran and McDonald, 2011; Hoberg and Phillips,
 2016; Ante and Saggu, 2025).
-AI intensity is dictionary occurrences per 10{,}000 words (\ref{app:dict}). The
-measure identifies the expected firms without conditioning on industry: the top scores are NVIDIA,
-Amazon, Meta, Advanced Micro Devices, Microsoft, Oracle and Alphabet.
+AI intensity is dictionary occurrences per 10{,}000 words; details are in \ref{app:dict}. The
+measure identifies the expected firms without conditioning on industry: the highest-scoring names
+are NVIDIA, Amazon, Meta, Advanced Micro Devices, Microsoft, Oracle and Alphabet.
 
 Within the top decile of AI intensity (27 firms, \$401 billion of cumulative incremental capital
 expenditure) coverage is 128\% and cumulative net new debt is $-\$24$ billion; at the top-quintile
 cutoff (53 firms) coverage is 138\% (Table~\ref{tab:ladder}, panel B). Coverage exceeds 100\% at
 every cut and net new debt is zero or negative throughout, against $-7$\% and \$280 billion across
 the full distribution, so observed net debt accumulation is concentrated outside the AI-exposed
-group. The five largest investors account for 92.5\% of the top decile's incremental
-capital expenditure, so this corroborates the main result on an independently defined universe
-rather than testing it independently; excluding them, coverage is 248\%.
+group. The five largest investors account for 92.5\% of the top decile's incremental capital
+expenditure, so this corroborates the main result on an independently defined universe rather than
+testing it independently; excluding them, coverage among the remaining 22 firms is 248\%.
 
 \subsection{R\&D and payout}
 The investment increase did not coincide with reduced research: cumulative incremental R\&D at the
@@ -271,11 +272,11 @@ it locates the leverage concern with smaller participants and project-finance st
 with the aggregate. The qualification is temporal: capital expenditure absorbed 70\% of the five
 firms' operating cash flow in 2025 against 31\% in 2017, so the result need not persist.
 
-Two limitations bound the reading. The exercise decomposes realised flows: it establishes that
-incremental internal cash generation exceeded incremental investment, not that particular dollars
-financed particular assets, and identifies no counterfactual. And the universe is large public
-filers, silent on private firms and on the special-purpose vehicles much of the external-financing
-evidence concerns.
+Two limitations bound the reading. The exercise is an accounting decomposition of realised flows: it
+establishes that incremental internal cash generation exceeded incremental investment, not that
+particular dollars financed particular assets, and it does not identify counterfactual firm
+behaviour. And the universe is large public filers, so it is silent on private firms and on the
+special-purpose vehicles that much of the external-financing evidence concerns.
 
 \section*{CRediT authorship contribution statement}
 \textbf{Samir Chincholikar:} Conceptualization, Methodology, Software, Formal analysis,
