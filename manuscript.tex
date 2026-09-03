@@ -139,15 +139,14 @@ Section~\ref{sec:top}: Alphabet, Meta and Oracle lie between 63\% and 79\%, whil
 Amazon, ranked fourth and fifth, are at 122\% and 344\%. The decline is a property of expanding the
 sample beyond the five largest investors, and that is the claim we make.
 
-The gradient is the mechanism. Aggregate financing structure is a capital-expenditure-weighted
-average of firm-level financing structures, so an aggregate dominated by a few internally financed
-firms will look internally financed even when most firms in the distribution are borrowing. Firms
-with coverage below 50\% account for 30.4\% of positive incremental capital expenditure, but not for
-where the aggregate increase occurred.
+The gradient matters for any aggregate statement. Aggregate coverage is a capital-expenditure-weighted
+average of firm-level coverage, so it is determined by where in the distribution the incremental
+spending sits rather than by the typical firm. Firms with coverage below 50\% account for 30.4\% of
+positive incremental capital expenditure.
 
-The gradient is specific to this window. Repeating the calculation over 2018--2021 and 2014--2017
-gives coverage that is flat or rising across the distribution, with the tail the most internally
-covered group (\ref{app:placebo}).
+The gradient is specific to this window. Table~\ref{tab:placebo} repeats the calculation over 2018--2021 and 2014--2017: coverage is flat or rising across the distribution, and the tail is the most internally
+covered group in both. The 2018--2021 window carries a higher top-five share of the increase
+(42.3\%) than 2022--2025 (38.7\%), so concentration alone does not produce the pattern.
 
 The pattern is not a mechanical consequence of the five focal firms. Excluding them, 34.0\% of
 positive incremental capital expenditure still occurred at firms with coverage at or above 100\%,
@@ -231,6 +230,33 @@ of that \$959 billion. Amounts in billions of 2025 dollars, deflated by BLS seri
 intensity is dictionary occurrences per 10{,}000 words of the firm's most recent 10-K, with
 dictionary and cutoffs fixed before any financing result was computed (\ref{app:dict}). On the
 2017--2021 average baseline the top five show coverage of 130\% and net new debt of \$37 billion.
+\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Internal cash coverage by investment rank, earlier four-year windows}
+\label{tab:placebo}
+\small
+\begin{tabular}{l S[table-format=-3.0] S[table-format=-3.0] S[table-format=-3.0]}
+\toprule
+& {2022--25} & {2018--21} & {2014--17} \\
+\midrule
+Top 5           & 118 & 175 & 182 \\
+Top 10          & 104 & 159 & 188 \\
+Top 20          & 84  & 126 & 147 \\
+Top 50          & 55  & 133 & 145 \\
+Remaining firms & -7  & 566 & 262 \\
+\addlinespace[3pt]
+Top-5 share of increase & 38.7 & 42.3 & 21.6 \\
+\bottomrule
+\end{tabular}
+\par\vspace{5pt}
+\begin{minipage}{0.86\linewidth}\footnotesize
+\textit{Notes.} Coverage in percent, computed as in Table~\ref{tab:ladder}, panel A, on the same
+construction and baseline convention. Each window uses its own baseline year (2021, 2017 and 2013)
+and its own sample of firms with positive cumulative incremental capital expenditure over the four
+years following.
 \end{minipage}
 \end{table}
 
@@ -470,27 +496,6 @@ cumulatively on baseline A but rise \$78 billion on baseline B, because 2021 was
 year. A contrast in which the other 495
 firms appear to borrow while their cash flow falls reverses sign entirely across baselines ($-81\%$
 against $411\%$). We draw no conclusions from either.
-
-\section{The gradient in earlier windows}\label{app:placebo}
-Table~\ref{tab:ladder}, panel A, recomputed over two earlier four-year windows on the same
-construction and baseline convention. Coverage in percent.
-\begin{center}\footnotesize
-\begin{tabular}{@{}lrrr@{}}
-\toprule
-Group & 2022--25 & 2018--21 & 2014--17 \\
-\midrule
-Top 5             & $118$ & $175$ & $182$ \\
-Top 10            & $104$ & $159$ & $188$ \\
-Top 20            & $84$  & $126$ & $147$ \\
-Top 50            & $55$  & $133$ & $145$ \\
-Remaining         & $-7$  & $566$ & $262$ \\
-\addlinespace
-Top-5 share of increase (\%) & $38.7$ & $42.3$ & $21.6$ \\
-\bottomrule
-\end{tabular}\end{center}
-\noindent Neither earlier window shows a decline, and in both the tail is the most internally
-covered group. The 2018--2021 window carries a higher top-five share than 2022--2025, so
-concentration alone does not produce the pattern.
 
 \section{Data construction}\label{app:tags}
 Capital expenditure unions \tg{PaymentsToAcquirePropertyPlantAndEquipment} and
