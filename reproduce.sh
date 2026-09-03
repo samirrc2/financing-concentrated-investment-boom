@@ -3,6 +3,6 @@
 set -euo pipefail
 python3 code/make_claims.py      # regenerates claims.json from data/frozen/
 python3 code/build_gate.py       # fails if any manuscript number disagrees with claims.json
-pdflatex -interaction=nonstopmode P28_main.tex >/dev/null
-pdflatex -interaction=nonstopmode P28_main.tex >/dev/null
-echo "OK -> P28_main.pdf"
+pdflatex -interaction=nonstopmode manuscript.tex >/dev/null
+pdflatex -interaction=nonstopmode manuscript.tex >/dev/null
+echo "OK -> manuscript.pdf"

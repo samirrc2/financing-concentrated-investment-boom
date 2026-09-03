@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Every number asserted in the manuscript must reconcile to claims.json."""
 import json,sys
-C=json.load(open("claims.json")); tex=open("P28_main.tex").read()
+C=json.load(open("claims.json")); tex=open("manuscript.tex").read()
 a,r=C["shares"]["ai5"],C["shares"]["rest"]; L=C["levels_bn"]["ai5"]
 rv=C["rev_denom"]["ai5"]; pl=C["placebo"]["ai5"]; con=C["concentration"]; lo=C["loo_range"]
 K=[("universe n",C["universe"]["n"],500),("revenue tn",C["universe"]["rev_fy2024_tn"],19.75),

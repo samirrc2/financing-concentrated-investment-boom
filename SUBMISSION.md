@@ -1,4 +1,4 @@
-# P28 — SUBMISSION CHECKLIST (Economics Letters)
+# Submission checklist — Economics Letters
 
 **Manuscript:** *Financing a Concentrated Investment Boom: Evidence from AI*
 Samir Chincholikar · Robin Chawla · prepared 2026-09-02
@@ -14,7 +14,7 @@ Samir Chincholikar · Robin Chawla · prepared 2026-09-02
 | References | all cited ↔ all listed | **16**, 0 orphans ✓ |
 | JEL codes | present | G31, G32, E22, O32 ✓ |
 | Keywords | 1–7, no "and/of" | 5 ✓ |
-| Source file | .tex, not PDF | `P28_main.tex` ✓ |
+| Source file | .tex, not PDF | `manuscript.tex` ✓ |
 | Declarations | competing interest, funding, GenAI, data, CRediT | all present ✓ |
 | Build | 0 errors, 0 overfull boxes, 0 undefined refs | ✓ |
 | Numbers | every manuscript figure machine-verified | `build_gate.py` **319 assertions, 181 cited, all reconcile** ✓ |
@@ -22,12 +22,11 @@ Samir Chincholikar · Robin Chawla · prepared 2026-09-02
 ## Files to upload
 | File | Role |
 |---|---|
-| `P28_main.tex` | manuscript source (required; PDF is not accepted as source) |
-| `P28_main.pdf` | review copy |
-| `P28_highlights.txt` | highlights (separate item in Editorial Manager) |
+| `manuscript.tex` | manuscript source (required; PDF is not accepted as source) |
+| `manuscript.pdf` | review copy |
+| `highlights.txt` | highlights (separate item in Editorial Manager) |
 | `figures/Figure_1.pdf` | figure, vector |
 | `figures/Figure_1.png` | figure, raster fallback |
-| `P28_SSRN_abstract.txt` | for the optional SSRN preprint |
 
 ## Replication archive (for the data statement / Zenodo)
 | Path | Contents |
@@ -56,7 +55,7 @@ Samir Chincholikar · Robin Chawla · prepared 2026-09-02
 6. The AI-intensity filter admits firms that discuss AI without building infrastructure; disclosed in Appendix D.
 
 ## Author actions before submitting (5)
-1. Add **postal address** to the affiliation (`P28_main.tex`, `\affiliation`).
+1. Add **postal address** to the affiliation (`manuscript.tex`, `\affiliation`).
 2. Supply corresponding-author postal address and phone in Editorial Manager.
 3. Affirm the submission declaration.
 4. Complete the Elsevier declarations tool.
@@ -76,7 +75,7 @@ Checked programmatically against the manuscript source on 2026-09-02.
 | # | EL requirement | Status | Evidence |
 |---|---|---|---|
 | 1 | Letter format, **≤2,000 words excl. references** | ✓ | **1,997** words, Introduction–Conclusion; excludes references, declarations, tables, figures, appendices |
-| 2 | Editable source; PDF not accepted as source | ✓ | `P28_main.tex` supplied; `P28_main.pdf` is the review copy |
+| 2 | Editable source; PDF not accepted as source | ✓ | `manuscript.tex` supplied; `manuscript.pdf` is the review copy |
 | 3 | Single column | ✓ | `elsarticle` `preprint` option |
 | 4 | No strikethrough/underline | ✓ | none present |
 | 5 | One English variety | ✓ | British spelling throughout (`characterise`, `-ised`) |
@@ -95,7 +94,7 @@ Checked programmatically against the manuscript source on 2026-09-02.
 | 10 | Abstract **≤100 words**, self-contained | ✓ | **98** words |
 | 11 | No references or non-standard abbreviations in abstract | ✓ | none |
 | 12 | Keywords 1–7, avoid "and/of" constructions | ✓ | 5 keywords, none using and/of |
-| 13 | **Highlights: separate file, 3–5 bullets, ≤85 characters** | ✓ | `P28_highlights.txt`, 5 bullets, longest **82** characters |
+| 13 | **Highlights: separate file, 3–5 bullets, ≤85 characters** | ✓ | `highlights.txt`, 5 bullets, longest **82** characters |
 | 14 | JEL codes | ✓ | G31, G32, E22, O32 |
 
 ## D. Body, tables, figures
@@ -132,7 +131,7 @@ Checked programmatically against the manuscript source on 2026-09-02.
 | # | Requirement | Status | Evidence |
 |---|---|---|---|
 | 35 | Corresponding author full contact incl. postal and phone | ▲ | supply in Editorial Manager |
-| 36 | All files: manuscript, separate figures, highlights | ✓ | see `P28_SUBMISSION_CHECKLIST.md` |
+| 36 | All files: manuscript, separate figures, highlights | ✓ | see `SUBMISSION_CHECKLIST.md` |
 | 37 | Declarations tool completed at submission | ▲ | complete at submission |
 | 38 | Permissions for third-party material | ✓ | all data public; quotations from 10-Ks are short and attributed |
 | 39 | Submission fee USD 125 (67.50 if eligible) | ▲ | payable at submission |

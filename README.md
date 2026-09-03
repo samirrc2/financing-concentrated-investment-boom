@@ -15,11 +15,9 @@ LaTeX installation with `elsarticle`, `siunitx`, `tabularx`, `microtype` and `bo
 
 | Path | Contents |
 |---|---|
-| `P28_main.tex` / `.pdf` | manuscript source and review copy |
-| `P28_highlights.txt` | Economics Letters highlights (separate upload) |
-| `P28_SSRN_abstract.txt` | plain-text abstract for the optional preprint |
-| `P28_SUBMISSION_CHECKLIST.md` | file list, key numbers, outstanding author actions |
-| `P28_EL_COMPLIANCE.md` | line-by-line audit against the EL Guide for Authors |
+| `manuscript.tex` / `.pdf` | manuscript source and review copy |
+| `highlights.txt` | Economics Letters highlights (separate upload) |
+| `SUBMISSION.md` | checklist, key numbers, Guide-for-Authors audit, author actions |
 | `figures/Figure_1.pdf` / `.png` | figure, vector and raster |
 | `data/frozen/` | frozen source files, read-only |
 | `data/SHA256SUMS.txt` | SHA-256 of every frozen file |
