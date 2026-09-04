@@ -1,7 +1,7 @@
 Highlights
 
-- Internal cash coverage of incremental capex falls from 118% to -7% across firms.
-- The top ten investors made 52.5% of the 2022-2025 increase at 104% coverage.
+- Internal cash coverage of incremental capex falls from 117% to -61% across firms.
+- The top ten investors made 52.8% of the 2022-2025 increase at 102% coverage.
 - Aggregate financing differs from the typical firm when investment concentrates.
-- A pre-specified 10-K measure of AI exposure gives the same qualitative result.
-- Net debt accumulation is concentrated outside the AI-exposed group of firms.
+- The more concentrated 2018-2021 window has the tail as its best-covered group.
+- The gradient survives dropping regulated, extractive and financial firms.

@@ -8,6 +8,7 @@
 \sisetup{table-number-alignment=center}
 \usepackage[hyphens]{url}\usepackage{seqsplit}\usepackage{microtype}
 \usepackage{caption}
+\usepackage{hyperref}
 \captionsetup{font=small,labelfont=bf,skip=6pt}\captionsetup[table]{position=top}
 \setlength{\parskip}{0pt}
 \renewcommand{\arraystretch}{1.08}
@@ -16,17 +17,10 @@
 \newcommand{\tg}[1]{\texttt{\seqsplit{#1}}}
 \sloppy
 \journal{Economics Letters}
+\hypersetup{pdfauthor={},pdftitle={},pdfsubject={},pdfkeywords={},pdfcreator={},pdfproducer={}}
 \begin{document}
 \begin{frontmatter}
 \title{Investment concentration and financing in the AI boom}
-\author[a]{Samir Chincholikar}
-\ead{samir.chincholikar@gmail.com}
-\ead[url]{https://orcid.org/0009-0007-2779-3492}
-\author[a]{Robin Chawla\corref{cor1}}
-\ead{robin.chawla.cse14@iitbhu.ac.in}
-\ead[url]{https://orcid.org/0009-0007-2807-3948}
-\affiliation[a]{organization={Independent researcher}, city={New York}, country={USA}}
-\cortext[cor1]{Corresponding author: Robin Chawla, robin.chawla.cse14@iitbhu.ac.in}
 \begin{abstract}
 Financing conditions at the project margin need not characterise an investment boom when investment
 is concentrated. Among the 500 largest U.S. public companies, incremental operating cash flow covers
@@ -244,11 +238,6 @@ five firms' operating cash flow in 2025 against 31\% in 2017, so internal financ
 sharply over the sample.
 
 
-\section*{CRediT authorship contribution statement}
-\textbf{Samir Chincholikar:} Conceptualization, Methodology, Software, Formal analysis,
-Writing -- original draft. \textbf{Robin Chawla:} Conceptualization, Validation, Writing --
-review \& editing, Supervision.
-
 \section*{Declaration of competing interest}
 The authors declare that they have no known competing financial interests or personal
 relationships that could have appeared to influence the work reported in this paper.
@@ -259,7 +248,7 @@ commercial, or not-for-profit sectors.
 
 \section*{Data availability}
 All code and derived data required to reproduce every table, figure and reported number are
-openly available in the replication archive. The underlying raw data are public: the U.S. SEC
+openly available in the replication archive, withheld during review. The underlying raw data are public: the U.S. SEC
 XBRL \emph{frames} interface and Bureau of Labor Statistics series WPUFD41312.
 
 \section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}

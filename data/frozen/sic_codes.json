@@ -1,0 +1,2502 @@
+{
+"104169": {
+"sic": "5331",
+"desc": "Retail-Variety Stores",
+"name": "Walmart Inc."
+},
+"1018724": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "AMAZON COM INC"
+},
+"731766": {
+"sic": "6324",
+"desc": "Hospital & Medical Service Plans",
+"name": "UNITEDHEALTH GROUP INC"
+},
+"320193": {
+"sic": "3571",
+"desc": "Electronic Computers",
+"name": "Apple Inc."
+},
+"64803": {
+"sic": "5912",
+"desc": "Retail-Drug Stores and Proprietary Stores",
+"name": "CVS HEALTH Corp"
+},
+"1067983": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "BERKSHIRE HATHAWAY INC"
+},
+"927653": {
+"sic": "5122",
+"desc": "Wholesale-Drugs, Proprietaries & Druggists' Sundries",
+"name": "MCKESSON CORP"
+},
+"1652044": {
+"sic": "7370",
+"desc": "Services-Computer Programming, Data Processing, Etc.",
+"name": "Alphabet Inc."
+},
+"34088": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "EXXON MOBIL CORP"
+},
+"1140859": {
+"sic": "5122",
+"desc": "Wholesale-Drugs, Proprietaries & Druggists' Sundries",
+"name": "Cencora, Inc."
+},
+"909832": {
+"sic": "5331",
+"desc": "Retail-Variety Stores",
+"name": "COSTCO WHOLESALE CORP /NEW"
+},
+"1739940": {
+"sic": "6324",
+"desc": "Hospital & Medical Service Plans",
+"name": "Cigna Group"
+},
+"789019": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "MICROSOFT CORP"
+},
+"721371": {
+"sic": "5122",
+"desc": "Wholesale-Drugs, Proprietaries & Druggists' Sundries",
+"name": "CARDINAL HEALTH INC"
+},
+"93410": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "CHEVRON CORP"
+},
+"1467858": {
+"sic": "3711",
+"desc": "Motor Vehicles & Passenger Car Bodies",
+"name": "General Motors Co"
+},
+"37996": {
+"sic": "3711",
+"desc": "Motor Vehicles & Passenger Car Bodies",
+"name": "FORD MOTOR CO"
+},
+"19617": {
+"sic": "6021",
+"desc": "National Commercial Banks",
+"name": "JPMORGAN CHASE & CO"
+},
+"1156039": {
+"sic": "6324",
+"desc": "Hospital & Medical Service Plans",
+"name": "Elevance Health, Inc."
+},
+"1326801": {
+"sic": "7370",
+"desc": "Services-Computer Programming, Data Processing, Etc.",
+"name": "Meta Platforms, Inc."
+},
+"1071739": {
+"sic": "6324",
+"desc": "Hospital & Medical Service Plans",
+"name": "CENTENE CORP"
+},
+"354950": {
+"sic": "5211",
+"desc": "Retail-Lumber & Other Building Materials Dealers",
+"name": "HOME DEPOT, INC."
+},
+"1549802": {
+"sic": "5990",
+"desc": "Retail-Retail Stores, NEC",
+"name": "JD.com, Inc."
+},
+"1618921": {
+"sic": "5912",
+"desc": "Retail-Drug Stores and Proprietary Stores",
+"name": "Walgreens Boots Alliance, Inc."
+},
+"56873": {
+"sic": "5411",
+"desc": "Retail-Grocery Stores",
+"name": "KROGER CO"
+},
+"1534701": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "Phillips 66"
+},
+"1510295": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "Marathon Petroleum Corp"
+},
+"1577552": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "Alibaba Group Holding Ltd"
+},
+"732712": {
+"sic": "4813",
+"desc": "Telephone Communications (No Radiotelephone)",
+"name": "VERIZON COMMUNICATIONS INC"
+},
+"1045810": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "NVIDIA CORP"
+},
+"1035002": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "VALERO ENERGY CORP/TX"
+},
+"1166691": {
+"sic": "4841",
+"desc": "Cable & Other Pay Television Services",
+"name": "COMCAST CORP"
+},
+"732717": {
+"sic": "4813",
+"desc": "Telephone Communications (No Radiotelephone)",
+"name": "AT&T INC."
+},
+"49071": {
+"sic": "6324",
+"desc": "Hospital & Medical Service Plans",
+"name": "HUMANA INC"
+},
+"27419": {
+"sic": "5331",
+"desc": "Retail-Variety Stores",
+"name": "TARGET CORP"
+},
+"70858": {
+"sic": "6021",
+"desc": "National Commercial Banks",
+"name": "BANK OF AMERICA CORP /DE/"
+},
+"913760": {
+"sic": "6200",
+"desc": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+"name": "StoneX Group Inc."
+},
+"1318605": {
+"sic": "3711",
+"desc": "Motor Vehicles & Passenger Car Bodies",
+"name": "Tesla, Inc."
+},
+"1571996": {
+"sic": "3571",
+"desc": "Electronic Computers",
+"name": "Dell Technologies Inc."
+},
+"77476": {
+"sic": "2080",
+"desc": "Beverages",
+"name": "PEPSICO INC"
+},
+"1744489": {
+"sic": "7990",
+"desc": "Services-Miscellaneous Amusement & Recreation",
+"name": "Walt Disney Co"
+},
+"1090727": {
+"sic": "4210",
+"desc": "Trucking & Courier Services (No Air)",
+"name": "UNITED PARCEL SERVICE INC"
+},
+"200406": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "JOHNSON & JOHNSON"
+},
+"1048911": {
+"sic": "4513",
+"desc": "Air Courier Services",
+"name": "FEDEX CORP"
+},
+"7084": {
+"sic": "2070",
+"desc": "Fats & Oils",
+"name": "Archer-Daniels-Midland Co"
+},
+"80424": {
+"sic": "2840",
+"desc": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",
+"name": "PROCTER & GAMBLE Co"
+},
+"60667": {
+"sic": "5211",
+"desc": "Retail-Lumber & Other Building Materials Dealers",
+"name": "LOWES COMPANIES INC"
+},
+"1276187": {
+"sic": "4922",
+"desc": "Natural Gas Transmission",
+"name": "Energy Transfer LP"
+},
+"1283699": {
+"sic": "4812",
+"desc": "Radiotelephone Communications",
+"name": "T-Mobile US, Inc."
+},
+"96021": {
+"sic": "5140",
+"desc": "Wholesale-Groceries & Related Products",
+"name": "SYSCO CORP"
+},
+"101829": {
+"sic": "3724",
+"desc": "Aircraft Engines & Engine Parts",
+"name": "RTX Corp"
+},
+"831001": {
+"sic": "6021",
+"desc": "National Commercial Banks",
+"name": "CITIGROUP INC"
+},
+"1646972": {
+"sic": "5411",
+"desc": "Retail-Grocery Stores",
+"name": "Albertsons Companies, Inc."
+},
+"80661": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "PROGRESSIVE CORP/OH/"
+},
+"936468": {
+"sic": "3760",
+"desc": "Guided Missiles & Space Vehicles & Parts",
+"name": "LOCKHEED MARTIN CORP"
+},
+"1099219": {
+"sic": "6311",
+"desc": "Life Insurance",
+"name": "METLIFE INC"
+},
+"860730": {
+"sic": "8062",
+"desc": "Services-General Medical & Surgical Hospitals, NEC",
+"name": "HCA Healthcare, Inc."
+},
+"1137774": {
+"sic": "6311",
+"desc": "Life Insurance",
+"name": "PRUDENTIAL FINANCIAL INC"
+},
+"12927": {
+"sic": "3721",
+"desc": "Aircraft",
+"name": "BOEING CO"
+},
+"1467373": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "Accenture plc"
+},
+"18230": {
+"sic": "3531",
+"desc": "Construction Machinery & Equip",
+"name": "CATERPILLAR INC"
+},
+"310158": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "Merck & Co., Inc."
+},
+"899051": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "ALLSTATE CORP"
+},
+"78003": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "PFIZER INC"
+},
+"1618673": {
+"sic": "5141",
+"desc": "Wholesale-Groceries, General Line",
+"name": "Performance Food Group Co"
+},
+"51143": {
+"sic": "3570",
+"desc": "Computer & office Equipment",
+"name": "INTERNATIONAL BUSINESS MACHINES CORP"
+},
+"27904": {
+"sic": "4512",
+"desc": "Air Transportation, Scheduled",
+"name": "DELTA AIR LINES, INC."
+},
+"81061": {
+"sic": "5411",
+"desc": "Retail-Grocery Stores",
+"name": "PUBLIX SUPER MARKETS INC"
+},
+"1177394": {
+"sic": "5045",
+"desc": "Wholesale-Computers & Peripheral Equipment & Software",
+"name": "TD SYNNEX CORP"
+},
+"1341439": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "ORACLE CORP"
+},
+"100517": {
+"sic": "4512",
+"desc": "Air Transportation, Scheduled",
+"name": "United Airlines Holdings, Inc."
+},
+"109198": {
+"sic": "5651",
+"desc": "Retail-Family Clothing Stores",
+"name": "TJX COMPANIES INC /DE/"
+},
+"1551152": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "AbbVie Inc."
+},
+"1061219": {
+"sic": "4922",
+"desc": "Natural Gas Transmission",
+"name": "ENTERPRISE PRODUCTS PARTNERS L.P."
+},
+"896159": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "Chubb Ltd"
+},
+"1091667": {
+"sic": "4841",
+"desc": "Cable & Other Pay Television Services",
+"name": "CHARTER COMMUNICATIONS, INC. /MO/"
+},
+"1271833": {
+"sic": "4841",
+"desc": "Cable & Other Pay Television Services",
+"name": "CCO HOLDINGS LLC"
+},
+"1163165": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "CONOCOPHILLIPS"
+},
+"6201": {
+"sic": "4512",
+"desc": "Air Transportation, Scheduled",
+"name": "American Airlines Group Inc."
+},
+"1855447": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "TIGO ENERGY, INC."
+},
+"1737806": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "PDD Holdings Inc."
+},
+"858877": {
+"sic": "3576",
+"desc": "Computer Communications Equipment",
+"name": "CISCO SYSTEMS, INC."
+},
+"47217": {
+"sic": "3570",
+"desc": "Computer & office Equipment",
+"name": "HP INC"
+},
+"100493": {
+"sic": "2015",
+"desc": "Poultry Slaughtering and Processing",
+"name": "TYSON FOODS, INC."
+},
+"1996862": {
+"sic": "2070",
+"desc": "Fats & Oils",
+"name": "Bunge Global SA"
+},
+"50863": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "INTEL CORP"
+},
+"315189": {
+"sic": "3523",
+"desc": "Farm Machinery & Equipment",
+"name": "DEERE & CO"
+},
+"1730168": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "Broadcom Inc."
+},
+"1070423": {
+"sic": "4610",
+"desc": "Pipe Lines (No Natural Gas)",
+"name": "PLAINS ALL AMERICAN PIPELINE LP"
+},
+"1581990": {
+"sic": "4610",
+"desc": "Pipe Lines (No Natural Gas)",
+"name": "PLAINS GP HOLDINGS LP"
+},
+"14272": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "BRISTOL MYERS SQUIBB CO"
+},
+"1897762": {
+"sic": "5045",
+"desc": "Wholesale-Computers & Peripheral Equipment & Software",
+"name": "Ingram Micro Holding Corp"
+},
+"40533": {
+"sic": "3730",
+"desc": "Ship & Boat Building & Repairing",
+"name": "GENERAL DYNAMICS CORP"
+},
+"21344": {
+"sic": "2080",
+"desc": "Beverages",
+"name": "COCA COLA CO"
+},
+"86312": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "TRAVELERS COMPANIES, INC."
+},
+"320187": {
+"sic": "3021",
+"desc": "Rubber & Plastics Footwear",
+"name": "NIKE, Inc."
+},
+"59478": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "ELI LILLY & Co"
+},
+"1543151": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "Uber Technologies, Inc"
+},
+"1751788": {
+"sic": "2821",
+"desc": "Plastic Materials, Synth Resins & Nonvulcan Elastomers",
+"name": "DOW INC."
+},
+"97745": {
+"sic": "3829",
+"desc": "Measuring & Controlling Devices, NEC",
+"name": "THERMO FISHER SCIENTIFIC INC."
+},
+"749098": {
+"sic": "3714",
+"desc": "Motor Vehicle Parts & Accessories",
+"name": "MAGNA INTERNATIONAL INC"
+},
+"1859392": {
+"sic": "6211",
+"desc": "Security Brokers, Dealers & Flotation Companies",
+"name": "Galaxy Digital Inc."
+},
+"789460": {
+"sic": "5172",
+"desc": "Wholesale-Petroleum & Petroleum Products (No Bulk Stations)",
+"name": "WORLD KINECT CORP"
+},
+"1800": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "ABBOTT LABORATORIES"
+},
+"937834": {
+"sic": "6311",
+"desc": "Life Insurance",
+"name": "METROPOLITAN LIFE INSURANCE CO"
+},
+"764478": {
+"sic": "5731",
+"desc": "Retail-Radio, Tv & Consumer Electronics Stores",
+"name": "BEST BUY CO INC"
+},
+"1133421": {
+"sic": "3812",
+"desc": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+"name": "NORTHROP GRUMMAN CORP /DE/"
+},
+"1179929": {
+"sic": "6324",
+"desc": "Hospital & Medical Service Plans",
+"name": "MOLINA HEALTHCARE, INC."
+},
+"29534": {
+"sic": "5331",
+"desc": "Retail-Variety Stores",
+"name": "DOLLAR GENERAL CORP"
+},
+"1437107": {
+"sic": "4841",
+"desc": "Cable & Other Pay Television Services",
+"name": "Warner Bros. Discovery, Inc."
+},
+"823277": {
+"sic": "5150",
+"desc": "Wholesale-Farm Product Raw Materials",
+"name": "CHS INC"
+},
+"927628": {
+"sic": "6021",
+"desc": "National Commercial Banks",
+"name": "CAPITAL ONE FINANCIAL CORP"
+},
+"1065280": {
+"sic": "7841",
+"desc": "Services-Video Tape Rental",
+"name": "NETFLIX INC"
+},
+"804328": {
+"sic": "3663",
+"desc": "Radio & Tv Broadcasting & Communications Equipment",
+"name": "QUALCOMM INC/DE"
+},
+"4962": {
+"sic": "6199",
+"desc": "Finance Services",
+"name": "AMERICAN EXPRESS CO"
+},
+"40545": {
+"sic": "3600",
+"desc": "Electronic & Other Electrical Equipment (No Computer Equip)",
+"name": "GENERAL ELECTRIC CO"
+},
+"1108524": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "Salesforce, Inc."
+},
+"1413329": {
+"sic": "2111",
+"desc": "Cigarettes",
+"name": "Philip Morris International Inc."
+},
+"1665918": {
+"sic": "5140",
+"desc": "Wholesale-Groceries & Related Products",
+"name": "US Foods Holding Corp."
+},
+"882184": {
+"sic": "1531",
+"desc": "Operative Builders",
+"name": "HORTON D R INC /DE/"
+},
+"1103982": {
+"sic": "2000",
+"desc": "Food and Kindred Products",
+"name": "Mondelez International, Inc."
+},
+"87347": {
+"sic": "1389",
+"desc": "Oil & Gas Field Services, NEC",
+"name": "SLB LIMITED/NV"
+},
+"1023128": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "LITHIA MOTORS INC"
+},
+"829224": {
+"sic": "5810",
+"desc": "Retail-Eating & Drinking Places",
+"name": "STARBUCKS CORP"
+},
+"1403161": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "VISA INC."
+},
+"1138118": {
+"sic": "6500",
+"desc": "Real Estate",
+"name": "CBRE GROUP, INC."
+},
+"849395": {
+"sic": "3241",
+"desc": "Cement, Hydraulic",
+"name": "CRH PUBLIC LTD CO"
+},
+"920760": {
+"sic": "1520",
+"desc": "General Bldg Contractors - Residential Bldgs",
+"name": "LENNAR CORP /NEW/"
+},
+"1996810": {
+"sic": "3600",
+"desc": "Electronic & Other Electrical Equipment (No Computer Equip)",
+"name": "GE Vernova Inc."
+},
+"773840": {
+"sic": "3724",
+"desc": "Aircraft Engines & Engine Parts",
+"name": "HONEYWELL INTERNATIONAL INC"
+},
+"26172": {
+"sic": "3510",
+"desc": "Engines & Turbines",
+"name": "CUMMINS INC"
+},
+"75362": {
+"sic": "3711",
+"desc": "Motor Vehicles & Passenger Car Bodies",
+"name": "PACCAR INC"
+},
+"1613103": {
+"sic": "3845",
+"desc": "Electromedical & Electrotherapeutic Apparatus",
+"name": "Medtronic plc"
+},
+"318154": {
+"sic": "2836",
+"desc": "Biological Products, (No Diagnostic Substances)",
+"name": "AMGEN INC"
+},
+"1489393": {
+"sic": "2860",
+"desc": "Industrial Organic Chemicals",
+"name": "LyondellBasell Industries N.V."
+},
+"1534504": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "PBF Energy Inc."
+},
+"1566011": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "PBF Holding Co LLC"
+},
+"1707925": {
+"sic": "2810",
+"desc": "Industrial Inorganic Chemicals",
+"name": "LINDE PLC"
+},
+"1019849": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "PENSKE AUTOMOTIVE GROUP, INC."
+},
+"1633917": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "PayPal Holdings, Inc."
+},
+"1020859": {
+"sic": "5141",
+"desc": "Wholesale-Groceries, General Line",
+"name": "UNITED NATURAL FOODS INC"
+},
+"73309": {
+"sic": "3312",
+"desc": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",
+"name": "NUCOR CORP"
+},
+"1834584": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "Coupang, Inc."
+},
+"1645590": {
+"sic": "3570",
+"desc": "Computer & office Equipment",
+"name": "Hewlett Packard Enterprise Co"
+},
+"1326160": {
+"sic": "4931",
+"desc": "Electric & Other Services Combined",
+"name": "Duke Energy CORP"
+},
+"2011641": {
+"sic": "5070",
+"desc": "Wholesale-Hardware & Plumbing & Heating Equipment & Supplies",
+"name": "Ferguson Enterprises Inc. /DE/"
+},
+"813828": {
+"sic": "4833",
+"desc": "Television Broadcasting Stations",
+"name": "Paramount Global"
+},
+"2041610": {
+"sic": "4833",
+"desc": "Television Broadcasting Stations",
+"name": "Paramount Skydance Corp"
+},
+"898293": {
+"sic": "3672",
+"desc": "Printed Circuit Boards",
+"name": "JABIL INC"
+},
+"882095": {
+"sic": "2836",
+"desc": "Biological Products, (No Diagnostic Substances)",
+"name": "GILEAD SCIENCES, INC."
+},
+"1915657": {
+"sic": "4610",
+"desc": "Pipe Lines (No Natural Gas)",
+"name": "HF Sinclair Corp"
+},
+"1141391": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "Mastercard Inc"
+},
+"1013871": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "NRG ENERGY, INC."
+},
+"7536": {
+"sic": "5065",
+"desc": "Wholesale-Electronic Parts & Equipment, NEC",
+"name": "ARROW ELECTRONICS, INC."
+},
+"1701605": {
+"sic": "3533",
+"desc": "Oil & Gas Field Machinery & Equipment",
+"name": "Baker Hughes Co"
+},
+"92380": {
+"sic": "4512",
+"desc": "Air Transportation, Scheduled",
+"name": "SOUTHWEST AIRLINES CO"
+},
+"36104": {
+"sic": "6021",
+"desc": "National Commercial Banks",
+"name": "US BANCORP \\DE\\"
+},
+"5272": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "AMERICAN INTERNATIONAL GROUP, INC."
+},
+"6951": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "APPLIED MATERIALS INC /DE"
+},
+"350698": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "AUTONATION, INC."
+},
+"92122": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "SOUTHERN CO"
+},
+"874766": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "HARTFORD INSURANCE GROUP, INC."
+},
+"1170010": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "CARMAX INC"
+},
+"1858681": {
+"sic": "6282",
+"desc": "Investment Advice",
+"name": "Apollo Global Management, Inc."
+},
+"63908": {
+"sic": "5812",
+"desc": "Retail-Eating  Places",
+"name": "MCDONALDS CORP"
+},
+"1081316": {
+"sic": "4900",
+"desc": "Electric, Gas & Sanitary Services",
+"name": "BERKSHIRE HATHAWAY ENERGY CO"
+},
+"1637459": {
+"sic": "2030",
+"desc": "Canned, Frozen & Preservd Fruit, Veg & Food Specialties",
+"name": "Kraft Heinz Co"
+},
+"866374": {
+"sic": "3672",
+"desc": "Printed Circuit Boards",
+"name": "FLEX LTD."
+},
+"2488": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "ADVANCED MICRO DEVICES INC"
+},
+"1144967": {
+"sic": "6029",
+"desc": "Commercial Banks, NEC",
+"name": "HDFC BANK LTD"
+},
+"2046386": {
+"sic": "3841",
+"desc": "Surgical & Medical Instruments & Apparatus",
+"name": "Medline Inc."
+},
+"831259": {
+"sic": "1000",
+"desc": "Metal Mining",
+"name": "FREEPORT-MCMORAN INC"
+},
+"723125": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "MICRON TECHNOLOGY INC"
+},
+"1048286": {
+"sic": "7011",
+"desc": "Hotels & Motels",
+"name": "MARRIOTT INTERNATIONAL INC /MD/"
+},
+"815097": {
+"sic": "4400",
+"desc": "Water Transportation",
+"name": "Carnival Corp Ltd."
+},
+"1551182": {
+"sic": "3590",
+"desc": "Misc Industrial & Commercial Machinery & Equipment",
+"name": "Eaton Corp plc"
+},
+"66740": {
+"sic": "3841",
+"desc": "Surgical & Medical Instruments & Apparatus",
+"name": "3M CO"
+},
+"62709": {
+"sic": "6411",
+"desc": "Insurance Agents, Brokers & Service",
+"name": "MARSH & MCLENNAN COMPANIES, INC."
+},
+"1004980": {
+"sic": "4931",
+"desc": "Electric & Other Services Combined",
+"name": "PG&E Corp"
+},
+"100885": {
+"sic": "4011",
+"desc": "Railroads, Line-Haul Operating",
+"name": "UNION PACIFIC CORP"
+},
+"1512673": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "Block, Inc."
+},
+"764180": {
+"sic": "2111",
+"desc": "Cigarettes",
+"name": "ALTRIA GROUP, INC."
+},
+"313616": {
+"sic": "3823",
+"desc": "Industrial Instruments For Measurement, Display, and Control",
+"name": "DANAHER CORP /DE/"
+},
+"1075531": {
+"sic": "4700",
+"desc": "Transportation Services",
+"name": "Booking Holdings Inc."
+},
+"821189": {
+"sic": "1311",
+"desc": "Crude Petroleum & Natural Gas",
+"name": "EOG RESOURCES INC"
+},
+"1050915": {
+"sic": "1731",
+"desc": "Electrical Work",
+"name": "QUANTA SERVICES, INC."
+},
+"1868275": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "Constellation Energy Corp"
+},
+"753308": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "NEXTERA ENERGY INC"
+},
+"40987": {
+"sic": "5013",
+"desc": "Wholesale-Motor Vehicle Supplies & New Parts",
+"name": "GENUINE PARTS CO"
+},
+"934612": {
+"sic": "4011",
+"desc": "Railroads, Line-Haul Operating",
+"name": "BURLINGTON NORTHERN SANTA FE, LLC"
+},
+"1037976": {
+"sic": "6531",
+"desc": "Real Estate Agents & Managers (For Others)",
+"name": "JONES LANG LASALLE INC"
+},
+"842162": {
+"sic": "3714",
+"desc": "Motor Vehicle Parts & Accessories",
+"name": "LEAR CORP"
+},
+"1335258": {
+"sic": "7900",
+"desc": "Services-Amusement & Recreation Services",
+"name": "Live Nation Entertainment, Inc."
+},
+"89800": {
+"sic": "5200",
+"desc": "Retail-Building Materials, Hardware, Garden Supply",
+"name": "SHERWIN WILLIAMS CO"
+},
+"1109357": {
+"sic": "4931",
+"desc": "Electric & Other Services Combined",
+"name": "EXELON CORP"
+},
+"1809616": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "Universe Pharmaceuticals INC"
+},
+"794367": {
+"sic": "5311",
+"desc": "Retail-Department Stores",
+"name": "Macy's, Inc."
+},
+"833444": {
+"sic": "3585",
+"desc": "Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip",
+"name": "Johnson Controls International plc"
+},
+"45012": {
+"sic": "1389",
+"desc": "Oil & Gas Field Services, NEC",
+"name": "HALLIBURTON CO"
+},
+"797468": {
+"sic": "1311",
+"desc": "Crude Petroleum & Natural Gas",
+"name": "OCCIDENTAL PETROLEUM CORP /DE/"
+},
+"1552275": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "Sunoco LP"
+},
+"2089661": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "SunocoCorp LLC"
+},
+"310764": {
+"sic": "3841",
+"desc": "Surgical & Medical Instruments & Apparatus",
+"name": "STRYKER CORP"
+},
+"1783180": {
+"sic": "3585",
+"desc": "Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip",
+"name": "CARRIER GLOBAL Corp"
+},
+"8858": {
+"sic": "5065",
+"desc": "Wholesale-Electronic Parts & Equipment, NEC",
+"name": "AVNET INC"
+},
+"898174": {
+"sic": "6311",
+"desc": "Life Insurance",
+"name": "REINSURANCE GROUP OF AMERICA INC"
+},
+"823768": {
+"sic": "4953",
+"desc": "Refuse Systems",
+"name": "WASTE MANAGEMENT INC"
+},
+"1404912": {
+"sic": "6282",
+"desc": "Investment Advice",
+"name": "KKR & Co. Inc."
+},
+"929008": {
+"sic": "5063",
+"desc": "Wholesale-Electrical Apparatus & Equipment, Wiring Supplies ",
+"name": "WESCO INTERNATIONAL INC"
+},
+"1039684": {
+"sic": "4923",
+"desc": "Natural Gas Transmisison & Distribution",
+"name": "ONEOK INC /NEW/"
+},
+"713676": {
+"sic": "6021",
+"desc": "National Commercial Banks",
+"name": "PNC FINANCIAL SERVICES GROUP, INC."
+},
+"796343": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "ADOBE INC."
+},
+"202058": {
+"sic": "3812",
+"desc": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+"name": "L3HARRIS TECHNOLOGIES, INC. /DE/"
+},
+"745732": {
+"sic": "5651",
+"desc": "Retail-Family Clothing Stores",
+"name": "ROSS STORES, INC."
+},
+"2005951": {
+"sic": "2650",
+"desc": "Paperboard Containers & Boxes",
+"name": "Smurfit Westrock plc"
+},
+"1402057": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "CDW Corp"
+},
+"1099590": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "MERCADOLIBRE INC"
+},
+"1527469": {
+"sic": "6311",
+"desc": "Life Insurance",
+"name": "Athene Holding Ltd."
+},
+"70318": {
+"sic": "8062",
+"desc": "Services-General Medical & Surgical Hospitals, NEC",
+"name": "TENET HEALTHCARE CORP"
+},
+"1531152": {
+"sic": "5331",
+"desc": "Retail-Variety Stores",
+"name": "BJ's Wholesale Club Holdings, Inc."
+},
+"798354": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "FISERV INC"
+},
+"2012383": {
+"sic": "6211",
+"desc": "Security Brokers, Dealers & Flotation Companies",
+"name": "BlackRock, Inc."
+},
+"1573516": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "Murphy USA Inc."
+},
+"10795": {
+"sic": "3841",
+"desc": "Surgical & Medical Instruments & Apparatus",
+"name": "BECTON DICKINSON & CO"
+},
+"21665": {
+"sic": "2844",
+"desc": "Perfumes, Cosmetics & Other Toilet Preparations",
+"name": "COLGATE PALMOLIVE CO"
+},
+"4904": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "AMERICAN ELECTRIC POWER CO INC"
+},
+"1031203": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "GROUP 1 AUTOMOTIVE INC"
+},
+"76334": {
+"sic": "3490",
+"desc": "Miscellaneous Fabricated Metal Products",
+"name": "Parker-Hannifin Corp"
+},
+"1466258": {
+"sic": "3822",
+"desc": "Auto Controls For Regulating Residential & Comml Environments",
+"name": "Trane Technologies plc"
+},
+"1567094": {
+"sic": "3531",
+"desc": "Construction Machinery & Equip",
+"name": "CNH Industrial N.V."
+},
+"1791706": {
+"sic": "3711",
+"desc": "Motor Vehicles & Passenger Car Bodies",
+"name": "Li Auto Inc."
+},
+"1058290": {
+"sic": "7371",
+"desc": "Services-Computer Programming Services",
+"name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP"
+},
+"1521332": {
+"sic": "3714",
+"desc": "Motor Vehicle Parts & Accessories",
+"name": "Aptiv PLC"
+},
+"1932393": {
+"sic": "3844",
+"desc": "X-Ray Apparatus & Tubes & Related Irradiation Apparatus",
+"name": "GE HealthCare Technologies Inc."
+},
+"316709": {
+"sic": "6211",
+"desc": "Security Brokers, Dealers & Flotation Companies",
+"name": "SCHWAB CHARLES CORP"
+},
+"40704": {
+"sic": "2040",
+"desc": "Grain Mill Products",
+"name": "GENERAL MILLS INC"
+},
+"8670": {
+"sic": "7374",
+"desc": "Services-Computer Processing & Data Preparation",
+"name": "AUTOMATIC DATA PROCESSING INC"
+},
+"764065": {
+"sic": "1000",
+"desc": "Metal Mining",
+"name": "CLEVELAND-CLIFFS INC."
+},
+"4977": {
+"sic": "6321",
+"desc": "Accident & Health Insurance",
+"name": "AFLAC INC"
+},
+"42582": {
+"sic": "3011",
+"desc": "Tires & Inner Tubes",
+"name": "GOODYEAR TIRE & RUBBER CO /OH/"
+},
+"1889539": {
+"sic": "6311",
+"desc": "Life Insurance",
+"name": "Corebridge Financial, Inc."
+},
+"1164727": {
+"sic": "1040",
+"desc": "Gold and Silver Ores",
+"name": "NEWMONT Corp /DE/"
+},
+"1390777": {
+"sic": "6022",
+"desc": "State Commercial Banks",
+"name": "Bank of New York Mellon Corp"
+},
+"866787": {
+"sic": "5531",
+"desc": "Retail-Auto & Home Supply Stores",
+"name": "AUTOZONE INC"
+},
+"59558": {
+"sic": "6311",
+"desc": "Life Insurance",
+"name": "LINCOLN NATIONAL CORP"
+},
+"707549": {
+"sic": "3559",
+"desc": "Special Industry Machinery, NEC",
+"name": "LAM RESEARCH CORP"
+},
+"1060391": {
+"sic": "4953",
+"desc": "Refuse Systems",
+"name": "REPUBLIC SERVICES, INC."
+},
+"1329099": {
+"sic": "7370",
+"desc": "Services-Computer Programming, Data Processing, Etc.",
+"name": "Baidu, Inc."
+},
+"822416": {
+"sic": "1531",
+"desc": "Operative Builders",
+"name": "PULTEGROUP INC/MI/"
+},
+"820027": {
+"sic": "6282",
+"desc": "Investment Advice",
+"name": "AMERIPRISE FINANCIAL INC"
+},
+"802481": {
+"sic": "2015",
+"desc": "Poultry Slaughtering and Processing",
+"name": "PILGRIMS PRIDE CORP"
+},
+"871763": {
+"sic": "7363",
+"desc": "Services-Help Supply Services",
+"name": "ManpowerGroup Inc."
+},
+"1043277": {
+"sic": "4731",
+"desc": "Arrangement of  Transportation of  Freight & Cargo",
+"name": "C. H. ROBINSON WORLDWIDE, INC."
+},
+"827052": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "EDISON INTERNATIONAL"
+},
+"935703": {
+"sic": "5331",
+"desc": "Retail-Variety Stores",
+"name": "DOLLAR TREE, INC."
+},
+"1022671": {
+"sic": "3312",
+"desc": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",
+"name": "STEEL DYNAMICS INC"
+},
+"60086": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "LOEWS CORP"
+},
+"32604": {
+"sic": "3600",
+"desc": "Electronic & Other Electrical Equipment (No Computer Equip)",
+"name": "EMERSON ELECTRIC CO"
+},
+"947484": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "ARCH CAPITAL GROUP LTD."
+},
+"1584509": {
+"sic": "5812",
+"desc": "Retail-Eating  Places",
+"name": "Aramark"
+},
+"1095073": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "EVEREST GROUP, LTD."
+},
+"789570": {
+"sic": "7011",
+"desc": "Hotels & Motels",
+"name": "MGM Resorts International"
+},
+"1692819": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "Vistra Corp."
+},
+"1144980": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "ASBURY AUTOMOTIVE GROUP INC"
+},
+"277135": {
+"sic": "5000",
+"desc": "Wholesale-Durable Goods",
+"name": "W.W. GRAINGER, INC."
+},
+"1323468": {
+"sic": "5171",
+"desc": "Wholesale-Petroleum Bulk Stations & Terminals",
+"name": "GLOBAL PARTNERS LP"
+},
+"1304280": {
+"sic": "3350",
+"desc": "Rolling Drawing & Extruding of  Nonferrous Metals",
+"name": "Novelis Inc."
+},
+"1755672": {
+"sic": "0100",
+"desc": "Agricultural Production-Crops",
+"name": "Corteva, Inc."
+},
+"1703399": {
+"sic": "7380",
+"desc": "Services-Miscellaneous Business Services",
+"name": "Sea Ltd"
+},
+"55785": {
+"sic": "2670",
+"desc": "Converted Paper & Paperboard Prods (No Contaners/Boxes)",
+"name": "KIMBERLY CLARK CORP"
+},
+"885725": {
+"sic": "3841",
+"desc": "Surgical & Medical Instruments & Apparatus",
+"name": "BOSTON SCIENTIFIC CORP"
+},
+"898173": {
+"sic": "5531",
+"desc": "Retail-Auto & Home Supply Stores",
+"name": "O REILLY AUTOMOTIVE INC"
+},
+"1336920": {
+"sic": "7373",
+"desc": "Services-Computer Integrated Systems Design",
+"name": "Leidos Holdings, Inc."
+},
+"106640": {
+"sic": "3630",
+"desc": "Household Appliances",
+"name": "WHIRLPOOL CORP /DE/"
+},
+"818686": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "TEVA PHARMACEUTICAL INDUSTRIES LTD"
+},
+"884887": {
+"sic": "4400",
+"desc": "Water Transportation",
+"name": "ROYAL CARIBBEAN CRUISES LTD"
+},
+"1316835": {
+"sic": "5211",
+"desc": "Retail-Lumber & Other Building Materials Dealers",
+"name": "Builders FirstSource, Inc."
+},
+"1389170": {
+"sic": "4922",
+"desc": "Natural Gas Transmission",
+"name": "Targa Resources Corp."
+},
+"1124198": {
+"sic": "1600",
+"desc": "Heavy Construction Other Than Bldg Const - Contractors",
+"name": "FLUOR CORP"
+},
+"896878": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "INTUIT INC."
+},
+"815917": {
+"sic": "6211",
+"desc": "Security Brokers, Dealers & Flotation Companies",
+"name": "JONES FINANCIAL COMPANIES LLLP"
+},
+"885639": {
+"sic": "5311",
+"desc": "Retail-Department Stores",
+"name": "KOHLS Corp"
+},
+"1126328": {
+"sic": "6321",
+"desc": "Accident & Health Insurance",
+"name": "PRINCIPAL FINANCIAL GROUP INC"
+},
+"868857": {
+"sic": "8711",
+"desc": "Services-Engineering Services",
+"name": "AECOM"
+},
+"726958": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "CASEYS GENERAL STORES INC"
+},
+"1090012": {
+"sic": "1311",
+"desc": "Crude Petroleum & Natural Gas",
+"name": "DEVON ENERGY CORP/DE"
+},
+"49826": {
+"sic": "3560",
+"desc": "General Industrial Machinery & Equipment",
+"name": "ILLINOIS TOOL WORKS INC"
+},
+"804269": {
+"sic": "6199",
+"desc": "Finance Services",
+"name": "General Motors Financial Company, Inc."
+},
+"79879": {
+"sic": "2851",
+"desc": "Paints, Varnishes, Lacquers, Enamels & Allied Prods",
+"name": "PPG INDUSTRIES INC"
+},
+"1385157": {
+"sic": "5065",
+"desc": "Wholesale-Electronic Parts & Equipment, NEC",
+"name": "TE Connectivity plc"
+},
+"51434": {
+"sic": "2621",
+"desc": "Paper Mills",
+"name": "INTERNATIONAL PAPER CO /NEW/"
+},
+"352915": {
+"sic": "8062",
+"desc": "Services-General Medical & Surgical Hospitals, NEC",
+"name": "UNIVERSAL HEALTH SERVICES INC"
+},
+"1415404": {
+"sic": "4899",
+"desc": "Communications Services, NEC",
+"name": "EchoStar CORP"
+},
+"31462": {
+"sic": "2840",
+"desc": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",
+"name": "ECOLAB INC."
+},
+"3570": {
+"sic": "4924",
+"desc": "Natural Gas Distribution",
+"name": "Cheniere Energy, Inc."
+},
+"315293": {
+"sic": "6411",
+"desc": "Insurance Agents, Brokers & Service",
+"name": "Aon plc"
+},
+"29989": {
+"sic": "7311",
+"desc": "Services-Advertising Agencies",
+"name": "OMNICOM GROUP INC."
+},
+"97476": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "TEXAS INSTRUMENTS INC"
+},
+"1163302": {
+"sic": "3312",
+"desc": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",
+"name": "UNITED STATES STEEL CORP"
+},
+"1001250": {
+"sic": "2844",
+"desc": "Perfumes, Cosmetics & Other Toilet Preparations",
+"name": "ESTEE LAUDER COMPANIES INC"
+},
+"1047862": {
+"sic": "4931",
+"desc": "Electric & Other Services Combined",
+"name": "CONSOLIDATED EDISON INC"
+},
+"1944048": {
+"sic": "2844",
+"desc": "Perfumes, Cosmetics & Other Toilet Preparations",
+"name": "Kenvue Inc."
+},
+"1478242": {
+"sic": "8731",
+"desc": "Services-Commercial Physical & Biological Research",
+"name": "IQVIA HOLDINGS INC."
+},
+"93556": {
+"sic": "3420",
+"desc": "Cutlery, Handtools & General Hardware",
+"name": "STANLEY BLACK & DECKER, INC."
+},
+"1418135": {
+"sic": "2080",
+"desc": "Beverages",
+"name": "Keurig Dr Pepper Inc."
+},
+"1067701": {
+"sic": "7359",
+"desc": "Services-Equipment Rental & Leasing, NEC",
+"name": "UNITED RENTALS, INC."
+},
+"820313": {
+"sic": "3678",
+"desc": "Electronic Connectors",
+"name": "AMPHENOL CORP /DE/"
+},
+"1506307": {
+"sic": "4922",
+"desc": "Natural Gas Transmission",
+"name": "KINDER MORGAN, INC."
+},
+"39911": {
+"sic": "5651",
+"desc": "Retail-Family Clothing Stores",
+"name": "GAP INC"
+},
+"1867072": {
+"sic": "7373",
+"desc": "Services-Computer Integrated Systems Design",
+"name": "Kyndryl Holdings, Inc."
+},
+"72333": {
+"sic": "5651",
+"desc": "Retail-Family Clothing Stores",
+"name": "NORDSTROM INC"
+},
+"1375365": {
+"sic": "3571",
+"desc": "Electronic Computers",
+"name": "Super Micro Computer, Inc."
+},
+"720005": {
+"sic": "6211",
+"desc": "Security Brokers, Dealers & Flotation Companies",
+"name": "RAYMOND JAMES FINANCIAL INC"
+},
+"916365": {
+"sic": "5200",
+"desc": "Retail-Building Materials, Hardware, Garden Supply",
+"name": "TRACTOR SUPPLY CO /DE/"
+},
+"1529192": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "Vipshop Holdings Ltd"
+},
+"1096343": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "MARKEL GROUP INC."
+},
+"1792044": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "Viatris Inc"
+},
+"1670541": {
+"sic": "3714",
+"desc": "Motor Vehicle Parts & Accessories",
+"name": "Adient plc"
+},
+"105634": {
+"sic": "1731",
+"desc": "Electrical Work",
+"name": "EMCOR Group, Inc."
+},
+"277948": {
+"sic": "4011",
+"desc": "Railroads, Line-Haul Operating",
+"name": "CSX CORP"
+},
+"715957": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "DOMINION ENERGY, INC"
+},
+"1110646": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "NetEase, Inc."
+},
+"1001082": {
+"sic": "4841",
+"desc": "Cable & Other Pay Television Services",
+"name": "DISH Network CORP"
+},
+"21175": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "CNA FINANCIAL CORP"
+},
+"1781335": {
+"sic": "3600",
+"desc": "Electronic & Other Electrical Equipment (No Computer Equip)",
+"name": "Otis Worldwide Corp"
+},
+"1043509": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "SONIC AUTOMOTIVE INC"
+},
+"64040": {
+"sic": "7320",
+"desc": "Services-Consumer Credit Reporting, Collection Agencies",
+"name": "S&P Global Inc."
+},
+"872589": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "REGENERON PHARMACEUTICALS, INC."
+},
+"91388": {
+"sic": "2011",
+"desc": "Meat Packing Plants",
+"name": "SMITHFIELD FOODS INC"
+},
+"1837429": {
+"sic": "6399",
+"desc": "Insurance Carriers, NEC",
+"name": "Brookfield Wealth Solutions Ltd."
+},
+"908255": {
+"sic": "3714",
+"desc": "Motor Vehicle Parts & Accessories",
+"name": "BORGWARNER INC"
+},
+"1635327": {
+"sic": "7370",
+"desc": "Services-Computer Programming, Data Processing, Etc.",
+"name": "Flutter Entertainment plc"
+},
+"1754301": {
+"sic": "4833",
+"desc": "Television Broadcasting Stations",
+"name": "Fox Corp"
+},
+"861884": {
+"sic": "5051",
+"desc": "Wholesale-Metals Service Centers & of fices",
+"name": "RELIANCE, INC."
+},
+"1065696": {
+"sic": "5010",
+"desc": "Wholesale-Motor Vehicles & Motor Vehicle Parts & Supplies",
+"name": "LKQ CORP"
+},
+"24545": {
+"sic": "2082",
+"desc": "Malt Beverages",
+"name": "MOLSON COORS BEVERAGE CO"
+},
+"217346": {
+"sic": "3720",
+"desc": "Aircraft & Parts",
+"name": "TEXTRON INC"
+},
+"1324424": {
+"sic": "4700",
+"desc": "Transportation Services",
+"name": "Expedia Group, Inc."
+},
+"1331875": {
+"sic": "6361",
+"desc": "Title Insurance",
+"name": "Fidelity National Financial, Inc."
+},
+"1690820": {
+"sic": "5500",
+"desc": "Retail-Auto Dealers & Gasoline Stations",
+"name": "CARVANA CO."
+},
+"1748790": {
+"sic": "3990",
+"desc": "Miscellaneous Manufacturing Industries",
+"name": "Amcor plc"
+},
+"11544": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "BERKLEY W R CORP"
+},
+"1031296": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "FIRSTENERGY CORP"
+},
+"1089063": {
+"sic": "5940",
+"desc": "Retail-Miscellaneous Shopping Goods Stores",
+"name": "DICK'S SPORTING GOODS, INC."
+},
+"932787": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "STMicroelectronics N.V."
+},
+"38009": {
+"sic": "6159",
+"desc": "Miscellaneous Business Credit Institution",
+"name": "FORD MOTOR CREDIT CO LLC"
+},
+"1393818": {
+"sic": "6282",
+"desc": "Investment Advice",
+"name": "Blackstone Inc."
+},
+"1032208": {
+"sic": "4932",
+"desc": "Gas & Other Services Combined",
+"name": "SEMPRA"
+},
+"24741": {
+"sic": "3357",
+"desc": "Drawing & Insulating of  Nonferrous Wire",
+"name": "CORNING INC /NY"
+},
+"18926": {
+"sic": "4813",
+"desc": "Telephone Communications (No Radiotelephone)",
+"name": "Lumen Technologies, Inc."
+},
+"920148": {
+"sic": "8071",
+"desc": "Services-Medical Laboratories",
+"name": "LABCORP HOLDINGS INC."
+},
+"93751": {
+"sic": "6022",
+"desc": "State Commercial Banks",
+"name": "STATE STREET CORP"
+},
+"4447": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "HESS CORP"
+},
+"5513": {
+"sic": "6321",
+"desc": "Accident & Health Insurance",
+"name": "Unum Group"
+},
+"1688568": {
+"sic": "7374",
+"desc": "Services-Computer Processing & Data Preparation",
+"name": "DXC Technology Co"
+},
+"927066": {
+"sic": "8090",
+"desc": "Services-Misc Health & Allied Services, NEC",
+"name": "DAVITA INC."
+},
+"1809587": {
+"sic": "6531",
+"desc": "Real Estate Agents & Managers (For Others)",
+"name": "KE Holdings Inc."
+},
+"55067": {
+"sic": "2040",
+"desc": "Grain Mill Products",
+"name": "KELLANOVA"
+},
+"1000228": {
+"sic": "5047",
+"desc": "Wholesale-Medical, Dental & Hospital Equipment & Supplies",
+"name": "HENRY SCHEIN INC"
+},
+"1481513": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "JinkoSolar Holding Co., Ltd."
+},
+"85961": {
+"sic": "7510",
+"desc": "Services-Auto Rental & Leasing (No Drivers)",
+"name": "RYDER SYSTEM INC"
+},
+"1108109": {
+"sic": "8062",
+"desc": "Services-General Medical & Surgical Hospitals, NEC",
+"name": "COMMUNITY HEALTH SYSTEMS INC"
+},
+"107263": {
+"sic": "4922",
+"desc": "Natural Gas Transmission",
+"name": "WILLIAMS COMPANIES, INC."
+},
+"1413447": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "NXP Semiconductors N.V."
+},
+"1333986": {
+"sic": "6411",
+"desc": "Insurance Agents, Brokers & Service",
+"name": "Equitable Holdings, Inc."
+},
+"1397911": {
+"sic": "6200",
+"desc": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+"name": "LPL Financial Holdings Inc."
+},
+"15615": {
+"sic": "1623",
+"desc": "Water, Sewer, Pipeline, Comm & Power Line Construction",
+"name": "MASTEC INC"
+},
+"726865": {
+"sic": "6311",
+"desc": "Life Insurance",
+"name": "LINCOLN NATIONAL LIFE INSURANCE CO /IN/"
+},
+"874761": {
+"sic": "4991",
+"desc": "Cogeneration Services & Small Power Producers",
+"name": "AES CORP"
+},
+"1262823": {
+"sic": "2860",
+"desc": "Industrial Organic Chemicals",
+"name": "WESTLAKE CORP"
+},
+"702165": {
+"sic": "4011",
+"desc": "Railroads, Line-Haul Operating",
+"name": "NORFOLK SOUTHERN CORP"
+},
+"2969": {
+"sic": "2810",
+"desc": "Industrial Inorganic Chemicals",
+"name": "Air Products & Chemicals, Inc."
+},
+"728535": {
+"sic": "4213",
+"desc": "Trucking (No Local)",
+"name": "HUNT J B TRANSPORT SERVICES INC"
+},
+"940944": {
+"sic": "5812",
+"desc": "Retail-Eating  Places",
+"name": "DARDEN RESTAURANTS INC"
+},
+"1443646": {
+"sic": "8742",
+"desc": "Services-Management Consulting Services",
+"name": "Booz Allen Hamilton Holding Corp"
+},
+"1552000": {
+"sic": "4610",
+"desc": "Pipe Lines (No Natural Gas)",
+"name": "MPLX LP"
+},
+"48465": {
+"sic": "2011",
+"desc": "Meat Packing Plants",
+"name": "HORMEL FOODS CORP /DE/"
+},
+"72741": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "EVERSOURCE ENERGY"
+},
+"1675149": {
+"sic": "3334",
+"desc": "Primary Production of  Aluminum",
+"name": "Alcoa Corp"
+},
+"65984": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "ENTERGY CORP /DE/"
+},
+"1267238": {
+"sic": "6399",
+"desc": "Insurance Carriers, NEC",
+"name": "ASSURANT, INC."
+},
+"1766502": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "Chewy, Inc."
+},
+"1694426": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "Delek US Holdings, Inc."
+},
+"1616707": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "Wayfair Inc."
+},
+"1219601": {
+"sic": "3411",
+"desc": "Metal Cans",
+"name": "CROWN HOLDINGS, INC."
+},
+"9389": {
+"sic": "3411",
+"desc": "Metal Cans",
+"name": "BALL Corp"
+},
+"723612": {
+"sic": "7510",
+"desc": "Services-Auto Rental & Leasing (No Drivers)",
+"name": "AVIS BUDGET GROUP, INC."
+},
+"1571949": {
+"sic": "6200",
+"desc": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+"name": "Intercontinental Exchange, Inc."
+},
+"766421": {
+"sic": "4512",
+"desc": "Air Transportation, Scheduled",
+"name": "ALASKA AIR GROUP, INC."
+},
+"1852244": {
+"sic": "4700",
+"desc": "Transportation Services",
+"name": "GXO Logistics, Inc."
+},
+"2035989": {
+"sic": "3241",
+"desc": "Cement, Hydraulic",
+"name": "Amrize Ltd"
+},
+"913144": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "RENAISSANCERE HOLDINGS LTD"
+},
+"880266": {
+"sic": "3523",
+"desc": "Farm Machinery & Equipment",
+"name": "AGCO CORP /DE"
+},
+"205402": {
+"sic": "5063",
+"desc": "Wholesale-Electrical Apparatus & Equipment, Wiring Supplies ",
+"name": "GRAYBAR ELECTRIC CO INC"
+},
+"23217": {
+"sic": "2000",
+"desc": "Food and Kindred Products",
+"name": "CONAGRA BRANDS INC."
+},
+"354190": {
+"sic": "6411",
+"desc": "Insurance Agents, Brokers & Service",
+"name": "Arthur J. Gallagher & Co."
+},
+"1501585": {
+"sic": "3730",
+"desc": "Ship & Boat Building & Repairing",
+"name": "HUNTINGTON INGALLS INDUSTRIES, INC."
+},
+"52988": {
+"sic": "1600",
+"desc": "Heavy Construction Other Than Bldg Const - Contractors",
+"name": "JACOBS SOLUTIONS INC."
+},
+"51253": {
+"sic": "2860",
+"desc": "Industrial Organic Chemicals",
+"name": "INTERNATIONAL FLAVORS & FRAGRANCES INC"
+},
+"1001838": {
+"sic": "1000",
+"desc": "Metal Mining",
+"name": "SOUTHERN COPPER CORP/"
+},
+"20286": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "CINCINNATI FINANCIAL CORP"
+},
+"1058090": {
+"sic": "5812",
+"desc": "Retail-Eating  Places",
+"name": "CHIPOTLE MEXICAN GRILL INC"
+},
+"1673358": {
+"sic": "5812",
+"desc": "Retail-Eating  Places",
+"name": "Yum China Holdings, Inc."
+},
+"1300514": {
+"sic": "7011",
+"desc": "Hotels & Motels",
+"name": "LAS VEGAS SANDS CORP"
+},
+"1403568": {
+"sic": "5990",
+"desc": "Retail-Retail Stores, NEC",
+"name": "Ulta Beauty, Inc."
+},
+"821026": {
+"sic": "5150",
+"desc": "Wholesale-Farm Product Raw Materials",
+"name": "Andersons, Inc."
+},
+"1590895": {
+"sic": "7011",
+"desc": "Hotels & Motels",
+"name": "Caesars Entertainment, Inc."
+},
+"47111": {
+"sic": "2060",
+"desc": "Sugar & Confectionery Products",
+"name": "HERSHEY CO"
+},
+"1585689": {
+"sic": "7011",
+"desc": "Hotels & Motels",
+"name": "Hilton Worldwide Holdings Inc."
+},
+"1285785": {
+"sic": "2870",
+"desc": "Agricultural Chemicals",
+"name": "MOSAIC CO"
+},
+"1559720": {
+"sic": "7340",
+"desc": "Services-To Dwellings & Other Buildings",
+"name": "Airbnb, Inc."
+},
+"1539838": {
+"sic": "1311",
+"desc": "Crude Petroleum & Natural Gas",
+"name": "Diamondback Energy, Inc."
+},
+"875320": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "VERTEX PHARMACEUTICALS INC / MA"
+},
+"1373715": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "ServiceNow, Inc."
+},
+"16918": {
+"sic": "2080",
+"desc": "Beverages",
+"name": "CONSTELLATION BRANDS, INC."
+},
+"794170": {
+"sic": "1531",
+"desc": "Operative Builders",
+"name": "Toll Brothers, Inc."
+},
+"851968": {
+"sic": "2273",
+"desc": "Carpets & Rugs",
+"name": "MOHAWK INDUSTRIES INC"
+},
+"68505": {
+"sic": "3663",
+"desc": "Radio & Tv Broadcasting & Communications Equipment",
+"name": "Motorola Solutions, Inc."
+},
+"2083785": {
+"sic": "7359",
+"desc": "Services-Equipment Rental & Leasing, NEC",
+"name": "Sunbelt Rentals Holdings, Inc."
+},
+"775158": {
+"sic": "3711",
+"desc": "Motor Vehicles & Passenger Car Bodies",
+"name": "OSHKOSH CORP"
+},
+"1792789": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "DoorDash, Inc."
+},
+"51644": {
+"sic": "7311",
+"desc": "Services-Advertising Agencies",
+"name": "INTERPUBLIC GROUP OF COMPANIES, INC."
+},
+"10456": {
+"sic": "3841",
+"desc": "Surgical & Medical Instruments & Apparatus",
+"name": "BAXTER INTERNATIONAL INC"
+},
+"1579298": {
+"sic": "5311",
+"desc": "Retail-Department Stores",
+"name": "Burlington Stores, Inc."
+},
+"1042642": {
+"sic": "4899",
+"desc": "Communications Services, NEC",
+"name": "DISH DBS CORP"
+},
+"746515": {
+"sic": "4731",
+"desc": "Arrangement of  Transportation of  Freight & Cargo",
+"name": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC"
+},
+"1397187": {
+"sic": "2300",
+"desc": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl",
+"name": "lululemon athletica inc."
+},
+"906163": {
+"sic": "1531",
+"desc": "Operative Builders",
+"name": "NVR INC"
+},
+"96223": {
+"sic": "6211",
+"desc": "Security Brokers, Dealers & Flotation Companies",
+"name": "Jefferies Financial Group Inc."
+},
+"914748": {
+"sic": "6331",
+"desc": "Fire, Marine & Casualty Insurance",
+"name": "EVEREST REINSURANCE HOLDINGS INC"
+},
+"1954042": {
+"sic": "3711",
+"desc": "Motor Vehicles & Passenger Car Bodies",
+"name": "ZEEKR Intelligent Technology Holding Ltd"
+},
+"1034670": {
+"sic": "3714",
+"desc": "Motor Vehicle Parts & Accessories",
+"name": "AUTOLIV INC"
+},
+"943452": {
+"sic": "3743",
+"desc": "Railroad Equipment",
+"name": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP"
+},
+"723254": {
+"sic": "2320",
+"desc": "Men's & Boys' Furnishgs, Work Clothg, & Allied Garments",
+"name": "CINTAS CORP"
+},
+"788784": {
+"sic": "4931",
+"desc": "Electric & Other Services Combined",
+"name": "PUBLIC SERVICE ENTERPRISE GROUP INC"
+},
+"1065088": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "EBAY INC"
+},
+"1306830": {
+"sic": "2820",
+"desc": "Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)",
+"name": "Celanese Corp"
+},
+"1053507": {
+"sic": "6798",
+"desc": "Real Estate Investment Trusts",
+"name": "AMERICAN TOWER CORP /MA/"
+},
+"1136893": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "Fidelity National Information Services, Inc."
+},
+"1865782": {
+"sic": "8082",
+"desc": "Services-Home Health Care Services",
+"name": "BrightSpring Health Services, Inc."
+},
+"1378992": {
+"sic": "3089",
+"desc": "Plastics Products, NEC",
+"name": "BERRY GLOBAL GROUP, INC."
+},
+"730263": {
+"sic": "3716",
+"desc": "Motor Homes",
+"name": "THOR INDUSTRIES INC"
+},
+"1355096": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "Old QVC Group, Inc."
+},
+"813762": {
+"sic": "2911",
+"desc": "Petroleum Refining",
+"name": "ICAHN ENTERPRISES L.P."
+},
+"1140536": {
+"sic": "6411",
+"desc": "Insurance Agents, Brokers & Service",
+"name": "WILLIS TOWERS WATSON PLC"
+},
+"1022079": {
+"sic": "8071",
+"desc": "Services-Medical Laboratories",
+"name": "QUEST DIAGNOSTICS INC"
+},
+"1370946": {
+"sic": "3290",
+"desc": "Abrasive, Asbestos & Misc Nonmetallic Mineral Prods",
+"name": "Owens Corning"
+},
+"319201": {
+"sic": "3827",
+"desc": "Optical Instruments & Lenses",
+"name": "KLA CORP"
+},
+"1124941": {
+"sic": "5030",
+"desc": "Wholesale-Lumber & Other Construction Materials",
+"name": "QXO BUILDING PRODUCTS, INC."
+},
+"798941": {
+"sic": "6022",
+"desc": "State Commercial Banks",
+"name": "FIRST CITIZENS BANCSHARES INC /DE/"
+},
+"1591588": {
+"sic": "5094",
+"desc": "Wholesale-Jewelry, Watches, Precious Stones & Metals",
+"name": "Gold.com, Inc."
+},
+"875045": {
+"sic": "2836",
+"desc": "Biological Products, (No Diagnostic Substances)",
+"name": "BIOGEN INC."
+},
+"1030894": {
+"sic": "3672",
+"desc": "Printed Circuit Boards",
+"name": "CELESTICA INC"
+},
+"16732": {
+"sic": "2000",
+"desc": "Food and Kindred Products",
+"name": "CAMPBELL'S Co"
+},
+"885590": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "Bausch Health Companies Inc."
+},
+"1803599": {
+"sic": "7389",
+"desc": "Services-Business Services, NEC",
+"name": "Concentrix Corp"
+},
+"877422": {
+"sic": "5141",
+"desc": "Wholesale-Groceries, General Line",
+"name": "SpartanNash Co"
+},
+"106040": {
+"sic": "3572",
+"desc": "Computer Storage Devices",
+"name": "WESTERN DIGITAL CORP"
+},
+"103379": {
+"sic": "2320",
+"desc": "Men's & Boys' Furnishgs, Work Clothg, & Allied Garments",
+"name": "V F CORP"
+},
+"1318742": {
+"sic": "4400",
+"desc": "Water Transportation",
+"name": "NCL CORP Ltd."
+},
+"1513761": {
+"sic": "4400",
+"desc": "Water Transportation",
+"name": "Norwegian Cruise Line Holdings Ltd."
+},
+"1628369": {
+"sic": "6500",
+"desc": "Real Estate",
+"name": "Cushman & Wakefield Ltd."
+},
+"6281": {
+"sic": "3674",
+"desc": "Semiconductors & Related Devices",
+"name": "ANALOG DEVICES INC"
+},
+"915389": {
+"sic": "2821",
+"desc": "Plastic Materials, Synth Resins & Nonvulcan Elastomers",
+"name": "EASTMAN CHEMICAL CO"
+},
+"1158463": {
+"sic": "4512",
+"desc": "Air Transportation, Scheduled",
+"name": "JETBLUE AIRWAYS CORP"
+},
+"1555280": {
+"sic": "2834",
+"desc": "Pharmaceutical Preparations",
+"name": "Zoetis Inc."
+},
+"1568651": {
+"sic": "6324",
+"desc": "Hospital & Medical Service Plans",
+"name": "Oscar Health, Inc."
+},
+"1792580": {
+"sic": "1311",
+"desc": "Crude Petroleum & Natural Gas",
+"name": "Ovintiv Inc."
+},
+"88121": {
+"sic": "5150",
+"desc": "Wholesale-Farm Product Raw Materials",
+"name": "SEABOARD CORP /DE/"
+},
+"1137789": {
+"sic": "3572",
+"desc": "Computer Storage Devices",
+"name": "Seagate Technology Holdings plc"
+},
+"1158449": {
+"sic": "5531",
+"desc": "Retail-Auto & Home Supply Stores",
+"name": "ADVANCE AUTO PARTS INC"
+},
+"1681459": {
+"sic": "3533",
+"desc": "Oil & Gas Field Machinery & Equipment",
+"name": "TechnipFMC plc"
+},
+"1657853": {
+"sic": "7510",
+"desc": "Services-Auto Rental & Leasing (No Drivers)",
+"name": "HERTZ GLOBAL HOLDINGS, INC"
+},
+"1736541": {
+"sic": "3711",
+"desc": "Motor Vehicles & Passenger Car Bodies",
+"name": "NIO Inc."
+},
+"1254699": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "QVC Group, Inc."
+},
+"1065837": {
+"sic": "3140",
+"desc": "Footwear, (No Rubber)",
+"name": "SKECHERS USA INC"
+},
+"2066659": {
+"sic": "3140",
+"desc": "Footwear, (No Rubber)",
+"name": "Beach Acquisition Co Parent, LLC"
+},
+"1702780": {
+"sic": "4841",
+"desc": "Cable & Other Pay Television Services",
+"name": "Optimum Communications, Inc."
+},
+"1318220": {
+"sic": "4953",
+"desc": "Refuse Systems",
+"name": "Waste Connections, Inc."
+},
+"2082247": {
+"sic": "4513",
+"desc": "Air Courier Services",
+"name": "FedEx Freight Holding Company, Inc."
+},
+"1594805": {
+"sic": "7372",
+"desc": "Services-Prepackaged Software",
+"name": "SHOPIFY INC."
+},
+"1021860": {
+"sic": "3533",
+"desc": "Oil & Gas Field Machinery & Equipment",
+"name": "NOV Inc."
+},
+"1408075": {
+"sic": "2650",
+"desc": "Paperboard Containers & Boxes",
+"name": "GRAPHIC PACKAGING HOLDING CO"
+},
+"8818": {
+"sic": "2670",
+"desc": "Converted Paper & Paperboard Prods (No Contaners/Boxes)",
+"name": "Avery Dennison Corp"
+},
+"1101239": {
+"sic": "6798",
+"desc": "Real Estate Investment Trusts",
+"name": "EQUINIX INC"
+},
+"1823794": {
+"sic": "5412",
+"desc": "Retail-Convenience Stores",
+"name": "ARKO Corp."
+},
+"91419": {
+"sic": "2033",
+"desc": "Canned, Fruits, Veg, Preserves, Jams & Jellies",
+"name": "J M SMUCKER Co"
+},
+"1383650": {
+"sic": "4924",
+"desc": "Natural Gas Distribution",
+"name": "Cheniere Energy Partners, L.P."
+},
+"932696": {
+"sic": "5961",
+"desc": "Retail-Catalog & Mail-Order Houses",
+"name": "INSIGHT ENTERPRISES INC"
+},
+"908937": {
+"sic": "4832",
+"desc": "Radio Broadcasting Stations",
+"name": "SIRIUS XM HOLDINGS INC."
+},
+"78239": {
+"sic": "2320",
+"desc": "Men's & Boys' Furnishgs, Work Clothg, & Allied Garments",
+"name": "PVH CORP. /DE/"
+},
+"1130310": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "CENTERPOINT ENERGY INC"
+},
+"783325": {
+"sic": "4931",
+"desc": "Electric & Other Services Combined",
+"name": "WEC ENERGY GROUP, INC."
+},
+"1524472": {
+"sic": "3561",
+"desc": "Pumps & Pumping Equipment",
+"name": "Xylem Inc."
+},
+"1662972": {
+"sic": "6798",
+"desc": "Real Estate Investment Trusts",
+"name": "Blackstone Real Estate Income Trust, Inc."
+},
+"1499200": {
+"sic": "4924",
+"desc": "Natural Gas Distribution",
+"name": "Sabine Pass Liquefaction, LLC"
+},
+"38777": {
+"sic": "6282",
+"desc": "Investment Advice",
+"name": "FRANKLIN TEMPLETON INC"
+},
+"1857475": {
+"sic": "0100",
+"desc": "Agricultural Production-Crops",
+"name": "Dole plc"
+},
+"922224": {
+"sic": "4911",
+"desc": "Electric Services",
+"name": "PPL Corp"
+},
+"1327811": {
+"sic": "7374",
+"desc": "Services-Computer Processing & Data Preparation",
+"name": "Workday, Inc."
+}
+}

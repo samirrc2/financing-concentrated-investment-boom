@@ -4,7 +4,7 @@ import json, collections
 D="data/frozen/"
 ST={n:json.load(open(D+n+".json")) for n in
     ["capex_frames","composition_frames","financing_frames","revenue_frames","alt_frames"]}
-P={int(k):v for k,v in json.load(open(D+"deflator_WPUFD4131.json")).items()}
+P={int(k):v for k,v in json.load(open(D+"deflator_WPUFD41312.json")).items()}
 YEARS=list(range(2013,2026))
 def raw(tag,y):
     for s in ST.values():
