@@ -23,6 +23,7 @@ Samir Chincholikar · Robin Chawla · prepared 2026-09-04
 ## Files to upload
 | File | Role |
 |---|---|
+| `COVER_LETTER.pdf` | cover letter (`.md` version for pasting into Editorial Manager) |
 | `manuscript.tex` | manuscript source (required; PDF is not accepted as source) |
 | `manuscript.pdf` | review copy |
 | `manuscript_blinded.pdf` | blinded copy, if the journal requests one |

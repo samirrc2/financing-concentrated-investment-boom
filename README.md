@@ -60,6 +60,7 @@ SUBMISSION.md             Economics Letters requirement-by-requirement status an
 
 manuscript.tex / .pdf     THE SUBMISSION (elsarticle; reproducible source)
 manuscript_blinded.tex/.pdf   blinded review copy (authors, ORCIDs, affiliation, CRediT removed)
+COVER_LETTER.md/.tex/.pdf cover letter (markdown for pasting, LaTeX source, compiled PDF)
 highlights.txt            Economics Letters highlights (5 bullets, <=85 chars each)
 figures/Figure_1.pdf/.png figure, vector and 200-dpi raster
 
