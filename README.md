@@ -26,12 +26,25 @@ is that the two coincide.
 
 ---
 
-## Reproduce (offline, deterministic, $0 — no network, no API keys)
+## Verify (one command, single pass/fail)
 
 ```bash
 pip install -r requirements.txt      # only matplotlib, and only for the figure
-./reproduce.sh
+./verify.sh
 ```
+
+`verify.sh` is the referee path. It (1) checks every archived file against
+`MANIFEST.sha256`, (2) re-runs the analysis from `data/frozen/`, (3) requires the regenerated
+`claims.json` and `Figure_1.png` to be **byte-identical** to the committed ones and names the
+offending claim if not, (4) audits every number in the manuscript against `claims.json`, and
+(5) checks the length limit. It exits non-zero on any discrepancy and leaves the working tree
+untouched. **Runtime: under 10 seconds** on a 2023 laptop.
+
+`./reproduce.sh` is the author path: same pipeline, plus rebuilding `manuscript.pdf`.
+
+**Software.** Python 3.11.5 (standard library only for every number), matplotlib 3.8.0 (figure
+only), TeX Live 2024 / pdfTeX 1.40.26 with `elsarticle` (PDF only). Exact versions in
+`environment.txt`. No network, no API key, no proprietary source.
 
 `reproduce.sh` (1) regenerates `claims.json` from the frozen source files, (2) redraws
 `figures/Figure_1.{pdf,png}` from the same inputs, (3) runs `code/build_gate.py` — which reads
@@ -51,7 +64,10 @@ pulled in the first place.
 
 ```
 README.md                 this file
-reproduce.sh              one-command reproduction: claims -> figure -> gate -> length -> PDF
+verify.sh                 REFEREE PATH: manifest -> re-run -> byte-diff -> gate -> length
+reproduce.sh              author path: same pipeline, plus rebuilding manuscript.pdf
+MANIFEST.sha256           SHA-256 of every archived file (checked by verify.sh)
+.zenodo.json              Zenodo deposit metadata
 requirements.txt          matplotlib (figure only); numbers need stdlib only
 environment.txt           exact versions that produced the committed results
 LICENSE                   code MIT · derived data/text CC-BY-4.0 · SEC and BLS data public domain
@@ -71,6 +87,7 @@ code/
   make_figure.py          frozen inputs -> figures/Figure_1.{pdf,png}
   build_gate.py           manuscript -> claims.json audit; fails on any unbacked number
   wordcount.py            Economics Letters length count (main text, notes, captions, refs)
+  make_manifest.py        regenerates MANIFEST.sha256 from the tracked file list
   reconcile.py            reconciliation of constructed values to as-filed 10-K values
   collect_capex.py        SEC XBRL frames: capital expenditure
   collect_composition.py  SEC XBRL frames: R&D, buybacks, dividends, operating cash flow
@@ -83,6 +100,39 @@ data/
   frozen/                 8 frozen source files, read-only
   SHA256SUMS.txt          SHA-256 of every frozen file
 ```
+
+## What produces what
+
+Every number in the manuscript comes from `claims.json`, which comes from `data/frozen/`.
+Nothing is typed twice.
+
+| Manuscript object | Produced by | Output |
+|---|---|---|
+| Table 1 (coverage by rank, 2022–2025) | `code/make_claims.py` → `ladder`, `funnel` | `claims.json` |
+| Table 2 (earlier four-year windows) | `code/make_claims.py` → `placebo_ladder` | `claims.json` |
+| Figure 1(a) internal financing margin | `code/make_figure.py` | `figures/Figure_1.pdf` / `.png` |
+| Figure 1(b) Herfindahl concentration | `code/make_figure.py` | `figures/Figure_1.pdf` / `.png` |
+| Figure 1(c) coverage through each year | `code/make_figure.py` → `annual` | `figures/Figure_1.pdf` / `.png` |
+| §2 sample funnel (500 / 404 / 263 / 141 / 96) | `code/make_claims.py` → `funnel`, `excluded` | `claims.json` |
+| §2 single-tag omission (454 filers, $404bn) | `code/make_claims.py` → `alt_tag` | `claims.json` |
+| §3.1 leave-one-out and baseline B | `code/make_claims.py` → `leave_one_out_cum`, `cumulative` | `claims.json` |
+| §3.2 sectoral decomposition and restricted sample | `code/make_claims.py` → `composition` | `claims.json` |
+| Table A1 Panel A (filing attribution) | verbatim from the 10-Ks named in the table | — |
+| Table A1 Panel B (AI-intensity cuts) | `code/collect_ai_intensity.py` → `ai_filter` | `claims.json` |
+| Table A2 (reconciliation to as-filed values) | `code/reconcile.py` | `claims.json` |
+| Table A3 Panels A–C | `code/make_claims.py` → `firm_level`, `composition` | `claims.json` |
+| Every asserted number, audited | `code/build_gate.py` | pass/fail |
+| Length against the EL limit | `code/wordcount.py` | pass/fail |
+| Blinded review copy | `code/make_blinded.py` | `manuscript_blinded.pdf` |
+
+**Raw data provenance.** Firm financials come from the SEC XBRL `frames` API
+(`https://data.sec.gov/api/xbrl/frames/`); 10-K text for the AI-intensity measure and the
+filing reconciliation from SEC EDGAR; registrant SIC codes from the SEC submissions API; the
+deflator from BLS series **WPUFD41312** (Final demand–Private capital equipment). The
+`code/collect_*.py` scripts fetch these once and write them read-only. **The results are built
+from the frozen copies in `data/frozen/`, not from live endpoints** — re-running a collector
+against today's SEC data would pick up subsequent restatements and is not part of
+reproduction.
 
 ## Design in one paragraph
 
