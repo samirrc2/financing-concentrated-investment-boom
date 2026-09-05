@@ -4,8 +4,16 @@
 **Authors:** Samir Chincholikar (Independent researcher) · Robin Chawla (Independent researcher, corresponding author)
 **ORCID:** [0009-0007-2779-3492](https://orcid.org/0009-0007-2779-3492) · [0009-0007-2807-3948](https://orcid.org/0009-0007-2807-3948)
 **Contact:** robin.chawla.cse14@iitbhu.ac.in · samir.chincholikar@gmail.com
-**Repository:** https://github.com/samirrc2/financing-concentrated-investment-boom
-**Zenodo DOI:** _not yet minted — insert before submission_
+**Zenodo DOI:** [[DOI PENDING]] — the permanent citable archive
+**Repository:** https://github.com/samirrc2/financing-concentrated-investment-boom (working mirror)
+
+## Reproducibility documentation
+
+[`REPRODUCIBILITY_DOCUMENTATION.pdf`](REPRODUCIBILITY_DOCUMENTATION.pdf) is a single, self-contained
+companion describing the entire archive: data inputs and provenance, every script and its outputs,
+the one-command offline reproduction, the verification and determinism procedure, the environment,
+and licensing. It is included in the Zenodo deposit. `DATA_AVAILABILITY.md` is the journal-facing
+data statement.
 
 This repository regenerates **every table, figure, and cited number** in the *Economics
 Letters* submission *"Investment concentration and financing in the AI boom"* from a single
@@ -73,6 +81,8 @@ environment.txt           exact versions that produced the committed results
 LICENSE                   code MIT · derived data/text CC-BY-4.0 · SEC and BLS data public domain
 CITATION.cff              how to cite this artifact
 SUBMISSION.md             Economics Letters requirement-by-requirement status and author actions
+REPRODUCIBILITY_DOCUMENTATION.tex/.pdf   single-file companion documenting the whole archive
+DATA_AVAILABILITY.md      journal-facing data statement
 
 manuscript.tex / .pdf     THE SUBMISSION (elsarticle; reproducible source)
 manuscript_blinded.tex/.pdf   blinded review copy (authors, ORCIDs, affiliation, CRediT removed)

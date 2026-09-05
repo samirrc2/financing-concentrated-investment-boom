@@ -1,0 +1,184 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{seqsplit}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\newcommand{\code}[1]{\texttt{\small\seqsplit{#1}}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Supporting Data and Code: Reproducibility Documentation}\\[4pt]
+{\itshape Investment concentration and financing in the AI boom}\\[2pt]
+Companion to the manuscript submission
+\end{center}
+
+\section{Purpose and scope}
+This document describes the supporting data-and-code archive that accompanies the manuscript. The
+archive is a self-contained, \textbf{offline, deterministic} reproduction: from a single command it
+regenerates every reported number, table and figure from frozen inputs, with \textbf{no network
+access, no API keys and no paid calls}. The permanent citable version is the Zenodo deposit at
+[[DOI PENDING]] (code MIT-licensed).
+
+A strict wall separates two phases. An \emph{offline analysis} reproduces every claim from the
+frozen inputs (documented here). A \emph{collection} phase originally queried public SEC and BLS
+endpoints and is retained for transparency only (Section~8). Because the SEC's \emph{frames}
+interface returns the most recently filed value for each fact, re-collecting today would pick up
+subsequent filer restatements and would not reproduce the frozen inputs; collection is therefore
+deliberately not part of the reproducible core.
+
+\section{Quick start}
+\begin{quote}\code{pip install -r requirements.txt}\\ \code{./verify.sh}\end{quote}
+\textbf{Expected result:} the archive verifies against its SHA-256 manifest, the analysis re-runs
+from the frozen inputs, the regenerated \code{claims.json} and figure are byte-identical to the
+committed ones, every number in the manuscript reconciles to \code{claims.json}, the manuscript is
+within the journal's length limit, and the script exits 0. Total runtime is under ten seconds on a
+standard laptop. No network access is required at any point.
+
+\section{Archive layout}
+\begin{longtable}{@{}L{0.34\textwidth} L{0.60\textwidth}@{}}
+\toprule
+\code{verify.sh} & one-command offline verification (referee path; Section~7) \\
+\code{reproduce.sh} & same pipeline plus rebuilding \code{manuscript.pdf} (author path) \\
+\code{MANIFEST.sha256} & SHA-256 of every archived file, in \code{sha256sum -c} format \\
+\code{requirements.txt} & \code{matplotlib} (figure only); every number needs the standard library alone \\
+\code{environment.txt} & exact versions that produced the committed results \\
+\code{manuscript.tex} / \code{.pdf} & the submission (elsarticle; reproducible source) \\
+\code{manuscript\_blinded.tex} / \code{.pdf} & blinded review copy (identifiers and metadata removed) \\
+\code{COVER\_LETTER.md} / \code{.tex} / \code{.pdf} & cover letter \\
+\code{highlights.txt} & journal highlights (5 bullets) \\
+\code{figures/Figure\_1.pdf} / \code{.png} & the figure, vector and 200-dpi raster \\
+\code{claims.json} & canonical single source of truth: every number the paper asserts \\
+\code{code/} & collectors, engine, claims builder, figure builder, gates (Section~5) \\
+\code{data/frozen/} & 8 frozen source files, read-only (Section~4) \\
+\code{data/SHA256SUMS.txt} & SHA-256 of every frozen source file \\
+\code{README.md}, \code{SUBMISSION.md}, \code{DATA\_AVAILABILITY.md} & orientation, journal checklist, data statement \\
+\code{CITATION.cff}, \code{.zenodo.json}, \code{LICENSE} & citation and deposit metadata, licences \\
+\bottomrule
+\end{longtable}
+
+\section{Data (inputs and metadata)}
+\subsection{Frozen inputs}
+Every input the pipeline reads is a frozen artifact. The analysis is a pure function of these files;
+it contains no random component and no seed.
+\begin{longtable}{@{}L{0.27\textwidth} r L{0.53\textwidth}@{}}
+\toprule
+\textbf{File} & \textbf{Records} & \textbf{Unit of observation / contents} \\
+\midrule
+\endhead
+\code{capex\_frames.json} & 88{,}097 & firm-year capital expenditure, 2009--2025, two tags: \code{PaymentsToAcquirePropertyPlantAndEquipment}, \code{PaymentsToAcquireProductiveAssets} \\
+\code{composition\_frames.json} & 161{,}802 & firm-year operating cash flow, R\&D, repurchases, dividends, 2013--2025 \\
+\code{revenue\_frames.json} & 95{,}605 & firm-year revenue (three tags) and continuing-operations cash flow, 2013--2025; revenue ranks the universe \\
+\code{financing\_frames.json} & 63{,}293 & firm-year long-term-debt issuance and repayment, and cash paid for acquisitions, 2013--2025 \\
+\code{alt\_frames.json} & 270{,}979 & alternate tags for every key series (nine tags), 2013--2025; the union is what makes the measure tag-robust \\
+\code{ai\_intensity.json} & 285 & one scored 10-K per firm: dictionary occurrences, total words, AI intensity, filing period \\
+\code{sic\_codes.json} & 500 & registrant SIC code and description, as filed \\
+\code{deflator\_WPUFD41312.json} & 13 & BLS annual index values, 2013--2025 \\
+\bottomrule
+\end{longtable}
+
+\subsection{Provenance and integrity}
+\code{data/SHA256SUMS.txt} fixes every frozen source file; \code{MANIFEST.sha256} fixes every file in
+the archive, including the code and the manuscript. The collection scripts write their outputs
+read-only and refuse to overwrite an existing frozen file, so a silent change to an input is
+detectable before the analysis runs. \code{verify.sh} checks both manifests before it runs anything.
+
+\subsection{Data sources}
+All inputs are public and free. Firm-level data were retrieved on 2--4 September 2026 from the SEC's
+XBRL \emph{frames} interface, one call per tag and calendar year, at
+\code{https://data.sec.gov/api/xbrl/frames/us-gaap/<tag>/USD/CY<year>.json}. Registrant
+classifications and 10-K locations come from the submissions API,
+\code{https://data.sec.gov/submissions/CIK<10-digit-CIK>.json}, and 10-K documents from EDGAR at
+\code{https://www.sec.gov/Archives/edgar/data/<CIK>/<accession>/<document>}; see
+\url{https://www.sec.gov/edgar/sec-api-documentation}. The SEC requires only a descriptive
+\code{User-Agent} header and no API key. The deflator is Bureau of Labor Statistics series
+\code{WPUFD41312}, final demand--private capital equipment, annual averages [[DEFLATOR RETRIEVAL]].
+No proprietary database is used at any stage.
+
+\section{Code (what it consumes and runs)}
+\subsection{Analysis scripts}
+All code is in \code{code/}; each module is deterministic and reads only frozen data.
+\begin{longtable}{@{}L{0.24\textwidth} L{0.44\textwidth} L{0.24\textwidth}@{}}
+\toprule
+\textbf{Script} & \textbf{Purpose} & \textbf{Produces} \\
+\midrule
+\endhead
+\code{engine.py} & measurement engine: unions alternate XBRL tags, deflates to 2025 dollars, aggregates firms; defines the tag lists for every series & imported by the others \\
+\code{make\_claims.py} & the whole analysis: coverage ladder, placebo windows, sample funnel, sectoral decomposition, leave-one-out, AI-intensity cuts, concentration & \code{claims.json} \\
+\code{make\_figure.py} & the three panels of Figure~1 from the same frozen inputs & \code{figures/Figure\_1.pdf}, \code{.png} \\
+\code{build\_gate.py} & reads every number out of the manuscript and requires each to be reproducible from \code{claims.json}; anchors headline figures and both table bodies to their source; cross-checks quantities reported twice & pass / fail \\
+\code{wordcount.py} & journal length count (main text, table notes, figure captions, references) & pass / fail \\
+\code{make\_manifest.py} & regenerates \code{MANIFEST.sha256} from the tracked file list & \code{MANIFEST.sha256} \\
+\code{make\_blinded.py} & strips identifiers and PDF metadata for the blinded copy & \code{manuscript\_blinded.*} \\
+\code{reconcile.py} & (audit) matches constructed values to as-filed 10-K values for the five focal firms & reconciliation counts \\
+\code{collect\_*.py} & original data collection (Section~8; not run during reproduction) & \code{data/frozen/*} \\
+\bottomrule
+\end{longtable}
+
+\subsection{Pipeline order}
+\code{verify.sh} runs the modules in dependency order; \code{claims.json} is timestamp-free, so
+re-runs are byte-identical:
+\begin{quote}\code{make\_claims $\to$ make\_figure $\to$ build\_gate $\to$ wordcount}\end{quote}
+
+\section{Results (generated outputs)}
+Running the pipeline regenerates the following. In a clean checkout these already exist; the
+reproduction overwrites them and confirms they are unchanged.
+\begin{longtable}{@{}L{0.30\textwidth} L{0.64\textwidth}@{}}
+\toprule
+\textbf{Output} & \textbf{Contents} \\
+\midrule
+\endhead
+\code{claims.json} & every number the manuscript asserts. Keys used by the paper include \code{ladder} (Table~1), \code{placebo\_ladder} (Table~2), \code{funnel} and \code{excluded} (the sample account), \code{composition} (the sectoral decomposition), \code{firm\_level} and \code{leave\_one\_out\_cum} (Table~A3), \code{ai\_filter} (Table~A1 panel~B), \code{alt\_tag}, \code{annual}, \code{concentration}, \code{hashes} \\
+\code{figures/Figure\_1.pdf}, \code{.png} & (a)~capital expenditure as a share of operating cash flow for the five largest investors; (b)~Herfindahl index of capital expenditure within the 500, with and without those five; (c)~coverage of the increment cumulated through each year \\
+\code{manuscript.pdf} & the compiled submission (\code{reproduce.sh} only) \\
+\bottomrule
+\end{longtable}
+
+\section{Reproduction and verification}
+\code{verify.sh} performs, and exits non-zero if any stage fails:
+\begin{enumerate}
+\item \textbf{Integrity.} Every archived file is checked against \code{MANIFEST.sha256}; a modified
+frozen input, script or manuscript fails here, before anything runs.
+\item \textbf{Regeneration.} The analysis runs from \code{data/frozen/} only.
+\item \textbf{Byte-identical re-run.} The regenerated \code{claims.json} and
+\code{figures/Figure\_1.png} must be byte-for-byte identical to the committed ones; on a mismatch
+the script prints the exact claim path and both values.
+\item \textbf{Manuscript audit.} \code{build\_gate.py} reads every number out of \code{manuscript.tex}
+and requires each to be reproducible from \code{claims.json}. The abstract's headline figures and
+every row of both tables are additionally anchored to their source, so a number swapped for a
+different valid one fails and is named. Exemptions --- years, structural cuts, figures inside quoted
+10-K text, and series identifiers --- are listed explicitly in the source.
+\item \textbf{Length.} The manuscript is checked against the journal's word limit.
+\end{enumerate}
+\textbf{Determinism.} The analysis has no stochastic component: no sampling, no bootstrap, no seed.
+\code{claims.json} and \code{Figure\_1.png} are byte-identical across runs and across machines.
+\code{Figure\_1.pdf} embeds a build timestamp and is therefore excluded from the byte comparison; its
+pixel content is verified through the PNG.
+
+\textbf{Environment.} Python~3.11.5 (standard library only for every reported number),
+\code{matplotlib==3.8.0} (figure only), and, for the PDF only, \TeX~Live~2024 / pdf\TeX~1.40.26 with
+\code{elsarticle}, \code{siunitx}, \code{tabularx}, \code{booktabs}, \code{microtype},
+\code{seqsplit}, \code{caption} and \code{lmodern}. Exact versions in \code{environment.txt}.
+
+\section{Data collection (not part of the reproduction)}
+\code{code/collect\_*.py} document how the frozen inputs were originally collected:
+\code{collect\_capex.py}, \code{collect\_composition.py}, \code{collect\_revenue.py} and
+\code{collect\_alt\_tags.py} pull the XBRL \emph{frames} series; \code{collect\_sic.py} pulls
+registrant classifications; \code{collect\_ai\_intensity.py} retrieves each firm's most recent 10-K
+and scores it against a dictionary fixed before any financing result was computed. This phase
+requires internet access and is intentionally excluded from the reproducible core: the
+\emph{frames} interface returns the most recently filed value for each fact, so a later collection
+would pick up subsequent restatements. No API key is required at any point, and none is
+distributed. All reported results derive only from the frozen inputs.
+
+\section{Licensing and data availability}
+Code is released under the MIT Licence (see \code{LICENSE}); derived data, analysis outputs and text
+are released under CC-BY-4.0. The underlying raw data --- SEC XBRL \emph{frames}, SEC EDGAR filings
+and BLS series \code{WPUFD41312} --- are U.S. public domain. The permanent citable archive is the
+Zenodo deposit at [[DOI PENDING]], which reproduces every reported number, table and figure offline,
+deterministically, and at zero cost.
+\end{document}

@@ -138,9 +138,10 @@ constituent (\ref{app:supp}, Table~A3). Coverage is also an end-of-period proper
 the 2021 baseline it is $-39$\% through 2022 and reaches 117\% only in 2025
 (Figure~\ref{fig:main}c).
 
-\subsection{The gradient is not sectoral composition}\label{sec:comp}
-If the gradient were sectoral composition, removing regulated and extractive firms would remove it.
-Classifying every registrant by the SIC code in its own SEC filing, it does not. The 25 regulated
+\subsection{The gradient survives sector exclusions}\label{sec:comp}
+One concern is that the tail contains regulated, extractive and financial firms whose cash-flow
+economics differ from the rest of the sample. Excluding these groups does not attenuate the
+gradient. The 25 regulated
 and extractive firms in the tail are its best-covered part, at 122\% coverage on 19.9\% of tail
 investment, and the 25 financial firms cover 298\%. The tail's $-61$\% comes from the other 163
 firms, which carry 73.0\% of tail investment at $-146$\% coverage. Dropping regulated, extractive
@@ -247,9 +248,20 @@ This research did not receive any specific grant from funding agencies in the pu
 commercial, or not-for-profit sectors.
 
 \section*{Data availability}
-All code and derived data required to reproduce every table, figure and reported number are
-openly available in the replication archive, withheld during review. The underlying raw data are public: the U.S. SEC
-XBRL \emph{frames} interface and Bureau of Labor Statistics series WPUFD41312.
+The replication archive is deposited on Zenodo ([[DOI PENDING]]) and contains the frozen source
+files, the collection and analysis code, the machine-generated claims file against which every
+reported number is checked, a SHA-256 manifest of every archived file, a one-command verification
+script, and a companion document describing the archive in full.
+Firm-level data were retrieved on 2--4 September 2026 from the SEC's XBRL \emph{frames}
+interface, one call per tag and year, at
+\url{https://data.sec.gov/api/xbrl/frames/us-gaap/<tag>/USD/CY<year>.json}; 10-K text and
+registrant classifications come from EDGAR and the submissions API
+(\url{https://www.sec.gov/edgar/sec-api-documentation}). The tags unioned for each series,
+including capital expenditure and operating cash flow, are listed in \texttt{code/engine.py}.
+The deflator is Bureau of Labor Statistics series WPUFD41312, final demand--private capital
+equipment, annual averages [[DEFLATOR RETRIEVAL]]. The \emph{frames} interface returns the
+most recently filed value for each fact, so a later retrieval may differ where filers have
+restated; the frozen copies in the archive are the basis for every figure reported here.
 
 \section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
 During the preparation of this work the authors used Claude (Anthropic) for code scaffolding, code
@@ -324,14 +336,15 @@ the replication archive.\normalsize
 \midrule
 Observations reconciled (5 firms, 7 series, 2 years, where reported) & 49 & \\
 Exact match to originally filed value & 48 & 98\% \\
-Matches restated value & 1 & Meta capital expenditure 2021 \\
+Later filing uses gross-purchase presentation & 1 & Meta capital expenditure 2021 \\
 Unexplained discrepancies & 0 & \\
 \bottomrule
 \end{tabular}\end{center}
 \noindent\footnotesize Each constructed observation for the five focal firms is matched to a
 10-K-reported value for the same fiscal period. The sole non-identical observation is Meta's 2021
-capital expenditure, restated from \$18.567bn to \$18.690bn; the SEC interface returns the most
-recent figure and our series uses it. Microsoft's fiscal year ends in June and Oracle's in May: Microsoft's 2025 observation covers July
+capital expenditure. The FY2021 filing reports \$18.567bn, while the later FY2022 filing presents
+\$18.690bn of gross purchases of property and equipment alongside \$123m of related proceeds. The
+SEC interface returns the later gross-purchase presentation, which our series uses. Microsoft's fiscal year ends in June and Oracle's in May: Microsoft's 2025 observation covers July
 2024 to June 2025 and Oracle's runs to May 2026, so the two windows fall either side of the December
 endpoint used for the other three. We retain the SEC convention.
 Capital expenditure and operating cash flow are unions of alternate tags; a single-tag
