@@ -1,0 +1,30 @@
+{
+  "title": "Investment concentration and financing in the AI boom \u2014 replication archive",
+  "upload_type": "software",
+  "description": "<p>Replication archive for the <i>Economics Letters</i> submission \"Investment concentration and financing in the AI boom\". Regenerates every table, figure and cited number in the manuscript from frozen, hashed SEC XBRL and BLS source files, and audits the manuscript against the resulting claims file with a build gate that fails if any asserted number cannot be reproduced.</p><p><b>Result.</b> Among the 500 largest U.S. public companies, incremental operating cash flow covers 117% of the 2022-2025 investment increase at the five largest investors and 102% at the top ten, which account for 52.8% of the increase, but -61% across the remaining 213 firms. The pattern is not a mechanical consequence of concentration: the more concentrated 2018-2021 window instead has the tail as its best-covered group. Concentrated investment booms are not internally financed booms as a rule; what is unusual about the present one is that the two coincide.</p><p>Run <code>./verify.sh</code> for a single pass/fail. Runtime under ten seconds; Python standard library only, plus matplotlib for the figure.</p>",
+  "creators": [
+    {
+      "name": "Chincholikar, Samir",
+      "orcid": "0009-0007-2779-3492",
+      "affiliation": "Independent researcher"
+    },
+    {
+      "name": "Chawla, Robin",
+      "orcid": "0009-0007-2807-3948",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "investment concentration",
+    "internal finance",
+    "capital expenditure",
+    "artificial intelligence",
+    "granularity",
+    "reproducibility",
+    "SEC XBRL"
+  ],
+  "notes": "Code is MIT licensed; derived data and text are CC-BY-4.0; the underlying SEC XBRL, SEC EDGAR and BLS source data are U.S. public domain. JEL: G31, G32, E22, O33, E44."
+}

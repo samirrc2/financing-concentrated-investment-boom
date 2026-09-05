@@ -1,0 +1,40 @@
+# Cover letter
+
+5 September 2026
+
+Dear Editor,
+
+We submit "Investment concentration and financing in the AI boom" for consideration at
+*Economics Letters*.
+
+The paper's contribution is an aggregation result. Financing conditions observed at the project
+margin need not characterise an investment-weighted aggregate when investment is concentrated,
+because such an aggregate places greatest weight on its largest incremental investors. Among the
+500 largest U.S. public companies, incremental operating cash flow covers 117% of the 2022--2025
+investment increase at the five largest investors and 102% at the top ten -- which account for
+52.8% of the increase -- but -61% across the remaining 213 firms.
+
+What we believe is new is the historically unusual alignment between investment concentration and
+internal financing in the current boom. The 2018--2021 window was more concentrated at the top than
+the current one -- 41.9% of its increase occurred at the five largest investors, compared with 38.9%
+in 2022--2025 -- yet its tail was the best-covered group, as it was in 2014--2017. Concentrated
+investment booms are therefore not internally financed booms as a rule; what is unusual about the
+present episode is that the two coincide.
+
+The pattern also survives sector exclusions: classifying registrants by the SIC code in their own
+filings and dropping regulated, extractive and financial firms leaves the gradient intact and
+steeper. All estimates are constructed from public sources -- the SEC's XBRL *frames* interface, SEC
+EDGAR filings, and BLS series WPUFD41312 -- and the full replication archive, which regenerates
+every reported number and verifies the manuscript against it in one command, is deposited on Zenodo
+(https://doi.org/10.5281/zenodo.22392416) and accompanies the submission.
+
+Thank you for considering the paper.
+
+Sincerely,
+
+Samir Chincholikar
+Robin Chawla
+
+Corresponding author:
+Robin Chawla
+robin.chawla.cse14@iitbhu.ac.in

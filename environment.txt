@@ -1,0 +1,10 @@
+Exact environment that produced the committed results.
+
+Python      3.11.5
+matplotlib  3.8.0            (figure only; every number needs the standard library alone)
+LaTeX       pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2024)
+LaTeX pkgs  elsarticle, siunitx, tabularx, booktabs, microtype, seqsplit, caption, lmodern
+OS          macOS 15.7.3 (darwin 24.6.0)
+
+Network is required only to re-collect the frozen source files (code/collect_*.py).
+Reproducing the paper from data/frozen/ is offline and deterministic.

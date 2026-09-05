@@ -1,0 +1,1099 @@
+# Exact source URLs behind every frozen data point in this archive.
+# Retrieved and frozen; the archive is built from the frozen copies, not from live calls.
+# No API key required; the SEC asks only for a
+# descriptive User-Agent header. See https://www.sec.gov/search-filings/edgar-application-programming-interfaces
+#
+# Format:  <frozen file>  <tag>|<year>  <url>
+# A line marked "no data" records a call that returned nothing: the SEC publishes no
+# frame for that tag and year, so the URL 404s. Those calls contribute no observations.
+
+## SEC XBRL frames - one call per tag and calendar year
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2009  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2009.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2010  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2010.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2011  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2011.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2012  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2012.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2013.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2014.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2015.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2016.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2017.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2018.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2019.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2020.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2021.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2022.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2023.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2024.json
+data/frozen/capex_frames.json  PaymentsToAcquireProductiveAssets|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireProductiveAssets/USD/CY2025.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2009  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2009.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2010  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2010.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2011  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2011.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2012  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2012.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2013.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2014.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2015.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2016.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2017.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2018.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2019.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2020.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2021.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2022.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2023.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2024.json
+data/frozen/capex_frames.json  PaymentsToAcquirePropertyPlantAndEquipment|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2025.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2013.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2014.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2015.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2016.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2017.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2018.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2019.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2020.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2021.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2022.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2023.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2024.json
+data/frozen/composition_frames.json  NetCashProvidedByUsedInOperatingActivities|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivities/USD/CY2025.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2013.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2014.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2015.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2016.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2017.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2018.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2019.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2020.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2021.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2022.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2023.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2024.json
+data/frozen/composition_frames.json  PaymentsForRepurchaseOfCommonStock|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfCommonStock/USD/CY2025.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2013.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2014.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2015.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2016.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2017.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2018.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2019.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2020.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2021.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2022.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2023.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2024.json
+data/frozen/composition_frames.json  PaymentsOfDividendsCommonStock|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStock/USD/CY2025.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2013.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2014.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2015.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2016.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2017.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2018.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2019.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2020.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2021.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2022.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2023.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2024.json
+data/frozen/composition_frames.json  ResearchAndDevelopmentExpense|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpense/USD/CY2025.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2013.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2014.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2015.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2016.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2017.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2018.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2019.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2020.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2021.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2022.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2023.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2024.json
+data/frozen/revenue_frames.json  NetCashProvidedByUsedInOperatingActivitiesContinuingOperations|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInOperatingActivitiesContinuingOperations/USD/CY2025.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2013.json  # no data: the SEC has no frame for this tag and year
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2014.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2015.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2016.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2017.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2018.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2019.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2020.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2021.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2022.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2023.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2024.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerExcludingAssessedTax|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/USD/CY2025.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2013.json  # no data: the SEC has no frame for this tag and year
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2014.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2015.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2016.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2017.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2018.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2019.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2020.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2021.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2022.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2023.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2024.json
+data/frozen/revenue_frames.json  RevenueFromContractWithCustomerIncludingAssessedTax|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax/USD/CY2025.json
+data/frozen/revenue_frames.json  Revenues|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2013.json
+data/frozen/revenue_frames.json  Revenues|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2014.json
+data/frozen/revenue_frames.json  Revenues|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2015.json
+data/frozen/revenue_frames.json  Revenues|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2016.json
+data/frozen/revenue_frames.json  Revenues|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2017.json
+data/frozen/revenue_frames.json  Revenues|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2018.json
+data/frozen/revenue_frames.json  Revenues|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2019.json
+data/frozen/revenue_frames.json  Revenues|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2020.json
+data/frozen/revenue_frames.json  Revenues|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2021.json
+data/frozen/revenue_frames.json  Revenues|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2022.json
+data/frozen/revenue_frames.json  Revenues|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2023.json
+data/frozen/revenue_frames.json  Revenues|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2024.json
+data/frozen/revenue_frames.json  Revenues|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2025.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2013.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2014.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2015.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2016.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2017.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2018.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2019.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2020.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2021.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2022.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2023.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2024.json
+data/frozen/financing_frames.json  PaymentsToAcquireBusinessesNetOfCashAcquired|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquireBusinessesNetOfCashAcquired/USD/CY2025.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2013.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2014.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2015.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2016.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2017.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2018.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2019.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2020.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2021.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2022.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2023.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2024.json
+data/frozen/financing_frames.json  ProceedsFromIssuanceOfLongTermDebt|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfLongTermDebt/USD/CY2025.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2013.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2014.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2015.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2016.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2017.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2018.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2019.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2020.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2021.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2022.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2023.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2024.json
+data/frozen/financing_frames.json  RepaymentsOfLongTermDebt|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/RepaymentsOfLongTermDebt/USD/CY2025.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2013.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2014.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2015.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2016.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2017.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2018.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2019.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2020.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2021.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2022.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2023.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2024.json
+data/frozen/alt_frames.json  CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect/USD/CY2025.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2013.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2014.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2015.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2016.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2017.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2018.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2019.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2020.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2021.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2022.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2023.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2024.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInFinancingActivities|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInFinancingActivities/USD/CY2025.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2013.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2014.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2015.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2016.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2017.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2018.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2019.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2020.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2021.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2022.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2023.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2024.json
+data/frozen/alt_frames.json  NetCashProvidedByUsedInInvestingActivities|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/NetCashProvidedByUsedInInvestingActivities/USD/CY2025.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2013.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2014.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2015.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2016.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2017.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2018.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2019.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2020.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2021.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2022.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2023.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2024.json
+data/frozen/alt_frames.json  PaymentsForRepurchaseOfEquity|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsForRepurchaseOfEquity/USD/CY2025.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2013.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2014.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2015.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2016.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2017.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2018.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2019.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2020.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2021.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2022.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2023.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2024.json
+data/frozen/alt_frames.json  PaymentsOfDividends|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividends/USD/CY2025.json
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2013.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2014.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2015.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2016.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2017.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2018.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2019.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2020.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2021.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2022.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2023.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2024.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  PaymentsOfDividendsCommonStockAndPreferredStock|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsOfDividendsCommonStockAndPreferredStock/USD/CY2025.json  # no data: the SEC has no frame for this tag and year
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2013.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2014.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2015.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2016.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2017.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2018.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2019.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2020.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2021.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2022.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2023.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2024.json
+data/frozen/alt_frames.json  ProceedsFromIssuanceOfCommonStock|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromIssuanceOfCommonStock/USD/CY2025.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2013.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2014.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2015.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2016.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2017.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2018.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2019.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2020.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2021.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2022.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2023.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2024.json
+data/frozen/alt_frames.json  ProceedsFromStockOptionsExercised|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/ProceedsFromStockOptionsExercised/USD/CY2025.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2013  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2013.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2014  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2014.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2015  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2015.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2016  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2016.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2017  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2017.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2018  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2018.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2019  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2019.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2020  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2020.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2021  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2021.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2022  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2022.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2023  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2023.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2024  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2024.json
+data/frozen/alt_frames.json  ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost|2025  https://data.sec.gov/api/xbrl/frames/us-gaap/ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost/USD/CY2025.json
+
+## SEC submissions API - registrant classification and 10-K location, one call per firm
+data/frozen/sic_codes.json  CIK0000001800  https://data.sec.gov/submissions/CIK0000001800.json  # ABBOTT LABORATORIES
+data/frozen/sic_codes.json  CIK0000002488  https://data.sec.gov/submissions/CIK0000002488.json  # ADVANCED MICRO DEVICES INC
+data/frozen/sic_codes.json  CIK0000002969  https://data.sec.gov/submissions/CIK0000002969.json  # Air Products & Chemicals, Inc.
+data/frozen/sic_codes.json  CIK0000003570  https://data.sec.gov/submissions/CIK0000003570.json  # Cheniere Energy, Inc.
+data/frozen/sic_codes.json  CIK0000004447  https://data.sec.gov/submissions/CIK0000004447.json  # HESS CORP
+data/frozen/sic_codes.json  CIK0000004904  https://data.sec.gov/submissions/CIK0000004904.json  # AMERICAN ELECTRIC POWER CO INC
+data/frozen/sic_codes.json  CIK0000004962  https://data.sec.gov/submissions/CIK0000004962.json  # AMERICAN EXPRESS CO
+data/frozen/sic_codes.json  CIK0000004977  https://data.sec.gov/submissions/CIK0000004977.json  # AFLAC INC
+data/frozen/sic_codes.json  CIK0000005272  https://data.sec.gov/submissions/CIK0000005272.json  # AMERICAN INTERNATIONAL GROUP, INC.
+data/frozen/sic_codes.json  CIK0000005513  https://data.sec.gov/submissions/CIK0000005513.json  # Unum Group
+data/frozen/sic_codes.json  CIK0000006201  https://data.sec.gov/submissions/CIK0000006201.json  # American Airlines Group Inc.
+data/frozen/sic_codes.json  CIK0000006281  https://data.sec.gov/submissions/CIK0000006281.json  # ANALOG DEVICES INC
+data/frozen/sic_codes.json  CIK0000006951  https://data.sec.gov/submissions/CIK0000006951.json  # APPLIED MATERIALS INC /DE
+data/frozen/sic_codes.json  CIK0000007084  https://data.sec.gov/submissions/CIK0000007084.json  # Archer-Daniels-Midland Co
+data/frozen/sic_codes.json  CIK0000007536  https://data.sec.gov/submissions/CIK0000007536.json  # ARROW ELECTRONICS, INC.
+data/frozen/sic_codes.json  CIK0000008670  https://data.sec.gov/submissions/CIK0000008670.json  # AUTOMATIC DATA PROCESSING INC
+data/frozen/sic_codes.json  CIK0000008818  https://data.sec.gov/submissions/CIK0000008818.json  # Avery Dennison Corp
+data/frozen/sic_codes.json  CIK0000008858  https://data.sec.gov/submissions/CIK0000008858.json  # AVNET INC
+data/frozen/sic_codes.json  CIK0000009389  https://data.sec.gov/submissions/CIK0000009389.json  # BALL Corp
+data/frozen/sic_codes.json  CIK0000010456  https://data.sec.gov/submissions/CIK0000010456.json  # BAXTER INTERNATIONAL INC
+data/frozen/sic_codes.json  CIK0000010795  https://data.sec.gov/submissions/CIK0000010795.json  # BECTON DICKINSON & CO
+data/frozen/sic_codes.json  CIK0000011544  https://data.sec.gov/submissions/CIK0000011544.json  # BERKLEY W R CORP
+data/frozen/sic_codes.json  CIK0000012927  https://data.sec.gov/submissions/CIK0000012927.json  # BOEING CO
+data/frozen/sic_codes.json  CIK0000014272  https://data.sec.gov/submissions/CIK0000014272.json  # BRISTOL MYERS SQUIBB CO
+data/frozen/sic_codes.json  CIK0000015615  https://data.sec.gov/submissions/CIK0000015615.json  # MASTEC INC
+data/frozen/sic_codes.json  CIK0000016732  https://data.sec.gov/submissions/CIK0000016732.json  # CAMPBELL'S Co
+data/frozen/sic_codes.json  CIK0000016918  https://data.sec.gov/submissions/CIK0000016918.json  # CONSTELLATION BRANDS, INC.
+data/frozen/sic_codes.json  CIK0000018230  https://data.sec.gov/submissions/CIK0000018230.json  # CATERPILLAR INC
+data/frozen/sic_codes.json  CIK0000018926  https://data.sec.gov/submissions/CIK0000018926.json  # Lumen Technologies, Inc.
+data/frozen/sic_codes.json  CIK0000019617  https://data.sec.gov/submissions/CIK0000019617.json  # JPMORGAN CHASE & CO
+data/frozen/sic_codes.json  CIK0000020286  https://data.sec.gov/submissions/CIK0000020286.json  # CINCINNATI FINANCIAL CORP
+data/frozen/sic_codes.json  CIK0000021175  https://data.sec.gov/submissions/CIK0000021175.json  # CNA FINANCIAL CORP
+data/frozen/sic_codes.json  CIK0000021344  https://data.sec.gov/submissions/CIK0000021344.json  # COCA COLA CO
+data/frozen/sic_codes.json  CIK0000021665  https://data.sec.gov/submissions/CIK0000021665.json  # COLGATE PALMOLIVE CO
+data/frozen/sic_codes.json  CIK0000023217  https://data.sec.gov/submissions/CIK0000023217.json  # CONAGRA BRANDS INC.
+data/frozen/sic_codes.json  CIK0000024545  https://data.sec.gov/submissions/CIK0000024545.json  # MOLSON COORS BEVERAGE CO
+data/frozen/sic_codes.json  CIK0000024741  https://data.sec.gov/submissions/CIK0000024741.json  # CORNING INC /NY
+data/frozen/sic_codes.json  CIK0000026172  https://data.sec.gov/submissions/CIK0000026172.json  # CUMMINS INC
+data/frozen/sic_codes.json  CIK0000027419  https://data.sec.gov/submissions/CIK0000027419.json  # TARGET CORP
+data/frozen/sic_codes.json  CIK0000027904  https://data.sec.gov/submissions/CIK0000027904.json  # DELTA AIR LINES, INC.
+data/frozen/sic_codes.json  CIK0000029534  https://data.sec.gov/submissions/CIK0000029534.json  # DOLLAR GENERAL CORP
+data/frozen/sic_codes.json  CIK0000029989  https://data.sec.gov/submissions/CIK0000029989.json  # OMNICOM GROUP INC.
+data/frozen/sic_codes.json  CIK0000031462  https://data.sec.gov/submissions/CIK0000031462.json  # ECOLAB INC.
+data/frozen/sic_codes.json  CIK0000032604  https://data.sec.gov/submissions/CIK0000032604.json  # EMERSON ELECTRIC CO
+data/frozen/sic_codes.json  CIK0000034088  https://data.sec.gov/submissions/CIK0000034088.json  # EXXON MOBIL CORP
+data/frozen/sic_codes.json  CIK0000036104  https://data.sec.gov/submissions/CIK0000036104.json  # US BANCORP \DE\
+data/frozen/sic_codes.json  CIK0000037996  https://data.sec.gov/submissions/CIK0000037996.json  # FORD MOTOR CO
+data/frozen/sic_codes.json  CIK0000038009  https://data.sec.gov/submissions/CIK0000038009.json  # FORD MOTOR CREDIT CO LLC
+data/frozen/sic_codes.json  CIK0000038777  https://data.sec.gov/submissions/CIK0000038777.json  # FRANKLIN TEMPLETON INC
+data/frozen/sic_codes.json  CIK0000039911  https://data.sec.gov/submissions/CIK0000039911.json  # GAP INC
+data/frozen/sic_codes.json  CIK0000040533  https://data.sec.gov/submissions/CIK0000040533.json  # GENERAL DYNAMICS CORP
+data/frozen/sic_codes.json  CIK0000040545  https://data.sec.gov/submissions/CIK0000040545.json  # GENERAL ELECTRIC CO
+data/frozen/sic_codes.json  CIK0000040704  https://data.sec.gov/submissions/CIK0000040704.json  # GENERAL MILLS INC
+data/frozen/sic_codes.json  CIK0000040987  https://data.sec.gov/submissions/CIK0000040987.json  # GENUINE PARTS CO
+data/frozen/sic_codes.json  CIK0000042582  https://data.sec.gov/submissions/CIK0000042582.json  # GOODYEAR TIRE & RUBBER CO /OH/
+data/frozen/sic_codes.json  CIK0000045012  https://data.sec.gov/submissions/CIK0000045012.json  # HALLIBURTON CO
+data/frozen/sic_codes.json  CIK0000047111  https://data.sec.gov/submissions/CIK0000047111.json  # HERSHEY CO
+data/frozen/sic_codes.json  CIK0000047217  https://data.sec.gov/submissions/CIK0000047217.json  # HP INC
+data/frozen/sic_codes.json  CIK0000048465  https://data.sec.gov/submissions/CIK0000048465.json  # HORMEL FOODS CORP /DE/
+data/frozen/sic_codes.json  CIK0000049071  https://data.sec.gov/submissions/CIK0000049071.json  # HUMANA INC
+data/frozen/sic_codes.json  CIK0000049826  https://data.sec.gov/submissions/CIK0000049826.json  # ILLINOIS TOOL WORKS INC
+data/frozen/sic_codes.json  CIK0000050863  https://data.sec.gov/submissions/CIK0000050863.json  # INTEL CORP
+data/frozen/sic_codes.json  CIK0000051143  https://data.sec.gov/submissions/CIK0000051143.json  # INTERNATIONAL BUSINESS MACHINES CORP
+data/frozen/sic_codes.json  CIK0000051253  https://data.sec.gov/submissions/CIK0000051253.json  # INTERNATIONAL FLAVORS & FRAGRANCES INC
+data/frozen/sic_codes.json  CIK0000051434  https://data.sec.gov/submissions/CIK0000051434.json  # INTERNATIONAL PAPER CO /NEW/
+data/frozen/sic_codes.json  CIK0000051644  https://data.sec.gov/submissions/CIK0000051644.json  # INTERPUBLIC GROUP OF COMPANIES, INC.
+data/frozen/sic_codes.json  CIK0000052988  https://data.sec.gov/submissions/CIK0000052988.json  # JACOBS SOLUTIONS INC.
+data/frozen/sic_codes.json  CIK0000055067  https://data.sec.gov/submissions/CIK0000055067.json  # KELLANOVA
+data/frozen/sic_codes.json  CIK0000055785  https://data.sec.gov/submissions/CIK0000055785.json  # KIMBERLY CLARK CORP
+data/frozen/sic_codes.json  CIK0000056873  https://data.sec.gov/submissions/CIK0000056873.json  # KROGER CO
+data/frozen/sic_codes.json  CIK0000059478  https://data.sec.gov/submissions/CIK0000059478.json  # ELI LILLY & Co
+data/frozen/sic_codes.json  CIK0000059558  https://data.sec.gov/submissions/CIK0000059558.json  # LINCOLN NATIONAL CORP
+data/frozen/sic_codes.json  CIK0000060086  https://data.sec.gov/submissions/CIK0000060086.json  # LOEWS CORP
+data/frozen/sic_codes.json  CIK0000060667  https://data.sec.gov/submissions/CIK0000060667.json  # LOWES COMPANIES INC
+data/frozen/sic_codes.json  CIK0000062709  https://data.sec.gov/submissions/CIK0000062709.json  # MARSH & MCLENNAN COMPANIES, INC.
+data/frozen/sic_codes.json  CIK0000063908  https://data.sec.gov/submissions/CIK0000063908.json  # MCDONALDS CORP
+data/frozen/sic_codes.json  CIK0000064040  https://data.sec.gov/submissions/CIK0000064040.json  # S&P Global Inc.
+data/frozen/sic_codes.json  CIK0000064803  https://data.sec.gov/submissions/CIK0000064803.json  # CVS HEALTH Corp
+data/frozen/sic_codes.json  CIK0000065984  https://data.sec.gov/submissions/CIK0000065984.json  # ENTERGY CORP /DE/
+data/frozen/sic_codes.json  CIK0000066740  https://data.sec.gov/submissions/CIK0000066740.json  # 3M CO
+data/frozen/sic_codes.json  CIK0000068505  https://data.sec.gov/submissions/CIK0000068505.json  # Motorola Solutions, Inc.
+data/frozen/sic_codes.json  CIK0000070318  https://data.sec.gov/submissions/CIK0000070318.json  # TENET HEALTHCARE CORP
+data/frozen/sic_codes.json  CIK0000070858  https://data.sec.gov/submissions/CIK0000070858.json  # BANK OF AMERICA CORP /DE/
+data/frozen/sic_codes.json  CIK0000072333  https://data.sec.gov/submissions/CIK0000072333.json  # NORDSTROM INC
+data/frozen/sic_codes.json  CIK0000072741  https://data.sec.gov/submissions/CIK0000072741.json  # EVERSOURCE ENERGY
+data/frozen/sic_codes.json  CIK0000073309  https://data.sec.gov/submissions/CIK0000073309.json  # NUCOR CORP
+data/frozen/sic_codes.json  CIK0000075362  https://data.sec.gov/submissions/CIK0000075362.json  # PACCAR INC
+data/frozen/sic_codes.json  CIK0000076334  https://data.sec.gov/submissions/CIK0000076334.json  # Parker-Hannifin Corp
+data/frozen/sic_codes.json  CIK0000077476  https://data.sec.gov/submissions/CIK0000077476.json  # PEPSICO INC
+data/frozen/sic_codes.json  CIK0000078003  https://data.sec.gov/submissions/CIK0000078003.json  # PFIZER INC
+data/frozen/sic_codes.json  CIK0000078239  https://data.sec.gov/submissions/CIK0000078239.json  # PVH CORP. /DE/
+data/frozen/sic_codes.json  CIK0000079879  https://data.sec.gov/submissions/CIK0000079879.json  # PPG INDUSTRIES INC
+data/frozen/sic_codes.json  CIK0000080424  https://data.sec.gov/submissions/CIK0000080424.json  # PROCTER & GAMBLE Co
+data/frozen/sic_codes.json  CIK0000080661  https://data.sec.gov/submissions/CIK0000080661.json  # PROGRESSIVE CORP/OH/
+data/frozen/sic_codes.json  CIK0000081061  https://data.sec.gov/submissions/CIK0000081061.json  # PUBLIX SUPER MARKETS INC
+data/frozen/sic_codes.json  CIK0000085961  https://data.sec.gov/submissions/CIK0000085961.json  # RYDER SYSTEM INC
+data/frozen/sic_codes.json  CIK0000086312  https://data.sec.gov/submissions/CIK0000086312.json  # TRAVELERS COMPANIES, INC.
+data/frozen/sic_codes.json  CIK0000087347  https://data.sec.gov/submissions/CIK0000087347.json  # SLB LIMITED/NV
+data/frozen/sic_codes.json  CIK0000088121  https://data.sec.gov/submissions/CIK0000088121.json  # SEABOARD CORP /DE/
+data/frozen/sic_codes.json  CIK0000089800  https://data.sec.gov/submissions/CIK0000089800.json  # SHERWIN WILLIAMS CO
+data/frozen/sic_codes.json  CIK0000091388  https://data.sec.gov/submissions/CIK0000091388.json  # SMITHFIELD FOODS INC
+data/frozen/sic_codes.json  CIK0000091419  https://data.sec.gov/submissions/CIK0000091419.json  # J M SMUCKER Co
+data/frozen/sic_codes.json  CIK0000092122  https://data.sec.gov/submissions/CIK0000092122.json  # SOUTHERN CO
+data/frozen/sic_codes.json  CIK0000092380  https://data.sec.gov/submissions/CIK0000092380.json  # SOUTHWEST AIRLINES CO
+data/frozen/sic_codes.json  CIK0000093410  https://data.sec.gov/submissions/CIK0000093410.json  # CHEVRON CORP
+data/frozen/sic_codes.json  CIK0000093556  https://data.sec.gov/submissions/CIK0000093556.json  # STANLEY BLACK & DECKER, INC.
+data/frozen/sic_codes.json  CIK0000093751  https://data.sec.gov/submissions/CIK0000093751.json  # STATE STREET CORP
+data/frozen/sic_codes.json  CIK0000096021  https://data.sec.gov/submissions/CIK0000096021.json  # SYSCO CORP
+data/frozen/sic_codes.json  CIK0000096223  https://data.sec.gov/submissions/CIK0000096223.json  # Jefferies Financial Group Inc.
+data/frozen/sic_codes.json  CIK0000097476  https://data.sec.gov/submissions/CIK0000097476.json  # TEXAS INSTRUMENTS INC
+data/frozen/sic_codes.json  CIK0000097745  https://data.sec.gov/submissions/CIK0000097745.json  # THERMO FISHER SCIENTIFIC INC.
+data/frozen/sic_codes.json  CIK0000100493  https://data.sec.gov/submissions/CIK0000100493.json  # TYSON FOODS, INC.
+data/frozen/sic_codes.json  CIK0000100517  https://data.sec.gov/submissions/CIK0000100517.json  # United Airlines Holdings, Inc.
+data/frozen/sic_codes.json  CIK0000100885  https://data.sec.gov/submissions/CIK0000100885.json  # UNION PACIFIC CORP
+data/frozen/sic_codes.json  CIK0000101829  https://data.sec.gov/submissions/CIK0000101829.json  # RTX Corp
+data/frozen/sic_codes.json  CIK0000103379  https://data.sec.gov/submissions/CIK0000103379.json  # V F CORP
+data/frozen/sic_codes.json  CIK0000104169  https://data.sec.gov/submissions/CIK0000104169.json  # Walmart Inc.
+data/frozen/sic_codes.json  CIK0000105634  https://data.sec.gov/submissions/CIK0000105634.json  # EMCOR Group, Inc.
+data/frozen/sic_codes.json  CIK0000106040  https://data.sec.gov/submissions/CIK0000106040.json  # WESTERN DIGITAL CORP
+data/frozen/sic_codes.json  CIK0000106640  https://data.sec.gov/submissions/CIK0000106640.json  # WHIRLPOOL CORP /DE/
+data/frozen/sic_codes.json  CIK0000107263  https://data.sec.gov/submissions/CIK0000107263.json  # WILLIAMS COMPANIES, INC.
+data/frozen/sic_codes.json  CIK0000109198  https://data.sec.gov/submissions/CIK0000109198.json  # TJX COMPANIES INC /DE/
+data/frozen/sic_codes.json  CIK0000200406  https://data.sec.gov/submissions/CIK0000200406.json  # JOHNSON & JOHNSON
+data/frozen/sic_codes.json  CIK0000202058  https://data.sec.gov/submissions/CIK0000202058.json  # L3HARRIS TECHNOLOGIES, INC. /DE/
+data/frozen/sic_codes.json  CIK0000205402  https://data.sec.gov/submissions/CIK0000205402.json  # GRAYBAR ELECTRIC CO INC
+data/frozen/sic_codes.json  CIK0000217346  https://data.sec.gov/submissions/CIK0000217346.json  # TEXTRON INC
+data/frozen/sic_codes.json  CIK0000277135  https://data.sec.gov/submissions/CIK0000277135.json  # W.W. GRAINGER, INC.
+data/frozen/sic_codes.json  CIK0000277948  https://data.sec.gov/submissions/CIK0000277948.json  # CSX CORP
+data/frozen/sic_codes.json  CIK0000310158  https://data.sec.gov/submissions/CIK0000310158.json  # Merck & Co., Inc.
+data/frozen/sic_codes.json  CIK0000310764  https://data.sec.gov/submissions/CIK0000310764.json  # STRYKER CORP
+data/frozen/sic_codes.json  CIK0000313616  https://data.sec.gov/submissions/CIK0000313616.json  # DANAHER CORP /DE/
+data/frozen/sic_codes.json  CIK0000315189  https://data.sec.gov/submissions/CIK0000315189.json  # DEERE & CO
+data/frozen/sic_codes.json  CIK0000315293  https://data.sec.gov/submissions/CIK0000315293.json  # Aon plc
+data/frozen/sic_codes.json  CIK0000316709  https://data.sec.gov/submissions/CIK0000316709.json  # SCHWAB CHARLES CORP
+data/frozen/sic_codes.json  CIK0000318154  https://data.sec.gov/submissions/CIK0000318154.json  # AMGEN INC
+data/frozen/sic_codes.json  CIK0000319201  https://data.sec.gov/submissions/CIK0000319201.json  # KLA CORP
+data/frozen/sic_codes.json  CIK0000320187  https://data.sec.gov/submissions/CIK0000320187.json  # NIKE, Inc.
+data/frozen/sic_codes.json  CIK0000320193  https://data.sec.gov/submissions/CIK0000320193.json  # Apple Inc.
+data/frozen/sic_codes.json  CIK0000350698  https://data.sec.gov/submissions/CIK0000350698.json  # AUTONATION, INC.
+data/frozen/sic_codes.json  CIK0000352915  https://data.sec.gov/submissions/CIK0000352915.json  # UNIVERSAL HEALTH SERVICES INC
+data/frozen/sic_codes.json  CIK0000354190  https://data.sec.gov/submissions/CIK0000354190.json  # Arthur J. Gallagher & Co.
+data/frozen/sic_codes.json  CIK0000354950  https://data.sec.gov/submissions/CIK0000354950.json  # HOME DEPOT, INC.
+data/frozen/sic_codes.json  CIK0000702165  https://data.sec.gov/submissions/CIK0000702165.json  # NORFOLK SOUTHERN CORP
+data/frozen/sic_codes.json  CIK0000707549  https://data.sec.gov/submissions/CIK0000707549.json  # LAM RESEARCH CORP
+data/frozen/sic_codes.json  CIK0000713676  https://data.sec.gov/submissions/CIK0000713676.json  # PNC FINANCIAL SERVICES GROUP, INC.
+data/frozen/sic_codes.json  CIK0000715957  https://data.sec.gov/submissions/CIK0000715957.json  # DOMINION ENERGY, INC
+data/frozen/sic_codes.json  CIK0000720005  https://data.sec.gov/submissions/CIK0000720005.json  # RAYMOND JAMES FINANCIAL INC
+data/frozen/sic_codes.json  CIK0000721371  https://data.sec.gov/submissions/CIK0000721371.json  # CARDINAL HEALTH INC
+data/frozen/sic_codes.json  CIK0000723125  https://data.sec.gov/submissions/CIK0000723125.json  # MICRON TECHNOLOGY INC
+data/frozen/sic_codes.json  CIK0000723254  https://data.sec.gov/submissions/CIK0000723254.json  # CINTAS CORP
+data/frozen/sic_codes.json  CIK0000723612  https://data.sec.gov/submissions/CIK0000723612.json  # AVIS BUDGET GROUP, INC.
+data/frozen/sic_codes.json  CIK0000726865  https://data.sec.gov/submissions/CIK0000726865.json  # LINCOLN NATIONAL LIFE INSURANCE CO /IN/
+data/frozen/sic_codes.json  CIK0000726958  https://data.sec.gov/submissions/CIK0000726958.json  # CASEYS GENERAL STORES INC
+data/frozen/sic_codes.json  CIK0000728535  https://data.sec.gov/submissions/CIK0000728535.json  # HUNT J B TRANSPORT SERVICES INC
+data/frozen/sic_codes.json  CIK0000730263  https://data.sec.gov/submissions/CIK0000730263.json  # THOR INDUSTRIES INC
+data/frozen/sic_codes.json  CIK0000731766  https://data.sec.gov/submissions/CIK0000731766.json  # UNITEDHEALTH GROUP INC
+data/frozen/sic_codes.json  CIK0000732712  https://data.sec.gov/submissions/CIK0000732712.json  # VERIZON COMMUNICATIONS INC
+data/frozen/sic_codes.json  CIK0000732717  https://data.sec.gov/submissions/CIK0000732717.json  # AT&T INC.
+data/frozen/sic_codes.json  CIK0000745732  https://data.sec.gov/submissions/CIK0000745732.json  # ROSS STORES, INC.
+data/frozen/sic_codes.json  CIK0000746515  https://data.sec.gov/submissions/CIK0000746515.json  # EXPEDITORS INTERNATIONAL OF WASHINGTON INC
+data/frozen/sic_codes.json  CIK0000749098  https://data.sec.gov/submissions/CIK0000749098.json  # MAGNA INTERNATIONAL INC
+data/frozen/sic_codes.json  CIK0000753308  https://data.sec.gov/submissions/CIK0000753308.json  # NEXTERA ENERGY INC
+data/frozen/sic_codes.json  CIK0000764065  https://data.sec.gov/submissions/CIK0000764065.json  # CLEVELAND-CLIFFS INC.
+data/frozen/sic_codes.json  CIK0000764180  https://data.sec.gov/submissions/CIK0000764180.json  # ALTRIA GROUP, INC.
+data/frozen/sic_codes.json  CIK0000764478  https://data.sec.gov/submissions/CIK0000764478.json  # BEST BUY CO INC
+data/frozen/sic_codes.json  CIK0000766421  https://data.sec.gov/submissions/CIK0000766421.json  # ALASKA AIR GROUP, INC.
+data/frozen/sic_codes.json  CIK0000773840  https://data.sec.gov/submissions/CIK0000773840.json  # HONEYWELL INTERNATIONAL INC
+data/frozen/sic_codes.json  CIK0000775158  https://data.sec.gov/submissions/CIK0000775158.json  # OSHKOSH CORP
+data/frozen/sic_codes.json  CIK0000783325  https://data.sec.gov/submissions/CIK0000783325.json  # WEC ENERGY GROUP, INC.
+data/frozen/sic_codes.json  CIK0000788784  https://data.sec.gov/submissions/CIK0000788784.json  # PUBLIC SERVICE ENTERPRISE GROUP INC
+data/frozen/sic_codes.json  CIK0000789019  https://data.sec.gov/submissions/CIK0000789019.json  # MICROSOFT CORP
+data/frozen/sic_codes.json  CIK0000789460  https://data.sec.gov/submissions/CIK0000789460.json  # WORLD KINECT CORP
+data/frozen/sic_codes.json  CIK0000789570  https://data.sec.gov/submissions/CIK0000789570.json  # MGM Resorts International
+data/frozen/sic_codes.json  CIK0000794170  https://data.sec.gov/submissions/CIK0000794170.json  # Toll Brothers, Inc.
+data/frozen/sic_codes.json  CIK0000794367  https://data.sec.gov/submissions/CIK0000794367.json  # Macy's, Inc.
+data/frozen/sic_codes.json  CIK0000796343  https://data.sec.gov/submissions/CIK0000796343.json  # ADOBE INC.
+data/frozen/sic_codes.json  CIK0000797468  https://data.sec.gov/submissions/CIK0000797468.json  # OCCIDENTAL PETROLEUM CORP /DE/
+data/frozen/sic_codes.json  CIK0000798354  https://data.sec.gov/submissions/CIK0000798354.json  # FISERV INC
+data/frozen/sic_codes.json  CIK0000798941  https://data.sec.gov/submissions/CIK0000798941.json  # FIRST CITIZENS BANCSHARES INC /DE/
+data/frozen/sic_codes.json  CIK0000802481  https://data.sec.gov/submissions/CIK0000802481.json  # PILGRIMS PRIDE CORP
+data/frozen/sic_codes.json  CIK0000804269  https://data.sec.gov/submissions/CIK0000804269.json  # General Motors Financial Company, Inc.
+data/frozen/sic_codes.json  CIK0000804328  https://data.sec.gov/submissions/CIK0000804328.json  # QUALCOMM INC/DE
+data/frozen/sic_codes.json  CIK0000813762  https://data.sec.gov/submissions/CIK0000813762.json  # ICAHN ENTERPRISES L.P.
+data/frozen/sic_codes.json  CIK0000813828  https://data.sec.gov/submissions/CIK0000813828.json  # Paramount Global
+data/frozen/sic_codes.json  CIK0000815097  https://data.sec.gov/submissions/CIK0000815097.json  # Carnival Corp Ltd.
+data/frozen/sic_codes.json  CIK0000815917  https://data.sec.gov/submissions/CIK0000815917.json  # JONES FINANCIAL COMPANIES LLLP
+data/frozen/sic_codes.json  CIK0000818686  https://data.sec.gov/submissions/CIK0000818686.json  # TEVA PHARMACEUTICAL INDUSTRIES LTD
+data/frozen/sic_codes.json  CIK0000820027  https://data.sec.gov/submissions/CIK0000820027.json  # AMERIPRISE FINANCIAL INC
+data/frozen/sic_codes.json  CIK0000820313  https://data.sec.gov/submissions/CIK0000820313.json  # AMPHENOL CORP /DE/
+data/frozen/sic_codes.json  CIK0000821026  https://data.sec.gov/submissions/CIK0000821026.json  # Andersons, Inc.
+data/frozen/sic_codes.json  CIK0000821189  https://data.sec.gov/submissions/CIK0000821189.json  # EOG RESOURCES INC
+data/frozen/sic_codes.json  CIK0000822416  https://data.sec.gov/submissions/CIK0000822416.json  # PULTEGROUP INC/MI/
+data/frozen/sic_codes.json  CIK0000823277  https://data.sec.gov/submissions/CIK0000823277.json  # CHS INC
+data/frozen/sic_codes.json  CIK0000823768  https://data.sec.gov/submissions/CIK0000823768.json  # WASTE MANAGEMENT INC
+data/frozen/sic_codes.json  CIK0000827052  https://data.sec.gov/submissions/CIK0000827052.json  # EDISON INTERNATIONAL
+data/frozen/sic_codes.json  CIK0000829224  https://data.sec.gov/submissions/CIK0000829224.json  # STARBUCKS CORP
+data/frozen/sic_codes.json  CIK0000831001  https://data.sec.gov/submissions/CIK0000831001.json  # CITIGROUP INC
+data/frozen/sic_codes.json  CIK0000831259  https://data.sec.gov/submissions/CIK0000831259.json  # FREEPORT-MCMORAN INC
+data/frozen/sic_codes.json  CIK0000833444  https://data.sec.gov/submissions/CIK0000833444.json  # Johnson Controls International plc
+data/frozen/sic_codes.json  CIK0000842162  https://data.sec.gov/submissions/CIK0000842162.json  # LEAR CORP
+data/frozen/sic_codes.json  CIK0000849395  https://data.sec.gov/submissions/CIK0000849395.json  # CRH PUBLIC LTD CO
+data/frozen/sic_codes.json  CIK0000851968  https://data.sec.gov/submissions/CIK0000851968.json  # MOHAWK INDUSTRIES INC
+data/frozen/sic_codes.json  CIK0000858877  https://data.sec.gov/submissions/CIK0000858877.json  # CISCO SYSTEMS, INC.
+data/frozen/sic_codes.json  CIK0000860730  https://data.sec.gov/submissions/CIK0000860730.json  # HCA Healthcare, Inc.
+data/frozen/sic_codes.json  CIK0000861884  https://data.sec.gov/submissions/CIK0000861884.json  # RELIANCE, INC.
+data/frozen/sic_codes.json  CIK0000866374  https://data.sec.gov/submissions/CIK0000866374.json  # FLEX LTD.
+data/frozen/sic_codes.json  CIK0000866787  https://data.sec.gov/submissions/CIK0000866787.json  # AUTOZONE INC
+data/frozen/sic_codes.json  CIK0000868857  https://data.sec.gov/submissions/CIK0000868857.json  # AECOM
+data/frozen/sic_codes.json  CIK0000871763  https://data.sec.gov/submissions/CIK0000871763.json  # ManpowerGroup Inc.
+data/frozen/sic_codes.json  CIK0000872589  https://data.sec.gov/submissions/CIK0000872589.json  # REGENERON PHARMACEUTICALS, INC.
+data/frozen/sic_codes.json  CIK0000874761  https://data.sec.gov/submissions/CIK0000874761.json  # AES CORP
+data/frozen/sic_codes.json  CIK0000874766  https://data.sec.gov/submissions/CIK0000874766.json  # HARTFORD INSURANCE GROUP, INC.
+data/frozen/sic_codes.json  CIK0000875045  https://data.sec.gov/submissions/CIK0000875045.json  # BIOGEN INC.
+data/frozen/sic_codes.json  CIK0000875320  https://data.sec.gov/submissions/CIK0000875320.json  # VERTEX PHARMACEUTICALS INC / MA
+data/frozen/sic_codes.json  CIK0000877422  https://data.sec.gov/submissions/CIK0000877422.json  # SpartanNash Co
+data/frozen/sic_codes.json  CIK0000880266  https://data.sec.gov/submissions/CIK0000880266.json  # AGCO CORP /DE
+data/frozen/sic_codes.json  CIK0000882095  https://data.sec.gov/submissions/CIK0000882095.json  # GILEAD SCIENCES, INC.
+data/frozen/sic_codes.json  CIK0000882184  https://data.sec.gov/submissions/CIK0000882184.json  # HORTON D R INC /DE/
+data/frozen/sic_codes.json  CIK0000884887  https://data.sec.gov/submissions/CIK0000884887.json  # ROYAL CARIBBEAN CRUISES LTD
+data/frozen/sic_codes.json  CIK0000885590  https://data.sec.gov/submissions/CIK0000885590.json  # Bausch Health Companies Inc.
+data/frozen/sic_codes.json  CIK0000885639  https://data.sec.gov/submissions/CIK0000885639.json  # KOHLS Corp
+data/frozen/sic_codes.json  CIK0000885725  https://data.sec.gov/submissions/CIK0000885725.json  # BOSTON SCIENTIFIC CORP
+data/frozen/sic_codes.json  CIK0000896159  https://data.sec.gov/submissions/CIK0000896159.json  # Chubb Ltd
+data/frozen/sic_codes.json  CIK0000896878  https://data.sec.gov/submissions/CIK0000896878.json  # INTUIT INC.
+data/frozen/sic_codes.json  CIK0000898173  https://data.sec.gov/submissions/CIK0000898173.json  # O REILLY AUTOMOTIVE INC
+data/frozen/sic_codes.json  CIK0000898174  https://data.sec.gov/submissions/CIK0000898174.json  # REINSURANCE GROUP OF AMERICA INC
+data/frozen/sic_codes.json  CIK0000898293  https://data.sec.gov/submissions/CIK0000898293.json  # JABIL INC
+data/frozen/sic_codes.json  CIK0000899051  https://data.sec.gov/submissions/CIK0000899051.json  # ALLSTATE CORP
+data/frozen/sic_codes.json  CIK0000906163  https://data.sec.gov/submissions/CIK0000906163.json  # NVR INC
+data/frozen/sic_codes.json  CIK0000908255  https://data.sec.gov/submissions/CIK0000908255.json  # BORGWARNER INC
+data/frozen/sic_codes.json  CIK0000908937  https://data.sec.gov/submissions/CIK0000908937.json  # SIRIUS XM HOLDINGS INC.
+data/frozen/sic_codes.json  CIK0000909832  https://data.sec.gov/submissions/CIK0000909832.json  # COSTCO WHOLESALE CORP /NEW
+data/frozen/sic_codes.json  CIK0000913144  https://data.sec.gov/submissions/CIK0000913144.json  # RENAISSANCERE HOLDINGS LTD
+data/frozen/sic_codes.json  CIK0000913760  https://data.sec.gov/submissions/CIK0000913760.json  # StoneX Group Inc.
+data/frozen/sic_codes.json  CIK0000914748  https://data.sec.gov/submissions/CIK0000914748.json  # EVEREST REINSURANCE HOLDINGS INC
+data/frozen/sic_codes.json  CIK0000915389  https://data.sec.gov/submissions/CIK0000915389.json  # EASTMAN CHEMICAL CO
+data/frozen/sic_codes.json  CIK0000916365  https://data.sec.gov/submissions/CIK0000916365.json  # TRACTOR SUPPLY CO /DE/
+data/frozen/sic_codes.json  CIK0000920148  https://data.sec.gov/submissions/CIK0000920148.json  # LABCORP HOLDINGS INC.
+data/frozen/sic_codes.json  CIK0000920760  https://data.sec.gov/submissions/CIK0000920760.json  # LENNAR CORP /NEW/
+data/frozen/sic_codes.json  CIK0000922224  https://data.sec.gov/submissions/CIK0000922224.json  # PPL Corp
+data/frozen/sic_codes.json  CIK0000927066  https://data.sec.gov/submissions/CIK0000927066.json  # DAVITA INC.
+data/frozen/sic_codes.json  CIK0000927628  https://data.sec.gov/submissions/CIK0000927628.json  # CAPITAL ONE FINANCIAL CORP
+data/frozen/sic_codes.json  CIK0000927653  https://data.sec.gov/submissions/CIK0000927653.json  # MCKESSON CORP
+data/frozen/sic_codes.json  CIK0000929008  https://data.sec.gov/submissions/CIK0000929008.json  # WESCO INTERNATIONAL INC
+data/frozen/sic_codes.json  CIK0000932696  https://data.sec.gov/submissions/CIK0000932696.json  # INSIGHT ENTERPRISES INC
+data/frozen/sic_codes.json  CIK0000932787  https://data.sec.gov/submissions/CIK0000932787.json  # STMicroelectronics N.V.
+data/frozen/sic_codes.json  CIK0000934612  https://data.sec.gov/submissions/CIK0000934612.json  # BURLINGTON NORTHERN SANTA FE, LLC
+data/frozen/sic_codes.json  CIK0000935703  https://data.sec.gov/submissions/CIK0000935703.json  # DOLLAR TREE, INC.
+data/frozen/sic_codes.json  CIK0000936468  https://data.sec.gov/submissions/CIK0000936468.json  # LOCKHEED MARTIN CORP
+data/frozen/sic_codes.json  CIK0000937834  https://data.sec.gov/submissions/CIK0000937834.json  # METROPOLITAN LIFE INSURANCE CO
+data/frozen/sic_codes.json  CIK0000940944  https://data.sec.gov/submissions/CIK0000940944.json  # DARDEN RESTAURANTS INC
+data/frozen/sic_codes.json  CIK0000943452  https://data.sec.gov/submissions/CIK0000943452.json  # WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP
+data/frozen/sic_codes.json  CIK0000947484  https://data.sec.gov/submissions/CIK0000947484.json  # ARCH CAPITAL GROUP LTD.
+data/frozen/sic_codes.json  CIK0001000228  https://data.sec.gov/submissions/CIK0001000228.json  # HENRY SCHEIN INC
+data/frozen/sic_codes.json  CIK0001001082  https://data.sec.gov/submissions/CIK0001001082.json  # DISH Network CORP
+data/frozen/sic_codes.json  CIK0001001250  https://data.sec.gov/submissions/CIK0001001250.json  # ESTEE LAUDER COMPANIES INC
+data/frozen/sic_codes.json  CIK0001001838  https://data.sec.gov/submissions/CIK0001001838.json  # SOUTHERN COPPER CORP/
+data/frozen/sic_codes.json  CIK0001004980  https://data.sec.gov/submissions/CIK0001004980.json  # PG&E Corp
+data/frozen/sic_codes.json  CIK0001013871  https://data.sec.gov/submissions/CIK0001013871.json  # NRG ENERGY, INC.
+data/frozen/sic_codes.json  CIK0001018724  https://data.sec.gov/submissions/CIK0001018724.json  # AMAZON COM INC
+data/frozen/sic_codes.json  CIK0001019849  https://data.sec.gov/submissions/CIK0001019849.json  # PENSKE AUTOMOTIVE GROUP, INC.
+data/frozen/sic_codes.json  CIK0001020859  https://data.sec.gov/submissions/CIK0001020859.json  # UNITED NATURAL FOODS INC
+data/frozen/sic_codes.json  CIK0001021860  https://data.sec.gov/submissions/CIK0001021860.json  # NOV Inc.
+data/frozen/sic_codes.json  CIK0001022079  https://data.sec.gov/submissions/CIK0001022079.json  # QUEST DIAGNOSTICS INC
+data/frozen/sic_codes.json  CIK0001022671  https://data.sec.gov/submissions/CIK0001022671.json  # STEEL DYNAMICS INC
+data/frozen/sic_codes.json  CIK0001023128  https://data.sec.gov/submissions/CIK0001023128.json  # LITHIA MOTORS INC
+data/frozen/sic_codes.json  CIK0001030894  https://data.sec.gov/submissions/CIK0001030894.json  # CELESTICA INC
+data/frozen/sic_codes.json  CIK0001031203  https://data.sec.gov/submissions/CIK0001031203.json  # GROUP 1 AUTOMOTIVE INC
+data/frozen/sic_codes.json  CIK0001031296  https://data.sec.gov/submissions/CIK0001031296.json  # FIRSTENERGY CORP
+data/frozen/sic_codes.json  CIK0001032208  https://data.sec.gov/submissions/CIK0001032208.json  # SEMPRA
+data/frozen/sic_codes.json  CIK0001034670  https://data.sec.gov/submissions/CIK0001034670.json  # AUTOLIV INC
+data/frozen/sic_codes.json  CIK0001035002  https://data.sec.gov/submissions/CIK0001035002.json  # VALERO ENERGY CORP/TX
+data/frozen/sic_codes.json  CIK0001037976  https://data.sec.gov/submissions/CIK0001037976.json  # JONES LANG LASALLE INC
+data/frozen/sic_codes.json  CIK0001039684  https://data.sec.gov/submissions/CIK0001039684.json  # ONEOK INC /NEW/
+data/frozen/sic_codes.json  CIK0001042642  https://data.sec.gov/submissions/CIK0001042642.json  # DISH DBS CORP
+data/frozen/sic_codes.json  CIK0001043277  https://data.sec.gov/submissions/CIK0001043277.json  # C. H. ROBINSON WORLDWIDE, INC.
+data/frozen/sic_codes.json  CIK0001043509  https://data.sec.gov/submissions/CIK0001043509.json  # SONIC AUTOMOTIVE INC
+data/frozen/sic_codes.json  CIK0001045810  https://data.sec.gov/submissions/CIK0001045810.json  # NVIDIA CORP
+data/frozen/sic_codes.json  CIK0001047862  https://data.sec.gov/submissions/CIK0001047862.json  # CONSOLIDATED EDISON INC
+data/frozen/sic_codes.json  CIK0001048286  https://data.sec.gov/submissions/CIK0001048286.json  # MARRIOTT INTERNATIONAL INC /MD/
+data/frozen/sic_codes.json  CIK0001048911  https://data.sec.gov/submissions/CIK0001048911.json  # FEDEX CORP
+data/frozen/sic_codes.json  CIK0001050915  https://data.sec.gov/submissions/CIK0001050915.json  # QUANTA SERVICES, INC.
+data/frozen/sic_codes.json  CIK0001053507  https://data.sec.gov/submissions/CIK0001053507.json  # AMERICAN TOWER CORP /MA/
+data/frozen/sic_codes.json  CIK0001058090  https://data.sec.gov/submissions/CIK0001058090.json  # CHIPOTLE MEXICAN GRILL INC
+data/frozen/sic_codes.json  CIK0001058290  https://data.sec.gov/submissions/CIK0001058290.json  # COGNIZANT TECHNOLOGY SOLUTIONS CORP
+data/frozen/sic_codes.json  CIK0001060391  https://data.sec.gov/submissions/CIK0001060391.json  # REPUBLIC SERVICES, INC.
+data/frozen/sic_codes.json  CIK0001061219  https://data.sec.gov/submissions/CIK0001061219.json  # ENTERPRISE PRODUCTS PARTNERS L.P.
+data/frozen/sic_codes.json  CIK0001065088  https://data.sec.gov/submissions/CIK0001065088.json  # EBAY INC
+data/frozen/sic_codes.json  CIK0001065280  https://data.sec.gov/submissions/CIK0001065280.json  # NETFLIX INC
+data/frozen/sic_codes.json  CIK0001065696  https://data.sec.gov/submissions/CIK0001065696.json  # LKQ CORP
+data/frozen/sic_codes.json  CIK0001065837  https://data.sec.gov/submissions/CIK0001065837.json  # SKECHERS USA INC
+data/frozen/sic_codes.json  CIK0001067701  https://data.sec.gov/submissions/CIK0001067701.json  # UNITED RENTALS, INC.
+data/frozen/sic_codes.json  CIK0001067983  https://data.sec.gov/submissions/CIK0001067983.json  # BERKSHIRE HATHAWAY INC
+data/frozen/sic_codes.json  CIK0001070423  https://data.sec.gov/submissions/CIK0001070423.json  # PLAINS ALL AMERICAN PIPELINE LP
+data/frozen/sic_codes.json  CIK0001071739  https://data.sec.gov/submissions/CIK0001071739.json  # CENTENE CORP
+data/frozen/sic_codes.json  CIK0001075531  https://data.sec.gov/submissions/CIK0001075531.json  # Booking Holdings Inc.
+data/frozen/sic_codes.json  CIK0001081316  https://data.sec.gov/submissions/CIK0001081316.json  # BERKSHIRE HATHAWAY ENERGY CO
+data/frozen/sic_codes.json  CIK0001089063  https://data.sec.gov/submissions/CIK0001089063.json  # DICK'S SPORTING GOODS, INC.
+data/frozen/sic_codes.json  CIK0001090012  https://data.sec.gov/submissions/CIK0001090012.json  # DEVON ENERGY CORP/DE
+data/frozen/sic_codes.json  CIK0001090727  https://data.sec.gov/submissions/CIK0001090727.json  # UNITED PARCEL SERVICE INC
+data/frozen/sic_codes.json  CIK0001091667  https://data.sec.gov/submissions/CIK0001091667.json  # CHARTER COMMUNICATIONS, INC. /MO/
+data/frozen/sic_codes.json  CIK0001095073  https://data.sec.gov/submissions/CIK0001095073.json  # EVEREST GROUP, LTD.
+data/frozen/sic_codes.json  CIK0001096343  https://data.sec.gov/submissions/CIK0001096343.json  # MARKEL GROUP INC.
+data/frozen/sic_codes.json  CIK0001099219  https://data.sec.gov/submissions/CIK0001099219.json  # METLIFE INC
+data/frozen/sic_codes.json  CIK0001099590  https://data.sec.gov/submissions/CIK0001099590.json  # MERCADOLIBRE INC
+data/frozen/sic_codes.json  CIK0001101239  https://data.sec.gov/submissions/CIK0001101239.json  # EQUINIX INC
+data/frozen/sic_codes.json  CIK0001103982  https://data.sec.gov/submissions/CIK0001103982.json  # Mondelez International, Inc.
+data/frozen/sic_codes.json  CIK0001108109  https://data.sec.gov/submissions/CIK0001108109.json  # COMMUNITY HEALTH SYSTEMS INC
+data/frozen/sic_codes.json  CIK0001108524  https://data.sec.gov/submissions/CIK0001108524.json  # Salesforce, Inc.
+data/frozen/sic_codes.json  CIK0001109357  https://data.sec.gov/submissions/CIK0001109357.json  # EXELON CORP
+data/frozen/sic_codes.json  CIK0001110646  https://data.sec.gov/submissions/CIK0001110646.json  # NetEase, Inc.
+data/frozen/sic_codes.json  CIK0001124198  https://data.sec.gov/submissions/CIK0001124198.json  # FLUOR CORP
+data/frozen/sic_codes.json  CIK0001124941  https://data.sec.gov/submissions/CIK0001124941.json  # QXO BUILDING PRODUCTS, INC.
+data/frozen/sic_codes.json  CIK0001126328  https://data.sec.gov/submissions/CIK0001126328.json  # PRINCIPAL FINANCIAL GROUP INC
+data/frozen/sic_codes.json  CIK0001130310  https://data.sec.gov/submissions/CIK0001130310.json  # CENTERPOINT ENERGY INC
+data/frozen/sic_codes.json  CIK0001133421  https://data.sec.gov/submissions/CIK0001133421.json  # NORTHROP GRUMMAN CORP /DE/
+data/frozen/sic_codes.json  CIK0001136893  https://data.sec.gov/submissions/CIK0001136893.json  # Fidelity National Information Services, Inc.
+data/frozen/sic_codes.json  CIK0001137774  https://data.sec.gov/submissions/CIK0001137774.json  # PRUDENTIAL FINANCIAL INC
+data/frozen/sic_codes.json  CIK0001137789  https://data.sec.gov/submissions/CIK0001137789.json  # Seagate Technology Holdings plc
+data/frozen/sic_codes.json  CIK0001138118  https://data.sec.gov/submissions/CIK0001138118.json  # CBRE GROUP, INC.
+data/frozen/sic_codes.json  CIK0001140536  https://data.sec.gov/submissions/CIK0001140536.json  # WILLIS TOWERS WATSON PLC
+data/frozen/sic_codes.json  CIK0001140859  https://data.sec.gov/submissions/CIK0001140859.json  # Cencora, Inc.
+data/frozen/sic_codes.json  CIK0001141391  https://data.sec.gov/submissions/CIK0001141391.json  # Mastercard Inc
+data/frozen/sic_codes.json  CIK0001144967  https://data.sec.gov/submissions/CIK0001144967.json  # HDFC BANK LTD
+data/frozen/sic_codes.json  CIK0001144980  https://data.sec.gov/submissions/CIK0001144980.json  # ASBURY AUTOMOTIVE GROUP INC
+data/frozen/sic_codes.json  CIK0001156039  https://data.sec.gov/submissions/CIK0001156039.json  # Elevance Health, Inc.
+data/frozen/sic_codes.json  CIK0001158449  https://data.sec.gov/submissions/CIK0001158449.json  # ADVANCE AUTO PARTS INC
+data/frozen/sic_codes.json  CIK0001158463  https://data.sec.gov/submissions/CIK0001158463.json  # JETBLUE AIRWAYS CORP
+data/frozen/sic_codes.json  CIK0001163165  https://data.sec.gov/submissions/CIK0001163165.json  # CONOCOPHILLIPS
+data/frozen/sic_codes.json  CIK0001163302  https://data.sec.gov/submissions/CIK0001163302.json  # UNITED STATES STEEL CORP
+data/frozen/sic_codes.json  CIK0001164727  https://data.sec.gov/submissions/CIK0001164727.json  # NEWMONT Corp /DE/
+data/frozen/sic_codes.json  CIK0001166691  https://data.sec.gov/submissions/CIK0001166691.json  # COMCAST CORP
+data/frozen/sic_codes.json  CIK0001170010  https://data.sec.gov/submissions/CIK0001170010.json  # CARMAX INC
+data/frozen/sic_codes.json  CIK0001177394  https://data.sec.gov/submissions/CIK0001177394.json  # TD SYNNEX CORP
+data/frozen/sic_codes.json  CIK0001179929  https://data.sec.gov/submissions/CIK0001179929.json  # MOLINA HEALTHCARE, INC.
+data/frozen/sic_codes.json  CIK0001219601  https://data.sec.gov/submissions/CIK0001219601.json  # CROWN HOLDINGS, INC.
+data/frozen/sic_codes.json  CIK0001254699  https://data.sec.gov/submissions/CIK0001254699.json  # QVC Group, Inc.
+data/frozen/sic_codes.json  CIK0001262823  https://data.sec.gov/submissions/CIK0001262823.json  # WESTLAKE CORP
+data/frozen/sic_codes.json  CIK0001267238  https://data.sec.gov/submissions/CIK0001267238.json  # ASSURANT, INC.
+data/frozen/sic_codes.json  CIK0001271833  https://data.sec.gov/submissions/CIK0001271833.json  # CCO HOLDINGS LLC
+data/frozen/sic_codes.json  CIK0001276187  https://data.sec.gov/submissions/CIK0001276187.json  # Energy Transfer LP
+data/frozen/sic_codes.json  CIK0001283699  https://data.sec.gov/submissions/CIK0001283699.json  # T-Mobile US, Inc.
+data/frozen/sic_codes.json  CIK0001285785  https://data.sec.gov/submissions/CIK0001285785.json  # MOSAIC CO
+data/frozen/sic_codes.json  CIK0001300514  https://data.sec.gov/submissions/CIK0001300514.json  # LAS VEGAS SANDS CORP
+data/frozen/sic_codes.json  CIK0001304280  https://data.sec.gov/submissions/CIK0001304280.json  # Novelis Inc.
+data/frozen/sic_codes.json  CIK0001306830  https://data.sec.gov/submissions/CIK0001306830.json  # Celanese Corp
+data/frozen/sic_codes.json  CIK0001316835  https://data.sec.gov/submissions/CIK0001316835.json  # Builders FirstSource, Inc.
+data/frozen/sic_codes.json  CIK0001318220  https://data.sec.gov/submissions/CIK0001318220.json  # Waste Connections, Inc.
+data/frozen/sic_codes.json  CIK0001318605  https://data.sec.gov/submissions/CIK0001318605.json  # Tesla, Inc.
+data/frozen/sic_codes.json  CIK0001318742  https://data.sec.gov/submissions/CIK0001318742.json  # NCL CORP Ltd.
+data/frozen/sic_codes.json  CIK0001323468  https://data.sec.gov/submissions/CIK0001323468.json  # GLOBAL PARTNERS LP
+data/frozen/sic_codes.json  CIK0001324424  https://data.sec.gov/submissions/CIK0001324424.json  # Expedia Group, Inc.
+data/frozen/sic_codes.json  CIK0001326160  https://data.sec.gov/submissions/CIK0001326160.json  # Duke Energy CORP
+data/frozen/sic_codes.json  CIK0001326801  https://data.sec.gov/submissions/CIK0001326801.json  # Meta Platforms, Inc.
+data/frozen/sic_codes.json  CIK0001327811  https://data.sec.gov/submissions/CIK0001327811.json  # Workday, Inc.
+data/frozen/sic_codes.json  CIK0001329099  https://data.sec.gov/submissions/CIK0001329099.json  # Baidu, Inc.
+data/frozen/sic_codes.json  CIK0001331875  https://data.sec.gov/submissions/CIK0001331875.json  # Fidelity National Financial, Inc.
+data/frozen/sic_codes.json  CIK0001333986  https://data.sec.gov/submissions/CIK0001333986.json  # Equitable Holdings, Inc.
+data/frozen/sic_codes.json  CIK0001335258  https://data.sec.gov/submissions/CIK0001335258.json  # Live Nation Entertainment, Inc.
+data/frozen/sic_codes.json  CIK0001336920  https://data.sec.gov/submissions/CIK0001336920.json  # Leidos Holdings, Inc.
+data/frozen/sic_codes.json  CIK0001341439  https://data.sec.gov/submissions/CIK0001341439.json  # ORACLE CORP
+data/frozen/sic_codes.json  CIK0001355096  https://data.sec.gov/submissions/CIK0001355096.json  # Old QVC Group, Inc.
+data/frozen/sic_codes.json  CIK0001370946  https://data.sec.gov/submissions/CIK0001370946.json  # Owens Corning
+data/frozen/sic_codes.json  CIK0001373715  https://data.sec.gov/submissions/CIK0001373715.json  # ServiceNow, Inc.
+data/frozen/sic_codes.json  CIK0001375365  https://data.sec.gov/submissions/CIK0001375365.json  # Super Micro Computer, Inc.
+data/frozen/sic_codes.json  CIK0001378992  https://data.sec.gov/submissions/CIK0001378992.json  # BERRY GLOBAL GROUP, INC.
+data/frozen/sic_codes.json  CIK0001383650  https://data.sec.gov/submissions/CIK0001383650.json  # Cheniere Energy Partners, L.P.
+data/frozen/sic_codes.json  CIK0001385157  https://data.sec.gov/submissions/CIK0001385157.json  # TE Connectivity plc
+data/frozen/sic_codes.json  CIK0001389170  https://data.sec.gov/submissions/CIK0001389170.json  # Targa Resources Corp.
+data/frozen/sic_codes.json  CIK0001390777  https://data.sec.gov/submissions/CIK0001390777.json  # Bank of New York Mellon Corp
+data/frozen/sic_codes.json  CIK0001393818  https://data.sec.gov/submissions/CIK0001393818.json  # Blackstone Inc.
+data/frozen/sic_codes.json  CIK0001397187  https://data.sec.gov/submissions/CIK0001397187.json  # lululemon athletica inc.
+data/frozen/sic_codes.json  CIK0001397911  https://data.sec.gov/submissions/CIK0001397911.json  # LPL Financial Holdings Inc.
+data/frozen/sic_codes.json  CIK0001402057  https://data.sec.gov/submissions/CIK0001402057.json  # CDW Corp
+data/frozen/sic_codes.json  CIK0001403161  https://data.sec.gov/submissions/CIK0001403161.json  # VISA INC.
+data/frozen/sic_codes.json  CIK0001403568  https://data.sec.gov/submissions/CIK0001403568.json  # Ulta Beauty, Inc.
+data/frozen/sic_codes.json  CIK0001404912  https://data.sec.gov/submissions/CIK0001404912.json  # KKR & Co. Inc.
+data/frozen/sic_codes.json  CIK0001408075  https://data.sec.gov/submissions/CIK0001408075.json  # GRAPHIC PACKAGING HOLDING CO
+data/frozen/sic_codes.json  CIK0001413329  https://data.sec.gov/submissions/CIK0001413329.json  # Philip Morris International Inc.
+data/frozen/sic_codes.json  CIK0001413447  https://data.sec.gov/submissions/CIK0001413447.json  # NXP Semiconductors N.V.
+data/frozen/sic_codes.json  CIK0001415404  https://data.sec.gov/submissions/CIK0001415404.json  # EchoStar CORP
+data/frozen/sic_codes.json  CIK0001418135  https://data.sec.gov/submissions/CIK0001418135.json  # Keurig Dr Pepper Inc.
+data/frozen/sic_codes.json  CIK0001437107  https://data.sec.gov/submissions/CIK0001437107.json  # Warner Bros. Discovery, Inc.
+data/frozen/sic_codes.json  CIK0001443646  https://data.sec.gov/submissions/CIK0001443646.json  # Booz Allen Hamilton Holding Corp
+data/frozen/sic_codes.json  CIK0001466258  https://data.sec.gov/submissions/CIK0001466258.json  # Trane Technologies plc
+data/frozen/sic_codes.json  CIK0001467373  https://data.sec.gov/submissions/CIK0001467373.json  # Accenture plc
+data/frozen/sic_codes.json  CIK0001467858  https://data.sec.gov/submissions/CIK0001467858.json  # General Motors Co
+data/frozen/sic_codes.json  CIK0001478242  https://data.sec.gov/submissions/CIK0001478242.json  # IQVIA HOLDINGS INC.
+data/frozen/sic_codes.json  CIK0001481513  https://data.sec.gov/submissions/CIK0001481513.json  # JinkoSolar Holding Co., Ltd.
+data/frozen/sic_codes.json  CIK0001489393  https://data.sec.gov/submissions/CIK0001489393.json  # LyondellBasell Industries N.V.
+data/frozen/sic_codes.json  CIK0001499200  https://data.sec.gov/submissions/CIK0001499200.json  # Sabine Pass Liquefaction, LLC
+data/frozen/sic_codes.json  CIK0001501585  https://data.sec.gov/submissions/CIK0001501585.json  # HUNTINGTON INGALLS INDUSTRIES, INC.
+data/frozen/sic_codes.json  CIK0001506307  https://data.sec.gov/submissions/CIK0001506307.json  # KINDER MORGAN, INC.
+data/frozen/sic_codes.json  CIK0001510295  https://data.sec.gov/submissions/CIK0001510295.json  # Marathon Petroleum Corp
+data/frozen/sic_codes.json  CIK0001512673  https://data.sec.gov/submissions/CIK0001512673.json  # Block, Inc.
+data/frozen/sic_codes.json  CIK0001513761  https://data.sec.gov/submissions/CIK0001513761.json  # Norwegian Cruise Line Holdings Ltd.
+data/frozen/sic_codes.json  CIK0001521332  https://data.sec.gov/submissions/CIK0001521332.json  # Aptiv PLC
+data/frozen/sic_codes.json  CIK0001524472  https://data.sec.gov/submissions/CIK0001524472.json  # Xylem Inc.
+data/frozen/sic_codes.json  CIK0001527469  https://data.sec.gov/submissions/CIK0001527469.json  # Athene Holding Ltd.
+data/frozen/sic_codes.json  CIK0001529192  https://data.sec.gov/submissions/CIK0001529192.json  # Vipshop Holdings Ltd
+data/frozen/sic_codes.json  CIK0001531152  https://data.sec.gov/submissions/CIK0001531152.json  # BJ's Wholesale Club Holdings, Inc.
+data/frozen/sic_codes.json  CIK0001534504  https://data.sec.gov/submissions/CIK0001534504.json  # PBF Energy Inc.
+data/frozen/sic_codes.json  CIK0001534701  https://data.sec.gov/submissions/CIK0001534701.json  # Phillips 66
+data/frozen/sic_codes.json  CIK0001539838  https://data.sec.gov/submissions/CIK0001539838.json  # Diamondback Energy, Inc.
+data/frozen/sic_codes.json  CIK0001543151  https://data.sec.gov/submissions/CIK0001543151.json  # Uber Technologies, Inc
+data/frozen/sic_codes.json  CIK0001549802  https://data.sec.gov/submissions/CIK0001549802.json  # JD.com, Inc.
+data/frozen/sic_codes.json  CIK0001551152  https://data.sec.gov/submissions/CIK0001551152.json  # AbbVie Inc.
+data/frozen/sic_codes.json  CIK0001551182  https://data.sec.gov/submissions/CIK0001551182.json  # Eaton Corp plc
+data/frozen/sic_codes.json  CIK0001552000  https://data.sec.gov/submissions/CIK0001552000.json  # MPLX LP
+data/frozen/sic_codes.json  CIK0001552275  https://data.sec.gov/submissions/CIK0001552275.json  # Sunoco LP
+data/frozen/sic_codes.json  CIK0001555280  https://data.sec.gov/submissions/CIK0001555280.json  # Zoetis Inc.
+data/frozen/sic_codes.json  CIK0001559720  https://data.sec.gov/submissions/CIK0001559720.json  # Airbnb, Inc.
+data/frozen/sic_codes.json  CIK0001566011  https://data.sec.gov/submissions/CIK0001566011.json  # PBF Holding Co LLC
+data/frozen/sic_codes.json  CIK0001567094  https://data.sec.gov/submissions/CIK0001567094.json  # CNH Industrial N.V.
+data/frozen/sic_codes.json  CIK0001568651  https://data.sec.gov/submissions/CIK0001568651.json  # Oscar Health, Inc.
+data/frozen/sic_codes.json  CIK0001571949  https://data.sec.gov/submissions/CIK0001571949.json  # Intercontinental Exchange, Inc.
+data/frozen/sic_codes.json  CIK0001571996  https://data.sec.gov/submissions/CIK0001571996.json  # Dell Technologies Inc.
+data/frozen/sic_codes.json  CIK0001573516  https://data.sec.gov/submissions/CIK0001573516.json  # Murphy USA Inc.
+data/frozen/sic_codes.json  CIK0001577552  https://data.sec.gov/submissions/CIK0001577552.json  # Alibaba Group Holding Ltd
+data/frozen/sic_codes.json  CIK0001579298  https://data.sec.gov/submissions/CIK0001579298.json  # Burlington Stores, Inc.
+data/frozen/sic_codes.json  CIK0001581990  https://data.sec.gov/submissions/CIK0001581990.json  # PLAINS GP HOLDINGS LP
+data/frozen/sic_codes.json  CIK0001584509  https://data.sec.gov/submissions/CIK0001584509.json  # Aramark
+data/frozen/sic_codes.json  CIK0001585689  https://data.sec.gov/submissions/CIK0001585689.json  # Hilton Worldwide Holdings Inc.
+data/frozen/sic_codes.json  CIK0001590895  https://data.sec.gov/submissions/CIK0001590895.json  # Caesars Entertainment, Inc.
+data/frozen/sic_codes.json  CIK0001591588  https://data.sec.gov/submissions/CIK0001591588.json  # Gold.com, Inc.
+data/frozen/sic_codes.json  CIK0001594805  https://data.sec.gov/submissions/CIK0001594805.json  # SHOPIFY INC.
+data/frozen/sic_codes.json  CIK0001613103  https://data.sec.gov/submissions/CIK0001613103.json  # Medtronic plc
+data/frozen/sic_codes.json  CIK0001616707  https://data.sec.gov/submissions/CIK0001616707.json  # Wayfair Inc.
+data/frozen/sic_codes.json  CIK0001618673  https://data.sec.gov/submissions/CIK0001618673.json  # Performance Food Group Co
+data/frozen/sic_codes.json  CIK0001618921  https://data.sec.gov/submissions/CIK0001618921.json  # Walgreens Boots Alliance, Inc.
+data/frozen/sic_codes.json  CIK0001628369  https://data.sec.gov/submissions/CIK0001628369.json  # Cushman & Wakefield Ltd.
+data/frozen/sic_codes.json  CIK0001633917  https://data.sec.gov/submissions/CIK0001633917.json  # PayPal Holdings, Inc.
+data/frozen/sic_codes.json  CIK0001635327  https://data.sec.gov/submissions/CIK0001635327.json  # Flutter Entertainment plc
+data/frozen/sic_codes.json  CIK0001637459  https://data.sec.gov/submissions/CIK0001637459.json  # Kraft Heinz Co
+data/frozen/sic_codes.json  CIK0001645590  https://data.sec.gov/submissions/CIK0001645590.json  # Hewlett Packard Enterprise Co
+data/frozen/sic_codes.json  CIK0001646972  https://data.sec.gov/submissions/CIK0001646972.json  # Albertsons Companies, Inc.
+data/frozen/sic_codes.json  CIK0001652044  https://data.sec.gov/submissions/CIK0001652044.json  # Alphabet Inc.
+data/frozen/sic_codes.json  CIK0001657853  https://data.sec.gov/submissions/CIK0001657853.json  # HERTZ GLOBAL HOLDINGS, INC
+data/frozen/sic_codes.json  CIK0001662972  https://data.sec.gov/submissions/CIK0001662972.json  # Blackstone Real Estate Income Trust, Inc.
+data/frozen/sic_codes.json  CIK0001665918  https://data.sec.gov/submissions/CIK0001665918.json  # US Foods Holding Corp.
+data/frozen/sic_codes.json  CIK0001670541  https://data.sec.gov/submissions/CIK0001670541.json  # Adient plc
+data/frozen/sic_codes.json  CIK0001673358  https://data.sec.gov/submissions/CIK0001673358.json  # Yum China Holdings, Inc.
+data/frozen/sic_codes.json  CIK0001675149  https://data.sec.gov/submissions/CIK0001675149.json  # Alcoa Corp
+data/frozen/sic_codes.json  CIK0001681459  https://data.sec.gov/submissions/CIK0001681459.json  # TechnipFMC plc
+data/frozen/sic_codes.json  CIK0001688568  https://data.sec.gov/submissions/CIK0001688568.json  # DXC Technology Co
+data/frozen/sic_codes.json  CIK0001690820  https://data.sec.gov/submissions/CIK0001690820.json  # CARVANA CO.
+data/frozen/sic_codes.json  CIK0001692819  https://data.sec.gov/submissions/CIK0001692819.json  # Vistra Corp.
+data/frozen/sic_codes.json  CIK0001694426  https://data.sec.gov/submissions/CIK0001694426.json  # Delek US Holdings, Inc.
+data/frozen/sic_codes.json  CIK0001701605  https://data.sec.gov/submissions/CIK0001701605.json  # Baker Hughes Co
+data/frozen/sic_codes.json  CIK0001702780  https://data.sec.gov/submissions/CIK0001702780.json  # Optimum Communications, Inc.
+data/frozen/sic_codes.json  CIK0001703399  https://data.sec.gov/submissions/CIK0001703399.json  # Sea Ltd
+data/frozen/sic_codes.json  CIK0001707925  https://data.sec.gov/submissions/CIK0001707925.json  # LINDE PLC
+data/frozen/sic_codes.json  CIK0001730168  https://data.sec.gov/submissions/CIK0001730168.json  # Broadcom Inc.
+data/frozen/sic_codes.json  CIK0001736541  https://data.sec.gov/submissions/CIK0001736541.json  # NIO Inc.
+data/frozen/sic_codes.json  CIK0001737806  https://data.sec.gov/submissions/CIK0001737806.json  # PDD Holdings Inc.
+data/frozen/sic_codes.json  CIK0001739940  https://data.sec.gov/submissions/CIK0001739940.json  # Cigna Group
+data/frozen/sic_codes.json  CIK0001744489  https://data.sec.gov/submissions/CIK0001744489.json  # Walt Disney Co
+data/frozen/sic_codes.json  CIK0001748790  https://data.sec.gov/submissions/CIK0001748790.json  # Amcor plc
+data/frozen/sic_codes.json  CIK0001751788  https://data.sec.gov/submissions/CIK0001751788.json  # DOW INC.
+data/frozen/sic_codes.json  CIK0001754301  https://data.sec.gov/submissions/CIK0001754301.json  # Fox Corp
+data/frozen/sic_codes.json  CIK0001755672  https://data.sec.gov/submissions/CIK0001755672.json  # Corteva, Inc.
+data/frozen/sic_codes.json  CIK0001766502  https://data.sec.gov/submissions/CIK0001766502.json  # Chewy, Inc.
+data/frozen/sic_codes.json  CIK0001781335  https://data.sec.gov/submissions/CIK0001781335.json  # Otis Worldwide Corp
+data/frozen/sic_codes.json  CIK0001783180  https://data.sec.gov/submissions/CIK0001783180.json  # CARRIER GLOBAL Corp
+data/frozen/sic_codes.json  CIK0001791706  https://data.sec.gov/submissions/CIK0001791706.json  # Li Auto Inc.
+data/frozen/sic_codes.json  CIK0001792044  https://data.sec.gov/submissions/CIK0001792044.json  # Viatris Inc
+data/frozen/sic_codes.json  CIK0001792580  https://data.sec.gov/submissions/CIK0001792580.json  # Ovintiv Inc.
+data/frozen/sic_codes.json  CIK0001792789  https://data.sec.gov/submissions/CIK0001792789.json  # DoorDash, Inc.
+data/frozen/sic_codes.json  CIK0001803599  https://data.sec.gov/submissions/CIK0001803599.json  # Concentrix Corp
+data/frozen/sic_codes.json  CIK0001809587  https://data.sec.gov/submissions/CIK0001809587.json  # KE Holdings Inc.
+data/frozen/sic_codes.json  CIK0001809616  https://data.sec.gov/submissions/CIK0001809616.json  # Universe Pharmaceuticals INC
+data/frozen/sic_codes.json  CIK0001823794  https://data.sec.gov/submissions/CIK0001823794.json  # ARKO Corp.
+data/frozen/sic_codes.json  CIK0001834584  https://data.sec.gov/submissions/CIK0001834584.json  # Coupang, Inc.
+data/frozen/sic_codes.json  CIK0001837429  https://data.sec.gov/submissions/CIK0001837429.json  # Brookfield Wealth Solutions Ltd.
+data/frozen/sic_codes.json  CIK0001852244  https://data.sec.gov/submissions/CIK0001852244.json  # GXO Logistics, Inc.
+data/frozen/sic_codes.json  CIK0001855447  https://data.sec.gov/submissions/CIK0001855447.json  # TIGO ENERGY, INC.
+data/frozen/sic_codes.json  CIK0001857475  https://data.sec.gov/submissions/CIK0001857475.json  # Dole plc
+data/frozen/sic_codes.json  CIK0001858681  https://data.sec.gov/submissions/CIK0001858681.json  # Apollo Global Management, Inc.
+data/frozen/sic_codes.json  CIK0001859392  https://data.sec.gov/submissions/CIK0001859392.json  # Galaxy Digital Inc.
+data/frozen/sic_codes.json  CIK0001865782  https://data.sec.gov/submissions/CIK0001865782.json  # BrightSpring Health Services, Inc.
+data/frozen/sic_codes.json  CIK0001867072  https://data.sec.gov/submissions/CIK0001867072.json  # Kyndryl Holdings, Inc.
+data/frozen/sic_codes.json  CIK0001868275  https://data.sec.gov/submissions/CIK0001868275.json  # Constellation Energy Corp
+data/frozen/sic_codes.json  CIK0001889539  https://data.sec.gov/submissions/CIK0001889539.json  # Corebridge Financial, Inc.
+data/frozen/sic_codes.json  CIK0001897762  https://data.sec.gov/submissions/CIK0001897762.json  # Ingram Micro Holding Corp
+data/frozen/sic_codes.json  CIK0001915657  https://data.sec.gov/submissions/CIK0001915657.json  # HF Sinclair Corp
+data/frozen/sic_codes.json  CIK0001932393  https://data.sec.gov/submissions/CIK0001932393.json  # GE HealthCare Technologies Inc.
+data/frozen/sic_codes.json  CIK0001944048  https://data.sec.gov/submissions/CIK0001944048.json  # Kenvue Inc.
+data/frozen/sic_codes.json  CIK0001954042  https://data.sec.gov/submissions/CIK0001954042.json  # ZEEKR Intelligent Technology Holding Ltd
+data/frozen/sic_codes.json  CIK0001996810  https://data.sec.gov/submissions/CIK0001996810.json  # GE Vernova Inc.
+data/frozen/sic_codes.json  CIK0001996862  https://data.sec.gov/submissions/CIK0001996862.json  # Bunge Global SA
+data/frozen/sic_codes.json  CIK0002005951  https://data.sec.gov/submissions/CIK0002005951.json  # Smurfit Westrock plc
+data/frozen/sic_codes.json  CIK0002011641  https://data.sec.gov/submissions/CIK0002011641.json  # Ferguson Enterprises Inc. /DE/
+data/frozen/sic_codes.json  CIK0002012383  https://data.sec.gov/submissions/CIK0002012383.json  # BlackRock, Inc.
+data/frozen/sic_codes.json  CIK0002035989  https://data.sec.gov/submissions/CIK0002035989.json  # Amrize Ltd
+data/frozen/sic_codes.json  CIK0002041610  https://data.sec.gov/submissions/CIK0002041610.json  # Paramount Skydance Corp
+data/frozen/sic_codes.json  CIK0002046386  https://data.sec.gov/submissions/CIK0002046386.json  # Medline Inc.
+data/frozen/sic_codes.json  CIK0002066659  https://data.sec.gov/submissions/CIK0002066659.json  # Beach Acquisition Co Parent, LLC
+data/frozen/sic_codes.json  CIK0002082247  https://data.sec.gov/submissions/CIK0002082247.json  # FedEx Freight Holding Company, Inc.
+data/frozen/sic_codes.json  CIK0002083785  https://data.sec.gov/submissions/CIK0002083785.json  # Sunbelt Rentals Holdings, Inc.
+data/frozen/sic_codes.json  CIK0002089661  https://data.sec.gov/submissions/CIK0002089661.json  # SunocoCorp LLC
+
+## SEC EDGAR 10-K documents - AI-intensity scoring
+# 285 filings were scored. Each firm's most recent 10-K is located through the
+# submissions URL above; the filing period scored is recorded in ai_intensity.json.
+# Document URLs follow https://www.sec.gov/Archives/edgar/data/<CIK>/<accession>/<document>
+data/frozen/ai_intensity.json  CIK0000002488  period 2025-12-27  https://data.sec.gov/submissions/CIK0000002488.json  # ADVANCED MICRO DEVICES INC
+data/frozen/ai_intensity.json  CIK0000002969  period 2025-09-30  https://data.sec.gov/submissions/CIK0000002969.json  # Air Products & Chemicals, Inc.
+data/frozen/ai_intensity.json  CIK0000003570  period 2025-12-31  https://data.sec.gov/submissions/CIK0000003570.json  # Cheniere Energy, Inc.
+data/frozen/ai_intensity.json  CIK0000004904  period 2025-12-31  https://data.sec.gov/submissions/CIK0000004904.json  # AMERICAN ELECTRIC POWER CO INC
+data/frozen/ai_intensity.json  CIK0000004962  period 2025-12-31  https://data.sec.gov/submissions/CIK0000004962.json  # AMERICAN EXPRESS CO
+data/frozen/ai_intensity.json  CIK0000006201  period 2025-12-31  https://data.sec.gov/submissions/CIK0000006201.json  # American Airlines Group Inc.
+data/frozen/ai_intensity.json  CIK0000006281  period 2025-11-01  https://data.sec.gov/submissions/CIK0000006281.json  # ANALOG DEVICES INC
+data/frozen/ai_intensity.json  CIK0000006951  period 2025-10-26  https://data.sec.gov/submissions/CIK0000006951.json  # APPLIED MATERIALS INC /DE
+data/frozen/ai_intensity.json  CIK0000007084  period 2025-12-31  https://data.sec.gov/submissions/CIK0000007084.json  # Archer-Daniels-Midland Co
+data/frozen/ai_intensity.json  CIK0000008858  period 2026-06-27  https://data.sec.gov/submissions/CIK0000008858.json  # AVNET INC
+data/frozen/ai_intensity.json  CIK0000012927  period 2025-12-31  https://data.sec.gov/submissions/CIK0000012927.json  # BOEING CO
+data/frozen/ai_intensity.json  CIK0000014272  period 2025-12-31  https://data.sec.gov/submissions/CIK0000014272.json  # BRISTOL MYERS SQUIBB CO
+data/frozen/ai_intensity.json  CIK0000015615  period 2025-12-31  https://data.sec.gov/submissions/CIK0000015615.json  # MASTEC INC
+data/frozen/ai_intensity.json  CIK0000016732  period 2025-08-03  https://data.sec.gov/submissions/CIK0000016732.json  # CAMPBELL'S Co
+data/frozen/ai_intensity.json  CIK0000018230  period 2025-12-31  https://data.sec.gov/submissions/CIK0000018230.json  # CATERPILLAR INC
+data/frozen/ai_intensity.json  CIK0000018926  period 2025-12-31  https://data.sec.gov/submissions/CIK0000018926.json  # Lumen Technologies, Inc.
+data/frozen/ai_intensity.json  CIK0000020286  period 2025-12-31  https://data.sec.gov/submissions/CIK0000020286.json  # CINCINNATI FINANCIAL CORP
+data/frozen/ai_intensity.json  CIK0000021175  period 2025-12-31  https://data.sec.gov/submissions/CIK0000021175.json  # CNA FINANCIAL CORP
+data/frozen/ai_intensity.json  CIK0000021344  period 2025-12-31  https://data.sec.gov/submissions/CIK0000021344.json  # COCA COLA CO
+data/frozen/ai_intensity.json  CIK0000024545  period 2025-12-31  https://data.sec.gov/submissions/CIK0000024545.json  # MOLSON COORS BEVERAGE CO
+data/frozen/ai_intensity.json  CIK0000026172  period 2025-12-31  https://data.sec.gov/submissions/CIK0000026172.json  # CUMMINS INC
+data/frozen/ai_intensity.json  CIK0000027419  period 2026-01-31  https://data.sec.gov/submissions/CIK0000027419.json  # TARGET CORP
+data/frozen/ai_intensity.json  CIK0000027904  period 2025-12-31  https://data.sec.gov/submissions/CIK0000027904.json  # DELTA AIR LINES, INC.
+data/frozen/ai_intensity.json  CIK0000029534  period 2026-01-30  https://data.sec.gov/submissions/CIK0000029534.json  # DOLLAR GENERAL CORP
+data/frozen/ai_intensity.json  CIK0000031462  period 2025-12-31  https://data.sec.gov/submissions/CIK0000031462.json  # ECOLAB INC.
+data/frozen/ai_intensity.json  CIK0000034088  period 2025-12-31  https://data.sec.gov/submissions/CIK0000034088.json  # EXXON MOBIL CORP
+data/frozen/ai_intensity.json  CIK0000037996  period 2025-12-31  https://data.sec.gov/submissions/CIK0000037996.json  # FORD MOTOR CO
+data/frozen/ai_intensity.json  CIK0000038777  period 2025-09-30  https://data.sec.gov/submissions/CIK0000038777.json  # FRANKLIN TEMPLETON INC
+data/frozen/ai_intensity.json  CIK0000040533  period 2025-12-31  https://data.sec.gov/submissions/CIK0000040533.json  # GENERAL DYNAMICS CORP
+data/frozen/ai_intensity.json  CIK0000040704  period 2026-05-31  https://data.sec.gov/submissions/CIK0000040704.json  # GENERAL MILLS INC
+data/frozen/ai_intensity.json  CIK0000040987  period 2025-12-31  https://data.sec.gov/submissions/CIK0000040987.json  # GENUINE PARTS CO
+data/frozen/ai_intensity.json  CIK0000045012  period 2025-12-31  https://data.sec.gov/submissions/CIK0000045012.json  # HALLIBURTON CO
+data/frozen/ai_intensity.json  CIK0000047111  period 2025-12-31  https://data.sec.gov/submissions/CIK0000047111.json  # HERSHEY CO
+data/frozen/ai_intensity.json  CIK0000047217  period 2025-10-31  https://data.sec.gov/submissions/CIK0000047217.json  # HP INC
+data/frozen/ai_intensity.json  CIK0000048465  period 2025-10-26  https://data.sec.gov/submissions/CIK0000048465.json  # HORMEL FOODS CORP /DE/
+data/frozen/ai_intensity.json  CIK0000049826  period 2025-12-31  https://data.sec.gov/submissions/CIK0000049826.json  # ILLINOIS TOOL WORKS INC
+data/frozen/ai_intensity.json  CIK0000050863  period 2025-12-27  https://data.sec.gov/submissions/CIK0000050863.json  # INTEL CORP
+data/frozen/ai_intensity.json  CIK0000051253  period 2025-12-31  https://data.sec.gov/submissions/CIK0000051253.json  # INTERNATIONAL FLAVORS & FRAGRANCES INC
+data/frozen/ai_intensity.json  CIK0000051434  period 2025-12-31  https://data.sec.gov/submissions/CIK0000051434.json  # INTERNATIONAL PAPER CO /NEW/
+data/frozen/ai_intensity.json  CIK0000052988  period 2025-09-26  https://data.sec.gov/submissions/CIK0000052988.json  # JACOBS SOLUTIONS INC.
+data/frozen/ai_intensity.json  CIK0000056873  period 2026-01-31  https://data.sec.gov/submissions/CIK0000056873.json  # KROGER CO
+data/frozen/ai_intensity.json  CIK0000060086  period 2025-12-31  https://data.sec.gov/submissions/CIK0000060086.json  # LOEWS CORP
+data/frozen/ai_intensity.json  CIK0000063908  period 2025-12-31  https://data.sec.gov/submissions/CIK0000063908.json  # MCDONALDS CORP
+data/frozen/ai_intensity.json  CIK0000064040  period 2025-12-31  https://data.sec.gov/submissions/CIK0000064040.json  # S&P Global Inc.
+data/frozen/ai_intensity.json  CIK0000065984  period 2025-12-31  https://data.sec.gov/submissions/CIK0000065984.json  # ENTERGY CORP /DE/
+data/frozen/ai_intensity.json  CIK0000070318  period 2025-12-31  https://data.sec.gov/submissions/CIK0000070318.json  # TENET HEALTHCARE CORP
+data/frozen/ai_intensity.json  CIK0000072741  period 2025-12-31  https://data.sec.gov/submissions/CIK0000072741.json  # EVERSOURCE ENERGY
+data/frozen/ai_intensity.json  CIK0000073309  period 2025-12-31  https://data.sec.gov/submissions/CIK0000073309.json  # NUCOR CORP
+data/frozen/ai_intensity.json  CIK0000076334  period 2026-06-30  https://data.sec.gov/submissions/CIK0000076334.json  # Parker-Hannifin Corp
+data/frozen/ai_intensity.json  CIK0000078003  period 2025-12-31  https://data.sec.gov/submissions/CIK0000078003.json  # PFIZER INC
+data/frozen/ai_intensity.json  CIK0000079879  period 2025-12-31  https://data.sec.gov/submissions/CIK0000079879.json  # PPG INDUSTRIES INC
+data/frozen/ai_intensity.json  CIK0000080424  period 2026-06-30  https://data.sec.gov/submissions/CIK0000080424.json  # PROCTER & GAMBLE Co
+data/frozen/ai_intensity.json  CIK0000080661  period 2025-12-31  https://data.sec.gov/submissions/CIK0000080661.json  # PROGRESSIVE CORP/OH/
+data/frozen/ai_intensity.json  CIK0000081061  period 2025-12-27  https://data.sec.gov/submissions/CIK0000081061.json  # PUBLIX SUPER MARKETS INC
+data/frozen/ai_intensity.json  CIK0000085961  period 2025-12-31  https://data.sec.gov/submissions/CIK0000085961.json  # RYDER SYSTEM INC
+data/frozen/ai_intensity.json  CIK0000087347  period 2025-12-31  https://data.sec.gov/submissions/CIK0000087347.json  # SLB LIMITED/NV
+data/frozen/ai_intensity.json  CIK0000089800  period 2025-12-31  https://data.sec.gov/submissions/CIK0000089800.json  # SHERWIN WILLIAMS CO
+data/frozen/ai_intensity.json  CIK0000091388  period 2025-12-28  https://data.sec.gov/submissions/CIK0000091388.json  # SMITHFIELD FOODS INC
+data/frozen/ai_intensity.json  CIK0000092122  period 2025-12-31  https://data.sec.gov/submissions/CIK0000092122.json  # SOUTHERN CO
+data/frozen/ai_intensity.json  CIK0000092380  period 2025-12-31  https://data.sec.gov/submissions/CIK0000092380.json  # SOUTHWEST AIRLINES CO
+data/frozen/ai_intensity.json  CIK0000093410  period 2025-12-31  https://data.sec.gov/submissions/CIK0000093410.json  # CHEVRON CORP
+data/frozen/ai_intensity.json  CIK0000096021  period 2026-06-27  https://data.sec.gov/submissions/CIK0000096021.json  # SYSCO CORP
+data/frozen/ai_intensity.json  CIK0000097476  period 2025-12-31  https://data.sec.gov/submissions/CIK0000097476.json  # TEXAS INSTRUMENTS INC
+data/frozen/ai_intensity.json  CIK0000100493  period 2025-09-27  https://data.sec.gov/submissions/CIK0000100493.json  # TYSON FOODS, INC.
+data/frozen/ai_intensity.json  CIK0000100517  period 2025-12-31  https://data.sec.gov/submissions/CIK0000100517.json  # United Airlines Holdings, Inc.
+data/frozen/ai_intensity.json  CIK0000100885  period 2025-12-31  https://data.sec.gov/submissions/CIK0000100885.json  # UNION PACIFIC CORP
+data/frozen/ai_intensity.json  CIK0000101829  period 2025-12-31  https://data.sec.gov/submissions/CIK0000101829.json  # RTX Corp
+data/frozen/ai_intensity.json  CIK0000104169  period 2026-01-31  https://data.sec.gov/submissions/CIK0000104169.json  # Walmart Inc.
+data/frozen/ai_intensity.json  CIK0000105634  period 2025-12-31  https://data.sec.gov/submissions/CIK0000105634.json  # EMCOR Group, Inc.
+data/frozen/ai_intensity.json  CIK0000107263  period 2025-12-31  https://data.sec.gov/submissions/CIK0000107263.json  # WILLIAMS COMPANIES, INC.
+data/frozen/ai_intensity.json  CIK0000109198  period 2026-01-31  https://data.sec.gov/submissions/CIK0000109198.json  # TJX COMPANIES INC /DE/
+data/frozen/ai_intensity.json  CIK0000200406  period 2025-12-28  https://data.sec.gov/submissions/CIK0000200406.json  # JOHNSON & JOHNSON
+data/frozen/ai_intensity.json  CIK0000277135  period 2025-12-31  https://data.sec.gov/submissions/CIK0000277135.json  # W.W. GRAINGER, INC.
+data/frozen/ai_intensity.json  CIK0000277948  period 2025-12-31  https://data.sec.gov/submissions/CIK0000277948.json  # CSX CORP
+data/frozen/ai_intensity.json  CIK0000310764  period 2025-12-31  https://data.sec.gov/submissions/CIK0000310764.json  # STRYKER CORP
+data/frozen/ai_intensity.json  CIK0000315189  period 2025-11-02  https://data.sec.gov/submissions/CIK0000315189.json  # DEERE & CO
+data/frozen/ai_intensity.json  CIK0000315293  period 2025-12-31  https://data.sec.gov/submissions/CIK0000315293.json  # Aon plc
+data/frozen/ai_intensity.json  CIK0000318154  period 2025-12-31  https://data.sec.gov/submissions/CIK0000318154.json  # AMGEN INC
+data/frozen/ai_intensity.json  CIK0000319201  period 2026-06-30  https://data.sec.gov/submissions/CIK0000319201.json  # KLA CORP
+data/frozen/ai_intensity.json  CIK0000350698  period 2025-12-31  https://data.sec.gov/submissions/CIK0000350698.json  # AUTONATION, INC.
+data/frozen/ai_intensity.json  CIK0000354950  period 2026-02-01  https://data.sec.gov/submissions/CIK0000354950.json  # HOME DEPOT, INC.
+data/frozen/ai_intensity.json  CIK0000702165  period 2025-12-31  https://data.sec.gov/submissions/CIK0000702165.json  # NORFOLK SOUTHERN CORP
+data/frozen/ai_intensity.json  CIK0000720005  period 2025-09-30  https://data.sec.gov/submissions/CIK0000720005.json  # RAYMOND JAMES FINANCIAL INC
+data/frozen/ai_intensity.json  CIK0000721371  period 2026-06-30  https://data.sec.gov/submissions/CIK0000721371.json  # CARDINAL HEALTH INC
+data/frozen/ai_intensity.json  CIK0000723254  period 2026-05-31  https://data.sec.gov/submissions/CIK0000723254.json  # CINTAS CORP
+data/frozen/ai_intensity.json  CIK0000726958  period 2026-04-30  https://data.sec.gov/submissions/CIK0000726958.json  # CASEYS GENERAL STORES INC
+data/frozen/ai_intensity.json  CIK0000728535  period 2025-12-31  https://data.sec.gov/submissions/CIK0000728535.json  # HUNT J B TRANSPORT SERVICES INC
+data/frozen/ai_intensity.json  CIK0000730263  period 2025-07-31  https://data.sec.gov/submissions/CIK0000730263.json  # THOR INDUSTRIES INC
+data/frozen/ai_intensity.json  CIK0000731766  period 2025-12-31  https://data.sec.gov/submissions/CIK0000731766.json  # UNITEDHEALTH GROUP INC
+data/frozen/ai_intensity.json  CIK0000732717  period 2025-12-31  https://data.sec.gov/submissions/CIK0000732717.json  # AT&T INC.
+data/frozen/ai_intensity.json  CIK0000745732  period 2026-01-31  https://data.sec.gov/submissions/CIK0000745732.json  # ROSS STORES, INC.
+data/frozen/ai_intensity.json  CIK0000746515  period 2025-12-31  https://data.sec.gov/submissions/CIK0000746515.json  # EXPEDITORS INTERNATIONAL OF WASHINGTON INC
+data/frozen/ai_intensity.json  CIK0000766421  period 2025-12-31  https://data.sec.gov/submissions/CIK0000766421.json  # ALASKA AIR GROUP, INC.
+data/frozen/ai_intensity.json  CIK0000775158  period 2025-12-31  https://data.sec.gov/submissions/CIK0000775158.json  # OSHKOSH CORP
+data/frozen/ai_intensity.json  CIK0000788784  period 2025-12-31  https://data.sec.gov/submissions/CIK0000788784.json  # PUBLIC SERVICE ENTERPRISE GROUP INC
+data/frozen/ai_intensity.json  CIK0000789019  period 2026-06-30  https://data.sec.gov/submissions/CIK0000789019.json  # MICROSOFT CORP
+data/frozen/ai_intensity.json  CIK0000789460  period 2025-12-31  https://data.sec.gov/submissions/CIK0000789460.json  # WORLD KINECT CORP
+data/frozen/ai_intensity.json  CIK0000789570  period 2025-12-31  https://data.sec.gov/submissions/CIK0000789570.json  # MGM Resorts International
+data/frozen/ai_intensity.json  CIK0000794367  period 2026-01-31  https://data.sec.gov/submissions/CIK0000794367.json  # Macy's, Inc.
+data/frozen/ai_intensity.json  CIK0000797468  period 2025-12-31  https://data.sec.gov/submissions/CIK0000797468.json  # OCCIDENTAL PETROLEUM CORP /DE/
+data/frozen/ai_intensity.json  CIK0000798354  period 2025-12-31  https://data.sec.gov/submissions/CIK0000798354.json  # FISERV INC
+data/frozen/ai_intensity.json  CIK0000798941  period 2025-12-31  https://data.sec.gov/submissions/CIK0000798941.json  # FIRST CITIZENS BANCSHARES INC /DE/
+data/frozen/ai_intensity.json  CIK0000802481  period 2025-12-28  https://data.sec.gov/submissions/CIK0000802481.json  # PILGRIMS PRIDE CORP
+data/frozen/ai_intensity.json  CIK0000804269  period 2025-12-31  https://data.sec.gov/submissions/CIK0000804269.json  # General Motors Financial Company, Inc.
+data/frozen/ai_intensity.json  CIK0000815097  period 2025-11-30  https://data.sec.gov/submissions/CIK0000815097.json  # Carnival Corp Ltd.
+data/frozen/ai_intensity.json  CIK0000815917  period 2025-12-31  https://data.sec.gov/submissions/CIK0000815917.json  # JONES FINANCIAL COMPANIES LLLP
+data/frozen/ai_intensity.json  CIK0000820027  period 2025-12-31  https://data.sec.gov/submissions/CIK0000820027.json  # AMERIPRISE FINANCIAL INC
+data/frozen/ai_intensity.json  CIK0000820313  period 2025-12-31  https://data.sec.gov/submissions/CIK0000820313.json  # AMPHENOL CORP /DE/
+data/frozen/ai_intensity.json  CIK0000821026  period 2025-12-31  https://data.sec.gov/submissions/CIK0000821026.json  # Andersons, Inc.
+data/frozen/ai_intensity.json  CIK0000822416  period 2025-12-31  https://data.sec.gov/submissions/CIK0000822416.json  # PULTEGROUP INC/MI/
+data/frozen/ai_intensity.json  CIK0000823277  period 2025-08-31  https://data.sec.gov/submissions/CIK0000823277.json  # CHS INC
+data/frozen/ai_intensity.json  CIK0000823768  period 2025-12-31  https://data.sec.gov/submissions/CIK0000823768.json  # WASTE MANAGEMENT INC
+data/frozen/ai_intensity.json  CIK0000829224  period 2025-09-28  https://data.sec.gov/submissions/CIK0000829224.json  # STARBUCKS CORP
+data/frozen/ai_intensity.json  CIK0000831001  period 2025-12-31  https://data.sec.gov/submissions/CIK0000831001.json  # CITIGROUP INC
+data/frozen/ai_intensity.json  CIK0000831259  period 2025-12-31  https://data.sec.gov/submissions/CIK0000831259.json  # FREEPORT-MCMORAN INC
+data/frozen/ai_intensity.json  CIK0000849395  period 2025-12-31  https://data.sec.gov/submissions/CIK0000849395.json  # CRH PUBLIC LTD CO
+data/frozen/ai_intensity.json  CIK0000860730  period 2025-12-31  https://data.sec.gov/submissions/CIK0000860730.json  # HCA Healthcare, Inc.
+data/frozen/ai_intensity.json  CIK0000861884  period 2025-12-31  https://data.sec.gov/submissions/CIK0000861884.json  # RELIANCE, INC.
+data/frozen/ai_intensity.json  CIK0000866374  period 2026-03-31  https://data.sec.gov/submissions/CIK0000866374.json  # FLEX LTD.
+data/frozen/ai_intensity.json  CIK0000866787  period 2025-08-30  https://data.sec.gov/submissions/CIK0000866787.json  # AUTOZONE INC
+data/frozen/ai_intensity.json  CIK0000872589  period 2025-12-31  https://data.sec.gov/submissions/CIK0000872589.json  # REGENERON PHARMACEUTICALS, INC.
+data/frozen/ai_intensity.json  CIK0000874761  period 2025-12-31  https://data.sec.gov/submissions/CIK0000874761.json  # AES CORP
+data/frozen/ai_intensity.json  CIK0000874766  period 2025-12-31  https://data.sec.gov/submissions/CIK0000874766.json  # HARTFORD INSURANCE GROUP, INC.
+data/frozen/ai_intensity.json  CIK0000875320  period 2025-12-31  https://data.sec.gov/submissions/CIK0000875320.json  # VERTEX PHARMACEUTICALS INC / MA
+data/frozen/ai_intensity.json  CIK0000880266  period 2025-12-31  https://data.sec.gov/submissions/CIK0000880266.json  # AGCO CORP /DE
+data/frozen/ai_intensity.json  CIK0000882184  period 2025-09-30  https://data.sec.gov/submissions/CIK0000882184.json  # HORTON D R INC /DE/
+data/frozen/ai_intensity.json  CIK0000884887  period 2025-12-31  https://data.sec.gov/submissions/CIK0000884887.json  # ROYAL CARIBBEAN CRUISES LTD
+data/frozen/ai_intensity.json  CIK0000885725  period 2025-12-31  https://data.sec.gov/submissions/CIK0000885725.json  # BOSTON SCIENTIFIC CORP
+data/frozen/ai_intensity.json  CIK0000896878  period 2025-07-31  https://data.sec.gov/submissions/CIK0000896878.json  # INTUIT INC.
+data/frozen/ai_intensity.json  CIK0000898173  period 2025-12-31  https://data.sec.gov/submissions/CIK0000898173.json  # O REILLY AUTOMOTIVE INC
+data/frozen/ai_intensity.json  CIK0000906163  period 2025-12-31  https://data.sec.gov/submissions/CIK0000906163.json  # NVR INC
+data/frozen/ai_intensity.json  CIK0000908255  period 2025-12-31  https://data.sec.gov/submissions/CIK0000908255.json  # BORGWARNER INC
+data/frozen/ai_intensity.json  CIK0000908937  period 2025-12-31  https://data.sec.gov/submissions/CIK0000908937.json  # SIRIUS XM HOLDINGS INC.
+data/frozen/ai_intensity.json  CIK0000909832  period 2025-08-31  https://data.sec.gov/submissions/CIK0000909832.json  # COSTCO WHOLESALE CORP /NEW
+data/frozen/ai_intensity.json  CIK0000915389  period 2025-12-31  https://data.sec.gov/submissions/CIK0000915389.json  # EASTMAN CHEMICAL CO
+data/frozen/ai_intensity.json  CIK0000916365  period 2025-12-27  https://data.sec.gov/submissions/CIK0000916365.json  # TRACTOR SUPPLY CO /DE/
+data/frozen/ai_intensity.json  CIK0000920760  period 2025-11-30  https://data.sec.gov/submissions/CIK0000920760.json  # LENNAR CORP /NEW/
+data/frozen/ai_intensity.json  CIK0000922224  period 2025-12-31  https://data.sec.gov/submissions/CIK0000922224.json  # PPL Corp
+data/frozen/ai_intensity.json  CIK0000927628  period 2025-12-31  https://data.sec.gov/submissions/CIK0000927628.json  # CAPITAL ONE FINANCIAL CORP
+data/frozen/ai_intensity.json  CIK0000927653  period 2026-03-31  https://data.sec.gov/submissions/CIK0000927653.json  # MCKESSON CORP
+data/frozen/ai_intensity.json  CIK0000929008  period 2025-12-31  https://data.sec.gov/submissions/CIK0000929008.json  # WESCO INTERNATIONAL INC
+data/frozen/ai_intensity.json  CIK0000940944  period 2026-05-31  https://data.sec.gov/submissions/CIK0000940944.json  # DARDEN RESTAURANTS INC
+data/frozen/ai_intensity.json  CIK0000943452  period 2025-12-31  https://data.sec.gov/submissions/CIK0000943452.json  # WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP
+data/frozen/ai_intensity.json  CIK0000947484  period 2025-12-31  https://data.sec.gov/submissions/CIK0000947484.json  # ARCH CAPITAL GROUP LTD.
+data/frozen/ai_intensity.json  CIK0001000228  period 2025-12-27  https://data.sec.gov/submissions/CIK0001000228.json  # HENRY SCHEIN INC
+data/frozen/ai_intensity.json  CIK0001001082  period 2024-12-31  https://data.sec.gov/submissions/CIK0001001082.json  # DISH Network CORP
+data/frozen/ai_intensity.json  CIK0001001250  period 2026-06-30  https://data.sec.gov/submissions/CIK0001001250.json  # ESTEE LAUDER COMPANIES INC
+data/frozen/ai_intensity.json  CIK0001001838  period 2025-12-31  https://data.sec.gov/submissions/CIK0001001838.json  # SOUTHERN COPPER CORP/
+data/frozen/ai_intensity.json  CIK0001004980  period 2025-12-31  https://data.sec.gov/submissions/CIK0001004980.json  # PG&E Corp
+data/frozen/ai_intensity.json  CIK0001013871  period 2025-12-31  https://data.sec.gov/submissions/CIK0001013871.json  # NRG ENERGY, INC.
+data/frozen/ai_intensity.json  CIK0001018724  period 2025-12-31  https://data.sec.gov/submissions/CIK0001018724.json  # AMAZON COM INC
+data/frozen/ai_intensity.json  CIK0001019849  period 2025-12-31  https://data.sec.gov/submissions/CIK0001019849.json  # PENSKE AUTOMOTIVE GROUP, INC.
+data/frozen/ai_intensity.json  CIK0001021860  period 2025-12-31  https://data.sec.gov/submissions/CIK0001021860.json  # NOV Inc.
+data/frozen/ai_intensity.json  CIK0001022671  period 2025-12-31  https://data.sec.gov/submissions/CIK0001022671.json  # STEEL DYNAMICS INC
+data/frozen/ai_intensity.json  CIK0001023128  period 2025-12-31  https://data.sec.gov/submissions/CIK0001023128.json  # LITHIA MOTORS INC
+data/frozen/ai_intensity.json  CIK0001030894  period 2025-12-31  https://data.sec.gov/submissions/CIK0001030894.json  # CELESTICA INC
+data/frozen/ai_intensity.json  CIK0001031203  period 2025-12-31  https://data.sec.gov/submissions/CIK0001031203.json  # GROUP 1 AUTOMOTIVE INC
+data/frozen/ai_intensity.json  CIK0001031296  period 2025-12-31  https://data.sec.gov/submissions/CIK0001031296.json  # FIRSTENERGY CORP
+data/frozen/ai_intensity.json  CIK0001032208  period 2025-12-31  https://data.sec.gov/submissions/CIK0001032208.json  # SEMPRA
+data/frozen/ai_intensity.json  CIK0001034670  period 2025-12-31  https://data.sec.gov/submissions/CIK0001034670.json  # AUTOLIV INC
+data/frozen/ai_intensity.json  CIK0001039684  period 2025-12-31  https://data.sec.gov/submissions/CIK0001039684.json  # ONEOK INC /NEW/
+data/frozen/ai_intensity.json  CIK0001045810  period 2026-01-25  https://data.sec.gov/submissions/CIK0001045810.json  # NVIDIA CORP
+data/frozen/ai_intensity.json  CIK0001048286  period 2025-12-31  https://data.sec.gov/submissions/CIK0001048286.json  # MARRIOTT INTERNATIONAL INC /MD/
+data/frozen/ai_intensity.json  CIK0001050915  period 2025-12-31  https://data.sec.gov/submissions/CIK0001050915.json  # QUANTA SERVICES, INC.
+data/frozen/ai_intensity.json  CIK0001053507  period 2025-12-31  https://data.sec.gov/submissions/CIK0001053507.json  # AMERICAN TOWER CORP /MA/
+data/frozen/ai_intensity.json  CIK0001058090  period 2025-12-31  https://data.sec.gov/submissions/CIK0001058090.json  # CHIPOTLE MEXICAN GRILL INC
+data/frozen/ai_intensity.json  CIK0001060391  period 2025-12-31  https://data.sec.gov/submissions/CIK0001060391.json  # REPUBLIC SERVICES, INC.
+data/frozen/ai_intensity.json  CIK0001061219  period 2025-12-31  https://data.sec.gov/submissions/CIK0001061219.json  # ENTERPRISE PRODUCTS PARTNERS L.P.
+data/frozen/ai_intensity.json  CIK0001067983  period 2025-12-31  https://data.sec.gov/submissions/CIK0001067983.json  # BERKSHIRE HATHAWAY INC
+data/frozen/ai_intensity.json  CIK0001070423  period 2025-12-31  https://data.sec.gov/submissions/CIK0001070423.json  # PLAINS ALL AMERICAN PIPELINE LP
+data/frozen/ai_intensity.json  CIK0001075531  period 2025-12-31  https://data.sec.gov/submissions/CIK0001075531.json  # Booking Holdings Inc.
+data/frozen/ai_intensity.json  CIK0001081316  period 2025-12-31  https://data.sec.gov/submissions/CIK0001081316.json  # BERKSHIRE HATHAWAY ENERGY CO
+data/frozen/ai_intensity.json  CIK0001089063  period 2026-01-31  https://data.sec.gov/submissions/CIK0001089063.json  # DICK'S SPORTING GOODS, INC.
+data/frozen/ai_intensity.json  CIK0001090012  period 2025-12-31  https://data.sec.gov/submissions/CIK0001090012.json  # DEVON ENERGY CORP/DE
+data/frozen/ai_intensity.json  CIK0001091667  period 2025-12-31  https://data.sec.gov/submissions/CIK0001091667.json  # CHARTER COMMUNICATIONS, INC. /MO/
+data/frozen/ai_intensity.json  CIK0001096343  period 2025-12-31  https://data.sec.gov/submissions/CIK0001096343.json  # MARKEL GROUP INC.
+data/frozen/ai_intensity.json  CIK0001099590  period 2025-12-31  https://data.sec.gov/submissions/CIK0001099590.json  # MERCADOLIBRE INC
+data/frozen/ai_intensity.json  CIK0001103982  period 2025-12-31  https://data.sec.gov/submissions/CIK0001103982.json  # Mondelez International, Inc.
+data/frozen/ai_intensity.json  CIK0001124198  period 2025-12-31  https://data.sec.gov/submissions/CIK0001124198.json  # FLUOR CORP
+data/frozen/ai_intensity.json  CIK0001124941  period 2024-12-31  https://data.sec.gov/submissions/CIK0001124941.json  # QXO BUILDING PRODUCTS, INC.
+data/frozen/ai_intensity.json  CIK0001130310  period 2025-12-31  https://data.sec.gov/submissions/CIK0001130310.json  # CENTERPOINT ENERGY INC
+data/frozen/ai_intensity.json  CIK0001138118  period 2025-12-31  https://data.sec.gov/submissions/CIK0001138118.json  # CBRE GROUP, INC.
+data/frozen/ai_intensity.json  CIK0001140536  period 2025-12-31  https://data.sec.gov/submissions/CIK0001140536.json  # WILLIS TOWERS WATSON PLC
+data/frozen/ai_intensity.json  CIK0001140859  period 2025-09-30  https://data.sec.gov/submissions/CIK0001140859.json  # Cencora, Inc.
+data/frozen/ai_intensity.json  CIK0001158463  period 2025-12-31  https://data.sec.gov/submissions/CIK0001158463.json  # JETBLUE AIRWAYS CORP
+data/frozen/ai_intensity.json  CIK0001163302  period 2024-12-31  https://data.sec.gov/submissions/CIK0001163302.json  # UNITED STATES STEEL CORP
+data/frozen/ai_intensity.json  CIK0001164727  period 2025-12-31  https://data.sec.gov/submissions/CIK0001164727.json  # NEWMONT Corp /DE/
+data/frozen/ai_intensity.json  CIK0001166691  period 2025-12-31  https://data.sec.gov/submissions/CIK0001166691.json  # COMCAST CORP
+data/frozen/ai_intensity.json  CIK0001170010  period 2026-02-28  https://data.sec.gov/submissions/CIK0001170010.json  # CARMAX INC
+data/frozen/ai_intensity.json  CIK0001177394  period 2025-11-30  https://data.sec.gov/submissions/CIK0001177394.json  # TD SYNNEX CORP
+data/frozen/ai_intensity.json  CIK0001179929  period 2025-12-31  https://data.sec.gov/submissions/CIK0001179929.json  # MOLINA HEALTHCARE, INC.
+data/frozen/ai_intensity.json  CIK0001262823  period 2025-12-31  https://data.sec.gov/submissions/CIK0001262823.json  # WESTLAKE CORP
+data/frozen/ai_intensity.json  CIK0001271833  period 2025-12-31  https://data.sec.gov/submissions/CIK0001271833.json  # CCO HOLDINGS LLC
+data/frozen/ai_intensity.json  CIK0001276187  period 2025-12-31  https://data.sec.gov/submissions/CIK0001276187.json  # Energy Transfer LP
+data/frozen/ai_intensity.json  CIK0001300514  period 2025-12-31  https://data.sec.gov/submissions/CIK0001300514.json  # LAS VEGAS SANDS CORP
+data/frozen/ai_intensity.json  CIK0001304280  period 2026-03-31  https://data.sec.gov/submissions/CIK0001304280.json  # Novelis Inc.
+data/frozen/ai_intensity.json  CIK0001316835  period 2025-12-31  https://data.sec.gov/submissions/CIK0001316835.json  # Builders FirstSource, Inc.
+data/frozen/ai_intensity.json  CIK0001318220  period 2025-12-31  https://data.sec.gov/submissions/CIK0001318220.json  # Waste Connections, Inc.
+data/frozen/ai_intensity.json  CIK0001318605  period 2025-12-31  https://data.sec.gov/submissions/CIK0001318605.json  # Tesla, Inc.
+data/frozen/ai_intensity.json  CIK0001318742  period 2025-12-31  https://data.sec.gov/submissions/CIK0001318742.json  # NCL CORP Ltd.
+data/frozen/ai_intensity.json  CIK0001326160  period 2025-12-31  https://data.sec.gov/submissions/CIK0001326160.json  # Duke Energy CORP
+data/frozen/ai_intensity.json  CIK0001326801  period 2025-12-31  https://data.sec.gov/submissions/CIK0001326801.json  # Meta Platforms, Inc.
+data/frozen/ai_intensity.json  CIK0001327811  period 2026-01-31  https://data.sec.gov/submissions/CIK0001327811.json  # Workday, Inc.
+data/frozen/ai_intensity.json  CIK0001335258  period 2025-12-31  https://data.sec.gov/submissions/CIK0001335258.json  # Live Nation Entertainment, Inc.
+data/frozen/ai_intensity.json  CIK0001336920  period 2026-01-02  https://data.sec.gov/submissions/CIK0001336920.json  # Leidos Holdings, Inc.
+data/frozen/ai_intensity.json  CIK0001341439  period 2026-05-31  https://data.sec.gov/submissions/CIK0001341439.json  # ORACLE CORP
+data/frozen/ai_intensity.json  CIK0001370946  period 2025-12-31  https://data.sec.gov/submissions/CIK0001370946.json  # Owens Corning
+data/frozen/ai_intensity.json  CIK0001373715  period 2025-12-31  https://data.sec.gov/submissions/CIK0001373715.json  # ServiceNow, Inc.
+data/frozen/ai_intensity.json  CIK0001375365  period 2026-06-30  https://data.sec.gov/submissions/CIK0001375365.json  # Super Micro Computer, Inc.
+data/frozen/ai_intensity.json  CIK0001389170  period 2025-12-31  https://data.sec.gov/submissions/CIK0001389170.json  # Targa Resources Corp.
+data/frozen/ai_intensity.json  CIK0001390777  period 2025-12-31  https://data.sec.gov/submissions/CIK0001390777.json  # Bank of New York Mellon Corp
+data/frozen/ai_intensity.json  CIK0001393818  period 2025-12-31  https://data.sec.gov/submissions/CIK0001393818.json  # Blackstone Inc.
+data/frozen/ai_intensity.json  CIK0001397187  period 2026-02-01  https://data.sec.gov/submissions/CIK0001397187.json  # lululemon athletica inc.
+data/frozen/ai_intensity.json  CIK0001397911  period 2025-12-31  https://data.sec.gov/submissions/CIK0001397911.json  # LPL Financial Holdings Inc.
+data/frozen/ai_intensity.json  CIK0001402057  period 2025-12-31  https://data.sec.gov/submissions/CIK0001402057.json  # CDW Corp
+data/frozen/ai_intensity.json  CIK0001403161  period 2025-09-30  https://data.sec.gov/submissions/CIK0001403161.json  # VISA INC.
+data/frozen/ai_intensity.json  CIK0001403568  period 2026-01-31  https://data.sec.gov/submissions/CIK0001403568.json  # Ulta Beauty, Inc.
+data/frozen/ai_intensity.json  CIK0001413329  period 2025-12-31  https://data.sec.gov/submissions/CIK0001413329.json  # Philip Morris International Inc.
+data/frozen/ai_intensity.json  CIK0001415404  period 2025-12-31  https://data.sec.gov/submissions/CIK0001415404.json  # EchoStar CORP
+data/frozen/ai_intensity.json  CIK0001437107  period 2025-12-31  https://data.sec.gov/submissions/CIK0001437107.json  # Warner Bros. Discovery, Inc.
+data/frozen/ai_intensity.json  CIK0001466258  period 2025-12-31  https://data.sec.gov/submissions/CIK0001466258.json  # Trane Technologies plc
+data/frozen/ai_intensity.json  CIK0001467858  period 2025-12-31  https://data.sec.gov/submissions/CIK0001467858.json  # General Motors Co
+data/frozen/ai_intensity.json  CIK0001506307  period 2025-12-31  https://data.sec.gov/submissions/CIK0001506307.json  # KINDER MORGAN, INC.
+data/frozen/ai_intensity.json  CIK0001510295  period 2025-12-31  https://data.sec.gov/submissions/CIK0001510295.json  # Marathon Petroleum Corp
+data/frozen/ai_intensity.json  CIK0001512673  period 2025-12-31  https://data.sec.gov/submissions/CIK0001512673.json  # Block, Inc.
+data/frozen/ai_intensity.json  CIK0001513761  period 2025-12-31  https://data.sec.gov/submissions/CIK0001513761.json  # Norwegian Cruise Line Holdings Ltd.
+data/frozen/ai_intensity.json  CIK0001521332  period 2025-12-31  https://data.sec.gov/submissions/CIK0001521332.json  # Aptiv PLC
+data/frozen/ai_intensity.json  CIK0001524472  period 2025-12-31  https://data.sec.gov/submissions/CIK0001524472.json  # Xylem Inc.
+data/frozen/ai_intensity.json  CIK0001531152  period 2026-01-31  https://data.sec.gov/submissions/CIK0001531152.json  # BJ's Wholesale Club Holdings, Inc.
+data/frozen/ai_intensity.json  CIK0001534504  period 2025-12-31  https://data.sec.gov/submissions/CIK0001534504.json  # PBF Energy Inc.
+data/frozen/ai_intensity.json  CIK0001551152  period 2025-12-31  https://data.sec.gov/submissions/CIK0001551152.json  # AbbVie Inc.
+data/frozen/ai_intensity.json  CIK0001551182  period 2025-12-31  https://data.sec.gov/submissions/CIK0001551182.json  # Eaton Corp plc
+data/frozen/ai_intensity.json  CIK0001552000  period 2025-12-31  https://data.sec.gov/submissions/CIK0001552000.json  # MPLX LP
+data/frozen/ai_intensity.json  CIK0001555280  period 2025-12-31  https://data.sec.gov/submissions/CIK0001555280.json  # Zoetis Inc.
+data/frozen/ai_intensity.json  CIK0001566011  period 2025-12-31  https://data.sec.gov/submissions/CIK0001566011.json  # PBF Holding Co LLC
+data/frozen/ai_intensity.json  CIK0001568651  period 2025-12-31  https://data.sec.gov/submissions/CIK0001568651.json  # Oscar Health, Inc.
+data/frozen/ai_intensity.json  CIK0001571949  period 2025-12-31  https://data.sec.gov/submissions/CIK0001571949.json  # Intercontinental Exchange, Inc.
+data/frozen/ai_intensity.json  CIK0001573516  period 2025-12-31  https://data.sec.gov/submissions/CIK0001573516.json  # Murphy USA Inc.
+data/frozen/ai_intensity.json  CIK0001579298  period 2026-01-31  https://data.sec.gov/submissions/CIK0001579298.json  # Burlington Stores, Inc.
+data/frozen/ai_intensity.json  CIK0001581990  period 2025-12-31  https://data.sec.gov/submissions/CIK0001581990.json  # PLAINS GP HOLDINGS LP
+data/frozen/ai_intensity.json  CIK0001585689  period 2025-12-31  https://data.sec.gov/submissions/CIK0001585689.json  # Hilton Worldwide Holdings Inc.
+data/frozen/ai_intensity.json  CIK0001590895  period 2025-12-31  https://data.sec.gov/submissions/CIK0001590895.json  # Caesars Entertainment, Inc.
+data/frozen/ai_intensity.json  CIK0001591588  period 2025-06-30  https://data.sec.gov/submissions/CIK0001591588.json  # Gold.com, Inc.
+data/frozen/ai_intensity.json  CIK0001613103  period 2026-04-24  https://data.sec.gov/submissions/CIK0001613103.json  # Medtronic plc
+data/frozen/ai_intensity.json  CIK0001616707  period 2025-12-31  https://data.sec.gov/submissions/CIK0001616707.json  # Wayfair Inc.
+data/frozen/ai_intensity.json  CIK0001618673  period 2026-06-27  https://data.sec.gov/submissions/CIK0001618673.json  # Performance Food Group Co
+data/frozen/ai_intensity.json  CIK0001635327  period 2025-12-31  https://data.sec.gov/submissions/CIK0001635327.json  # Flutter Entertainment plc
+data/frozen/ai_intensity.json  CIK0001646972  period 2026-02-28  https://data.sec.gov/submissions/CIK0001646972.json  # Albertsons Companies, Inc.
+data/frozen/ai_intensity.json  CIK0001652044  period 2025-12-31  https://data.sec.gov/submissions/CIK0001652044.json  # Alphabet Inc.
+data/frozen/ai_intensity.json  CIK0001665918  period 2025-12-27  https://data.sec.gov/submissions/CIK0001665918.json  # US Foods Holding Corp.
+data/frozen/ai_intensity.json  CIK0001675149  period 2025-12-31  https://data.sec.gov/submissions/CIK0001675149.json  # Alcoa Corp
+data/frozen/ai_intensity.json  CIK0001681459  period 2025-12-31  https://data.sec.gov/submissions/CIK0001681459.json  # TechnipFMC plc
+data/frozen/ai_intensity.json  CIK0001692819  period 2025-12-31  https://data.sec.gov/submissions/CIK0001692819.json  # Vistra Corp.
+data/frozen/ai_intensity.json  CIK0001694426  period 2025-12-31  https://data.sec.gov/submissions/CIK0001694426.json  # Delek US Holdings, Inc.
+data/frozen/ai_intensity.json  CIK0001701605  period 2025-12-31  https://data.sec.gov/submissions/CIK0001701605.json  # Baker Hughes Co
+data/frozen/ai_intensity.json  CIK0001702780  period 2025-12-31  https://data.sec.gov/submissions/CIK0001702780.json  # Optimum Communications, Inc.
+data/frozen/ai_intensity.json  CIK0001707925  period 2025-12-31  https://data.sec.gov/submissions/CIK0001707925.json  # LINDE PLC
+data/frozen/ai_intensity.json  CIK0001730168  period 2025-11-02  https://data.sec.gov/submissions/CIK0001730168.json  # Broadcom Inc.
+data/frozen/ai_intensity.json  CIK0001744489  period 2025-09-27  https://data.sec.gov/submissions/CIK0001744489.json  # Walt Disney Co
+data/frozen/ai_intensity.json  CIK0001748790  period 2026-06-30  https://data.sec.gov/submissions/CIK0001748790.json  # Amcor plc
+data/frozen/ai_intensity.json  CIK0001751788  period 2025-12-31  https://data.sec.gov/submissions/CIK0001751788.json  # DOW INC.
+data/frozen/ai_intensity.json  CIK0001783180  period 2025-12-31  https://data.sec.gov/submissions/CIK0001783180.json  # CARRIER GLOBAL Corp
+data/frozen/ai_intensity.json  CIK0001792580  period 2025-12-31  https://data.sec.gov/submissions/CIK0001792580.json  # Ovintiv Inc.
+data/frozen/ai_intensity.json  CIK0001792789  period 2025-12-31  https://data.sec.gov/submissions/CIK0001792789.json  # DoorDash, Inc.
+data/frozen/ai_intensity.json  CIK0001803599  period 2025-11-30  https://data.sec.gov/submissions/CIK0001803599.json  # Concentrix Corp
+data/frozen/ai_intensity.json  CIK0001834584  period 2025-12-31  https://data.sec.gov/submissions/CIK0001834584.json  # Coupang, Inc.
+data/frozen/ai_intensity.json  CIK0001852244  period 2025-12-31  https://data.sec.gov/submissions/CIK0001852244.json  # GXO Logistics, Inc.
+data/frozen/ai_intensity.json  CIK0001855447  period 2025-12-31  https://data.sec.gov/submissions/CIK0001855447.json  # TIGO ENERGY, INC.
+data/frozen/ai_intensity.json  CIK0001857475  period 2025-12-31  https://data.sec.gov/submissions/CIK0001857475.json  # Dole plc
+data/frozen/ai_intensity.json  CIK0001859392  period 2025-12-31  https://data.sec.gov/submissions/CIK0001859392.json  # Galaxy Digital Inc.
+data/frozen/ai_intensity.json  CIK0001865782  period 2025-12-31  https://data.sec.gov/submissions/CIK0001865782.json  # BrightSpring Health Services, Inc.
+data/frozen/ai_intensity.json  CIK0001868275  period 2025-12-31  https://data.sec.gov/submissions/CIK0001868275.json  # Constellation Energy Corp
+data/frozen/ai_intensity.json  CIK0001897762  period 2025-12-27  https://data.sec.gov/submissions/CIK0001897762.json  # Ingram Micro Holding Corp
+data/frozen/ai_intensity.json  CIK0001932393  period 2025-12-31  https://data.sec.gov/submissions/CIK0001932393.json  # GE HealthCare Technologies Inc.
+data/frozen/ai_intensity.json  CIK0001944048  period 2025-12-28  https://data.sec.gov/submissions/CIK0001944048.json  # Kenvue Inc.
+data/frozen/ai_intensity.json  CIK0001996810  period 2025-12-31  https://data.sec.gov/submissions/CIK0001996810.json  # GE Vernova Inc.
+data/frozen/ai_intensity.json  CIK0001996862  period 2025-12-31  https://data.sec.gov/submissions/CIK0001996862.json  # Bunge Global SA
+data/frozen/ai_intensity.json  CIK0002005951  period 2025-12-31  https://data.sec.gov/submissions/CIK0002005951.json  # Smurfit Westrock plc
+data/frozen/ai_intensity.json  CIK0002011641  period 2025-07-31  https://data.sec.gov/submissions/CIK0002011641.json  # Ferguson Enterprises Inc. /DE/
+data/frozen/ai_intensity.json  CIK0002012383  period 2025-12-31  https://data.sec.gov/submissions/CIK0002012383.json  # BlackRock, Inc.
+data/frozen/ai_intensity.json  CIK0002035989  period 2025-12-31  https://data.sec.gov/submissions/CIK0002035989.json  # Amrize Ltd
+data/frozen/ai_intensity.json  CIK0002041610  period 2025-12-31  https://data.sec.gov/submissions/CIK0002041610.json  # Paramount Skydance Corp
+data/frozen/ai_intensity.json  CIK0002046386  period 2025-12-31  https://data.sec.gov/submissions/CIK0002046386.json  # Medline Inc.
+data/frozen/ai_intensity.json  CIK0002066659  period 2025-12-31  https://data.sec.gov/submissions/CIK0002066659.json  # Beach Acquisition Co Parent, LLC
+data/frozen/ai_intensity.json  CIK0002082247  period 2026-05-31  https://data.sec.gov/submissions/CIK0002082247.json  # FedEx Freight Holding Company, Inc.
+
+## BLS deflator
+data/frozen/deflator_WPUFD41312.json  WPUFD41312  https://data.bls.gov/timeseries/WPUFD41312  # Final demand-Private capital equipment, annual averages
