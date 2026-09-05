@@ -42,6 +42,18 @@ All eight live in `data/frozen/`, are written read-only, and are fixed by
   offline, in under ten seconds.
 - The analysis has no stochastic component: no sampling, no bootstrap, no seed.
 
+## Tracing a figure to its source
+
+`data/SOURCE_URLS.txt` lists the exact URL behind every frozen data point — one line per call
+actually made (294 XBRL `frames` calls, 500 submissions-API calls, 285 scored filings, the BLS
+series). `code/trace.py` goes the other way: give it a firm, series and year and it prints the
+tags, the frozen values, the source URLs, and — with `--live` — whether the SEC still returns the
+same figure today.
+
+```
+python3 code/trace.py --firm Alphabet --series capex --year 2025 --live
+```
+
 ## Re-fetchable (not required)
 
 The frozen inputs are the data of record. They are re-fetchable for free from public endpoints — the

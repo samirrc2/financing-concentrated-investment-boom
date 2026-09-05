@@ -26,13 +26,13 @@ access, no API keys and no paid calls}. The permanent citable version is the Zen
 
 A strict wall separates two phases. An \emph{offline analysis} reproduces every claim from the
 frozen inputs (documented here). A \emph{collection} phase originally queried public SEC and BLS
-endpoints and is retained for transparency only (Section~8). Because the SEC's \emph{frames}
+endpoints and is retained for transparency only (Section~9). Because the SEC's \emph{frames}
 interface returns the most recently filed value for each fact, re-collecting today would pick up
 subsequent filer restatements and would not reproduce the frozen inputs; collection is therefore
 deliberately not part of the reproducible core.
 
 \section{Quick start}
-\begin{quote}\code{pip install -r requirements.txt}\\ \code{./verify.sh}\end{quote}
+\begin{quote}\texttt{pip install -r requirements.txt}\\ \texttt{./verify.sh}\end{quote}
 \textbf{Expected result:} the archive verifies against its SHA-256 manifest, the analysis re-runs
 from the frozen inputs, the regenerated \code{claims.json} and figure are byte-identical to the
 committed ones, every number in the manuscript reconciles to \code{claims.json}, the manuscript is
@@ -42,7 +42,7 @@ standard laptop. No network access is required at any point.
 \section{Archive layout}
 \begin{longtable}{@{}L{0.34\textwidth} L{0.60\textwidth}@{}}
 \toprule
-\code{verify.sh} & one-command offline verification (referee path; Section~7) \\
+\code{verify.sh} & one-command offline verification (referee path; Section~8) \\
 \code{reproduce.sh} & same pipeline plus rebuilding \code{manuscript.pdf} (author path) \\
 \code{MANIFEST.sha256} & SHA-256 of every archived file, in \code{sha256sum -c} format \\
 \code{requirements.txt} & \code{matplotlib} (figure only); every number needs the standard library alone \\
@@ -53,9 +53,10 @@ standard laptop. No network access is required at any point.
 \code{highlights.txt} & journal highlights (5 bullets) \\
 \code{figures/Figure\_1.pdf} / \code{.png} & the figure, vector and 200-dpi raster \\
 \code{claims.json} & canonical single source of truth: every number the paper asserts \\
-\code{code/} & collectors, engine, claims builder, figure builder, gates (Section~5) \\
+\code{code/} & collectors, engine, claims builder, figure builder, gates (Section~6) \\
 \code{data/frozen/} & 8 frozen source files, read-only (Section~4) \\
 \code{data/SHA256SUMS.txt} & SHA-256 of every frozen source file \\
+\code{data/SOURCE\_URLS.txt} & the exact URL behind every frozen data point, one line per call \\
 \code{README.md}, \code{SUBMISSION.md}, \code{DATA\_AVAILABILITY.md} & orientation, journal checklist, data statement \\
 \code{CITATION.cff}, \code{.zenodo.json}, \code{LICENSE} & citation and deposit metadata, licences \\
 \bottomrule
@@ -87,17 +88,68 @@ the archive, including the code and the manuscript. The collection scripts write
 read-only and refuse to overwrite an existing frozen file, so a silent change to an input is
 detectable before the analysis runs. \code{verify.sh} checks both manifests before it runs anything.
 
-\subsection{Data sources}
-All inputs are public and free. Firm-level data were retrieved on 2--4 September 2026 from the SEC's
-XBRL \emph{frames} interface, one call per tag and calendar year, at
-\code{https://data.sec.gov/api/xbrl/frames/us-gaap/<tag>/USD/CY<year>.json}. Registrant
-classifications and 10-K locations come from the submissions API,
-\code{https://data.sec.gov/submissions/CIK<10-digit-CIK>.json}, and 10-K documents from EDGAR at
-\code{https://www.sec.gov/Archives/edgar/data/<CIK>/<accession>/<document>}; see
-\url{https://www.sec.gov/edgar/sec-api-documentation}. The SEC requires only a descriptive
-\code{User-Agent} header and no API key. The deflator is Bureau of Labor Statistics series
-\code{WPUFD41312}, final demand--private capital equipment, annual averages [[DEFLATOR RETRIEVAL]].
-No proprietary database is used at any stage.
+\subsection{Data sources, with the exact URL behind every figure}
+All inputs are public and free. The SEC requires no API key, only a descriptive \code{User-Agent}
+header (\url{https://www.sec.gov/search-filings/edgar-application-programming-interfaces}).
+Firm-level data were retrieved on 2--4 September 2026.
+
+The file \code{data/SOURCE\_URLS.txt} \textbf{lists the exact URL behind every frozen data point} --- one
+line per call actually made, with the frozen file it landed in. It covers 294 XBRL \emph{frames}
+calls (one per tag and calendar year), 500 submissions-API calls (one per registrant), the 285
+scored 10-K filings, and the BLS series. Any line can be pasted into a browser.
+
+\begin{longtable}{@{}L{0.28\textwidth} L{0.66\textwidth}@{}}
+\toprule
+\textbf{Source} & \textbf{Endpoint, and one working example} \\
+\midrule
+\endhead
+Firm financials & \code{https://data.sec.gov/api/xbrl/frames/us-gaap/<tag>/USD/CY<year>.json} \newline
+e.g.\ capital expenditure for 2025: \newline
+\url{https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2025.json} \\
+\addlinespace[3pt]
+Registrant SIC and 10-K location & \code{https://data.sec.gov/submissions/CIK<10-digit-CIK>.json} \newline
+e.g.\ Alphabet (CIK 1652044): \url{https://data.sec.gov/submissions/CIK0001652044.json} \\
+\addlinespace[3pt]
+10-K documents & \code{https://www.sec.gov/Archives/edgar/data/<CIK>/<accession>/<document>} \\
+\addlinespace[3pt]
+Single-firm audit trail & \code{https://data.sec.gov/api/xbrl/companyconcept/CIK<CIK>/us-gaap/<tag>.json} \newline
+used by \code{reconcile.py}; shows every filing that reported a given fact \\
+\addlinespace[3pt]
+Deflator & BLS series \code{WPUFD41312}, final demand--private capital equipment, annual averages:
+\url{https://data.bls.gov/timeseries/WPUFD41312} \ [[DEFLATOR RETRIEVAL]] \\
+\bottomrule
+\end{longtable}
+
+\section{Tracing a reported figure to its source}
+A reviewer who wants to check a number rather than re-run the pipeline can go from any figure in the
+paper to the SEC endpoint it came from in one command. \code{code/trace.py} prints every tag the
+series unions, the frozen value under each, the exact URL, which tag wins the union, and the
+deflated figure the paper uses.
+
+\begin{quote}\texttt{python3 code/trace.py -{}-firm Alphabet -{}-series capex -{}-year 2025}\end{quote}
+\begin{quote}\footnotesize\ttfamily
+Alphabet Inc.\ (CIK 1652044)\ \ capital expenditure\ \ fiscal year 2025\\[2pt]
+PaymentsToAcquirePropertyPlantAndEquipment\ \ \ \$91.447bn\\
+\hspace*{1em}\seqsplit{https://data.sec.gov/api/xbrl/frames/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/USD/CY2025.json}\\
+PaymentsToAcquireProductiveAssets\ \ \ not filed\\[2pt]
+union takes the maximum across tags -> \$91.447bn (nominal)\\
+deflated to 2025 dollars (WPUFD41312, 224.732/224.732): \$91.447bn
+\end{quote}
+
+Adding \code{--live} re-fetches from the SEC and reports whether the live value still matches the
+frozen copy, printing the accession number of the filing that supplies it. \code{--list} shows the
+eight series available and the five focal firms. A live difference is a filer restatement since the
+freeze, not an error; it is precisely why the archive is built from the frozen copies and why the
+paper reports them.
+
+\textbf{Worked example: the 117\% at the top five (Table~1).} The five largest incremental
+investors are Alphabet, Amazon, Oracle, Meta and Microsoft. For each, the paper cumulates the
+2022--2025 increment of capital expenditure and of operating cash flow against a 2021 baseline, in
+2025 dollars, and divides the second sum by the first. Every component is one \code{trace.py} call:
+\begin{quote}\texttt{for f in Alphabet Amazon Oracle Meta Microsoft; do \textbackslash}\\
+\texttt{\ \ python3 code/trace.py -{}-firm \$f -{}-series capex -{}-year 2025 -{}-live; done}\end{quote}
+The firm-level increments and the resulting coverage are printed in the paper's Table~A3, and the
+group figure is \code{claims.json} key \code{cumulative.five\_A}.
 
 \section{Code (what it consumes and runs)}
 \subsection{Analysis scripts}
@@ -114,8 +166,10 @@ All code is in \code{code/}; each module is deterministic and reads only frozen 
 \code{wordcount.py} & journal length count (main text, table notes, figure captions, references) & pass / fail \\
 \code{make\_manifest.py} & regenerates \code{MANIFEST.sha256} from the tracked file list & \code{MANIFEST.sha256} \\
 \code{make\_blinded.py} & strips identifiers and PDF metadata for the blinded copy & \code{manuscript\_blinded.*} \\
+\code{trace.py} & reviewer tool: any figure $\to$ its XBRL tags, frozen values and source URLs, with an optional live re-fetch & printed trail \\
+\code{make\_source\_urls.py} & regenerates \code{data/SOURCE\_URLS.txt} & \code{data/SOURCE\_URLS.txt} \\
 \code{reconcile.py} & (audit) matches constructed values to as-filed 10-K values for the five focal firms & reconciliation counts \\
-\code{collect\_*.py} & original data collection (Section~8; not run during reproduction) & \code{data/frozen/*} \\
+\code{collect\_*.py} & original data collection (Section~9; not run during reproduction) & \code{data/frozen/*} \\
 \bottomrule
 \end{longtable}
 

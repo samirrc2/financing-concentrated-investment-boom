@@ -98,6 +98,8 @@ code/
   build_gate.py           manuscript -> claims.json audit; fails on any unbacked number
   wordcount.py            Economics Letters length count (main text, notes, captions, refs)
   make_manifest.py        regenerates MANIFEST.sha256 from the tracked file list
+  trace.py                REVIEWER TOOL: any figure -> its XBRL tags, values and source URLs
+  make_source_urls.py     regenerates data/SOURCE_URLS.txt
   reconcile.py            reconciliation of constructed values to as-filed 10-K values
   collect_capex.py        SEC XBRL frames: capital expenditure
   collect_composition.py  SEC XBRL frames: R&D, buybacks, dividends, operating cash flow
@@ -109,6 +111,7 @@ code/
 data/
   frozen/                 8 frozen source files, read-only
   SHA256SUMS.txt          SHA-256 of every frozen file
+  SOURCE_URLS.txt         the exact URL behind every frozen data point (1,096 lines)
 ```
 
 ## What produces what
@@ -134,6 +137,24 @@ Nothing is typed twice.
 | Every asserted number, audited | `code/build_gate.py` | pass/fail |
 | Length against the EL limit | `code/wordcount.py` | pass/fail |
 | Blinded review copy | `code/make_blinded.py` | `manuscript_blinded.pdf` |
+
+## Trace any number back to the SEC
+
+```bash
+python3 code/trace.py --firm Alphabet --series capex --year 2025          # frozen values + URLs
+python3 code/trace.py --firm Amazon  --series ocf   --year 2021 --live    # compare against the SEC now
+python3 code/trace.py --list                                              # series and focal firms
+```
+
+It prints every XBRL tag the series unions, the value held in the archive under each, the exact URL
+that value came from, which tag wins the union, and the deflated figure the paper uses. With
+`--live` it re-fetches and reports whether the SEC still returns the same value, with the accession
+number of the filing that supplies it. A difference is a filer restatement since the freeze, not an
+error — which is why the paper is built from the frozen copies.
+
+`data/SOURCE_URLS.txt` is the full inventory: one line per call actually made — 294 XBRL `frames`
+calls, 500 submissions-API calls, 285 scored 10-K filings, and the BLS series. Any line can be
+pasted into a browser.
 
 **Raw data provenance.** Firm financials come from the SEC XBRL `frames` API
 (`https://data.sec.gov/api/xbrl/frames/`); 10-K text for the AI-intensity measure and the
